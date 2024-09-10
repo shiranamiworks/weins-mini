@@ -392,7 +392,9 @@ video {
   background: #000;
   transition: width .65s .3s;
 }
-
+.sections .line{
+  margin-bottom: 30px;
+}
 .sections .wrap{
   width: 94%;
   margin: auto;
@@ -752,6 +754,20 @@ video {
   background: #000;
   opacity: 1;
   transition: .3s;
+}
+
+.eco {
+  margin: 30px auto;
+  display: inline-flex;
+}
+.eco-mark {
+  width: 160px;
+  margin: auto;
+}
+.eco-text {
+  font-size: 24px;
+  padding-top: 4%;
+  line-height: 1.7;
 }
 
 .stores{
@@ -1310,6 +1326,18 @@ video {
   .comment{
     font-size: 16px;
     margin-bottom: 20px;
+  }
+    
+  .eco{
+    display: block;
+  }
+  .eco-mark{
+    width: 160px;
+    margin: auto;
+  }
+
+  .eco-text{
+    font-size: 16px;
   }
 
   .store-list{
