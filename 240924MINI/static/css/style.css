@@ -1337,11 +1337,14 @@ video {
     font-size: 12px;
   }
   .instagram{
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    padding: 30px 0;
+  }
+  .instagram.wrap{
+    width: 86%;
+    margin: 0 auto 30px;
   }
   .instagram .tit05{
-      margin: 0;
+      margin: auto;
       width: 100%;
       float: none;
    }
@@ -1362,7 +1365,7 @@ video {
    }
     
   .btns{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .comment{
