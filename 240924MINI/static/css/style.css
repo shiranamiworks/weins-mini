@@ -429,9 +429,15 @@ video {
   display: inline-block;
   width: 8%;
   margin-right: 1%;
+  cursor: pointer;
 }
 .sec01 .bg02 .change-buttons li:last-child{
   margin-right: auto;
+}
+.sec01 .bg02 .change-buttons li .current img{
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
 }
 .sec01 .bg02 .cards{
   max-width: 1200px;
