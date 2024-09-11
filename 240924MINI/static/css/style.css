@@ -213,6 +213,12 @@ End-responsible-contents  only-pc
   margin: auto;
 }
 
+.content-wrap02 {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+}
+
 
 .fixed-banner {
   position: fixed;
@@ -455,6 +461,10 @@ video {
 .sec01 .bg02 .mini{
   font-size: 11px;
   line-height: 2;
+  max-width: 1050px;
+  width: 96%;
+  margin: auto;
+  text-align: left;
 }
 
 .sec02{
@@ -512,6 +522,10 @@ video {
 .sec02 .bg02 .mini{
   font-size: 11px;
   line-height: 2;
+  max-width: 1050px;
+  width: 96%;
+  margin: auto;
+  text-align: left;
 }
 
 .lineup{
@@ -609,10 +623,12 @@ video {
     margin-bottom: 50px;
     padding-bottom: 50px;
 }
+/*
 .instagram .wrap{
     width: 80%;
     margin: auto;
 }
+*/
 .instagram .tit05 .lead{
     margin-top: 25px;
     display: inline-block;
@@ -1016,7 +1032,7 @@ video {
   }
     
   .stock li{
-    width: 48%;
+    width: 32%;
     display: inline-block;
     margin-right: 1%;
   }
@@ -1026,6 +1042,9 @@ video {
 
   .sec04{
       margin-bottom: 30px;
+  }
+  .sec04 .tit{
+      margin-bottom: 10px;
   }
   .sec04 .txt{
     font-size: 20px;
@@ -1109,6 +1128,10 @@ video {
 }
 
 .content-wrap {
+    width: 94%;
+    margin: auto;
+}
+.content-wrap02 {
     width: 94%;
     margin: auto;
 }
