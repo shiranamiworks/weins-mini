@@ -336,35 +336,46 @@ video {
   line-height: 2;
   margin: 0 auto 120px;
 }
-.intro .txt02{
-  font-size: 32px;
-  line-height: 1.8;
-  color: #870D96;
-  margin: 0 auto;
-}
-.intro .txt03{
-  font-size: 18px;
-  line-height: 2;
-  color: #870D96;
-  margin: auto;
-}
 .intro .bg01{
-  background: linear-gradient(180deg, transparent 0%, transparent 5%, #58C4E5 5%, #58C4E5 95%, transparent 95%, transparent 100%);
-  margin-top: 100px;
+  background: url(../images/top/bg01.jpg);
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+}
+.intro .bg01 .bg-txt{
+  text-align: left;
+  font-size: 34px;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 40px;
 }
 .intro .bg01 .list{
-  max-width: 1000px;
-  width: 90%;
+  max-width: 1200px;
+  width: 94%;
   margin: auto;
 }
 .intro .bg01 .list li{
   display: inline-block;
-  width: 40%;
-  margin-right: 4%;
+  width: 68%;
+  margin: auto;
 }
 .intro .bg01 .list li:last-child{
-  width: 55%;
-  margin-right: auto;
+  width: 30%;
+  margin: auto;
+}
+.intro .bg01 .img01{
+  position: absolute;
+  top: -18%;
+  right: 0;
+  width: 52%;
+  margin: auto;
+}
+.intro .bg01 .img02{
+  position: absolute;
+  bottom: -6%;
+  right: 0;
+  width: 36%;
+  margin: auto;
 }
 
 .outer {
@@ -480,23 +491,50 @@ video {
   line-height: 1.6;
 }
 .sec02 .bg01{
-  background: linear-gradient(180deg, transparent 0%, transparent 5%, #E7034A 5%, #E7034A 95%, transparent 95%, transparent 100%);
-  margin: 0 auto 100px;
+  background: url(../images/top/bg02.jpg);
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+}
+.sec02 .bg01 .right{
+  float: right;
+}
+.sec02 .bg01 .bg-txt{
+  text-align: left;
+  font-size: 34px;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 40px;
 }
 .sec02 .bg01 .list{
-  max-width: 1000px;
-  width: 90%;
+  max-width: 1200px;
+  width: 94%;
   margin: auto;
 }
 .sec02 .bg01 .list li{
   display: inline-block;
-  width: 45%;
-  margin-right: 4%;
+  width: 30%;
+  margin: auto;
 }
 .sec02 .bg01 .list li:last-child{
-  width: 50%;
-  margin-right: auto;
+  width: 68%;
+  margin: auto;
 }
+.sec02 .bg01 .img03{
+  position: absolute;
+  top: -18%;
+  left: 0;
+  width: 49%;
+  margin: auto;
+}
+.sec02 .bg01 .img04{
+  position: absolute;
+  bottom: -6%;
+  left: 0;
+  width: 40%;
+  margin: auto;
+}
+
 .sec02 .bg02{
   text-align: center;
   background: linear-gradient(180deg, #DEE1E8 0%, #DEE1E8 40%, #fff 40%, #fff 100%);
@@ -576,6 +614,47 @@ video {
 
 .sec05{
   text-align: center;
+}
+.sec05 .bg01{
+  background: url(../images/top/bg03.jpg);
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+}
+.sec05 .bg01 .bg-txt{
+  text-align: left;
+  font-size: 34px;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.sec05 .bg01 .list{
+  max-width: 1200px;
+  width: 94%;
+  margin: auto;
+}
+.sec05 .bg01 .list li{
+  display: inline-block;
+  width: 68%;
+  margin: auto;
+}
+.sec05 .bg01 .list li:last-child{
+  width: 30%;
+  margin: auto;
+}
+.sec05 .bg01 .img05{
+  position: absolute;
+  top: -18%;
+  right: 0;
+  width: 52%;
+  margin: auto;
+}
+.sec05 .bg01 .img06{
+  position: absolute;
+  bottom: -6%;
+  right: 0;
+  width: 32%;
+  margin: auto;
 }
 .sec05 .diesel{
   margin: 100px auto 150px;
@@ -1142,7 +1221,7 @@ video {
 
 .intro{
   text-align: left;
-  padding: 30px 0;
+  padding: 30px 0 0;
 }
 .intro .mark{
   max-width: 100px;
@@ -1158,17 +1237,15 @@ video {
   line-height: 1.6;
   margin: 0 auto 50px;
 }
-.intro .txt02{
-  font-size: 22px;
-  line-height: 1.6;
-}
-.intro .txt03{
-  font-size: 14px;
-  line-height: 1.6;
-}
 .intro .bg01{
-  background: linear-gradient(180deg, transparent 0%, transparent 5%, #58C4E5 5%, #58C4E5 95%, transparent 95%, transparent 100%);
-  margin-top: 60px;
+  background: url(../images/top/bg01-sp.jpg);
+  background-size: cover;
+  padding: 20px 0;
+  position: relative;
+}
+.intro .bg01 .bg-txt{
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 .intro .bg01 .list{
   text-align: center;
@@ -1180,6 +1257,20 @@ video {
 }
 .intro .bg01 .list li:last-child{
   width: 100%;
+  margin: auto;
+}
+.intro .bg01 .img01{
+  position: static;
+  top: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+.intro .bg01 .img02{
+  position: static;
+  bottom: 0;
+  right: 0;
+  width: 70%;
   margin: auto;
 }
 
@@ -1235,11 +1326,18 @@ video {
   font-size: 16px;
 }
 .sec02 .bg01{
-  background: linear-gradient(180deg, transparent 0%, transparent 5%, #E7034A 5%, #E7034A 95%, transparent 95%, transparent 100%);
-  margin: 20px auto 60px;
+  background: url(../images/top/bg02-sp.jpg);
+  background-size: cover;
+  padding: 20px 0;
+  position: relative;
 }
-.sec02 .bg01 .list{
-  margin: auto;
+.sec02 .bg01 .right{
+  float: none;
+}
+.sec02 .bg01 .bg-txt{
+  text-align: left;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 .sec02 .bg01 .list li{
   display: block;
@@ -1248,7 +1346,21 @@ video {
 }
 .sec02 .bg01 .list li:last-child{
   width: 100%;
-  margin: auto;
+  margin:auto;
+}
+.sec02 .bg01 .img03{
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+.sec02 .bg01 .img04{
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  margin: 20px auto 0;
 }
 .sec02 .bg02{
   padding: 40px 0 60px;
@@ -1300,6 +1412,42 @@ video {
   margin: 10px 0 0;
 }
 
+.sec05 .bg01{
+  background: url(../images/top/bg03-sp.jpg);
+  background-size: cover;
+  padding: 20px 0;
+  position: relative;
+}
+.sec05 .bg01 .bg-txt{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.sec05 .bg01 .list{
+  text-align: center;
+}
+.sec05 .bg01 .list li{
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.sec05 .bg01 .list li:last-child{
+  width: 100%;
+  margin: auto;
+}
+.sec05 .bg01 .img05{
+  position: static;
+  top: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+.sec05 .bg01 .img06{
+  position: static;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  margin: auto;
+}
 .sec05 .diesel{
   margin: 60px auto;
 }
