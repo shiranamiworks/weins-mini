@@ -14,12 +14,12 @@ $(function(){
 $(function() {
   if (window.matchMedia('(max-width: 767px)').matches) {
     $('.main-visual .mv02')
-      .animate({'width':'70%','opacity':'0'}, 1000)
-      .animate({'width': '86%','opacity':'1'}, 1800);
+      .animate({'width':'66%','opacity':'0'}, 1000)
+      .animate({'width': '90%','opacity':'1'}, 1800);
   }else if (window.matchMedia('(min-width:768px)').matches) {
   $('.main-visual .mv02')
-      .animate({'width':'50%','opacity':'0'}, 1000)
-      .animate({'width': '60%','opacity':'1'}, 1600);
+      .animate({'width':'40%','opacity':'0'}, 1000)
+      .animate({'width': '61%','opacity':'1'}, 1600);
   }
 });
 

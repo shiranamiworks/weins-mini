@@ -310,8 +310,8 @@ video {
   margin: auto;
   opacity: 0;
   position: absolute;
-  top: 55%;
-  left: 5%;
+  top: 50%;
+  right: 0;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -486,14 +486,11 @@ video {
   line-height: 1.6;
   margin-bottom: 10px;
 }
-.sec02 .txt{
-  font-size: 18px;
-  line-height: 1.6;
-}
 .sec02 .bg01{
   background: url(../images/top/bg02.jpg);
   background-size: cover;
   padding: 60px 0;
+  margin-bottom: 100px;
   position: relative;
 }
 .sec02 .bg01 .right{
@@ -537,7 +534,7 @@ video {
 
 .sec02 .bg02{
   text-align: center;
-  background: linear-gradient(180deg, #DEE1E8 0%, #DEE1E8 40%, #fff 40%, #fff 100%);
+  background: linear-gradient(180deg, #DEE1E8 0%, #DEE1E8 31%, #fff 31%, #fff 100%);
   padding: 70px 0 150px;
 }
 .sec02 .bg02 .car-image {
@@ -656,19 +653,25 @@ video {
   width: 32%;
   margin: auto;
 }
-.sec05 .diesel{
-  margin: 100px auto 150px;
+.new-mini{
+  margin: 100px auto 0px;
 }
-.sec05 .diesel .tit{
+.new-mini .tit{
   text-align: center;
-  max-width: 500px;
-  margin: 0 auto 50px;
+  max-width: 520px;
+  margin: 0px auto 50px;
 }
-.sec05 .diesel .txt{
-  font-size: 32px;
+.new-mini .tit-small{
+  font-size: 11px;
+  padding-top: 10px;
+  line-height: 1.6;
+}
+.new-mini .txt{
+  font-size: 32px !important;
   margin: 0 auto 20px;
 }
-.sec05 .electric{
+/*
+.electric{
   margin: 0 auto 150px;
 }
 .sec05 .electric .tit{
@@ -680,6 +683,7 @@ video {
   font-size: 32px;
   margin: 0 auto 20px;
 }
+*/
 
 .youtube {
   position: relative;
@@ -766,9 +770,9 @@ video {
 }
 .btns li{
   display: block;
-  max-width: 600px;
+  max-width: 700px;
   width: 90%;
-  margin: auto;
+  margin: 0 auto 20px;
   text-align: center;
 }
 .shiny-btn {
@@ -1198,8 +1202,8 @@ video {
   margin: auto;
   opacity: 0;
   position: absolute;
-  top: 77%;
-  left: 7%;
+  top: 73%;
+  right: 0;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1276,6 +1280,7 @@ video {
 
 .sec01 .bg02{
   padding: 40px 0 60px;
+  background: linear-gradient(180deg, #DEE1E8 0%, #DEE1E8 62%, #fff 55%, #fff 100%);
 }
 .sec01 .bg02 .tab-inner {
   width: 90%;
@@ -1322,13 +1327,11 @@ video {
 .sec02 .tit{
   font-size: 24px;
 }
-.sec02 .txt{
-  font-size: 16px;
-}
 .sec02 .bg01{
   background: url(../images/top/bg02-sp.jpg);
   background-size: cover;
   padding: 20px 0;
+   margin-bottom: 0;
   position: relative;
 }
 .sec02 .bg01 .right{
@@ -1364,6 +1367,7 @@ video {
 }
 .sec02 .bg02{
   padding: 40px 0 60px;
+  background: linear-gradient(180deg, #DEE1E8 0%, #DEE1E8 29%, #fff 29%, #fff 100%);
 }
 .sec02 .bg02 .car-image {
   width: 90%;
@@ -1448,17 +1452,18 @@ video {
   width: 70%;
   margin: auto;
 }
-.sec05 .diesel{
+.new-mini{
   margin: 60px auto;
 }
-.sec05 .diesel .tit{
+.new-mini .tit{
   width: 90%;
   margin: 0 auto 20px;
 }
-.sec05 .diesel .txt{
-  font-size: 24px;
+.new-mini .txt{
+  font-size: 24px !important;
   margin: 0 auto 20px;
 }
+/*
 .sec05 .electric{
   margin: 0 auto 60px;
 }
@@ -1470,6 +1475,7 @@ video {
   font-size: 24px;
   margin: 0 auto 20px;
 }
+*/
 
 .stock {
   margin: 0 auto 40px;
