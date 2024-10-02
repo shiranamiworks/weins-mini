@@ -456,6 +456,28 @@ video {
   border-radius: 50px;
   box-sizing: border-box;
 }
+
+.sec01 .bg02 .none {
+  max-width: 460px;
+  margin: 0 auto;
+}
+.sec01 .bg02 .change-buttons.none {
+  pointer-events: none;
+  max-width: 900px;
+  margin: 0 auto 60px;
+}
+.sec01 .bg02 .change-buttons.none li{
+  width: 11%;
+  margin-right: 0%;
+  vertical-align: top;
+}
+.sec01 .bg02 .change-buttons.none li .current img{
+  border: none;
+}
+.sec01 .bg02 .change-buttons.none li .current img{
+  border-radius: 0px;
+}
+
 .sec01 .bg02 .cards{
   max-width: 1200px;
   width: 90%;
@@ -1306,6 +1328,14 @@ video {
 }
 .sec01 .bg02 .change-buttons li:nth-child(5n){
   margin-right: auto;
+}
+.sec01 .bg02 .change-buttons.none li{
+  width: 24%;
+  margin-right: 0%;
+  vertical-align: top;
+}
+.sec01 .bg02 .change-buttons.none {
+  margin: 0 auto 40px;
 }
 .sec01 .bg02 .cards{
   margin: 0 auto 20px;
