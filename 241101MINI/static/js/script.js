@@ -11,16 +11,14 @@ $(function(){
   });
 });
 
-$(function() {
-  if (window.matchMedia('(max-width: 767px)').matches) {
-    $('.main-visual .mv02')
-      .animate({'width':'66%','opacity':'0'}, 1000)
-      .animate({'width': '90%','opacity':'1'}, 1800);
-  }else if (window.matchMedia('(min-width:768px)').matches) {
-  $('.main-visual .mv02')
-      .animate({'width':'40%','opacity':'0'}, 1000)
-      .animate({'width': '61%','opacity':'1'}, 1600);
-  }
+$(function(){
+$('.main-visual .mv01')
+    .animate({'opacity':'1'}, 1600)
+    .animate({'opacity': '0'}, 800);
+    
+$('.main-contents')
+    .animate({'top':'0'}, 2400)
+    .animate({'opacity':'1'}, 2000);
 });
 
 $(function(){
