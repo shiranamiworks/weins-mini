@@ -749,13 +749,21 @@ video {
   width: 30%;
   margin: auto;
 }
-.sec05 .bg01 .img05{
+.sec05 .bg01 .img07{
   position: absolute;
   top: -18%;
   right: -4%;
   width: 53%;
   margin: auto;
 }
+.sec05 .bg01 .img08{
+  position: absolute;
+  bottom: -6%;
+  right: 0;
+  width: 36%;
+  margin: auto;
+}
+
 .new-mini{
   margin: 100px auto 0px;
 }
@@ -906,11 +914,14 @@ video {
   margin-bottom: 10px;
 }
 .btns li{
-  display: block;
-  max-width: 700px;
-  width: 90%;
-  margin: 0 auto 20px;
+  display: inline-block;
+/*  max-width: 700px;*/
+  width: 30%;
+  margin-right: 2%;
   text-align: center;
+}
+.btns li:last-child{
+  margin-right: auto;
 }
 .shiny-btn {
   display: block;
@@ -1759,7 +1770,17 @@ video {
     
   .btns{
     margin-bottom: 30px;
+    text-align: center;
   }
+  .btns li{
+/*  max-width: 700px;*/
+  width: 90%;
+  margin-right: 0;
+  text-align: center;
+ }
+.btns li:last-child{
+  margin-right: auto;
+ }
 
   .comment{
     font-size: 16px;
