@@ -338,21 +338,26 @@ video {
 
 .intro{
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 50px;
 }
 .intro .mark{
-  max-width: 120px;
+  max-width: 100px;
   margin: 0 auto 30px;
 }
 .intro .txt01{
-  font-size: 23px;
+  font-size: 20px;
   line-height: 1.8;
   margin: 0 auto 40px;
 }
 .intro .lead{
-  font-size: 28px;
+  font-size: 24px;
   line-height: 2;
   margin: 0 auto 50px;
+}
+.intro .lead02{
+  font-size: 38px;
+  line-height: 1.6;
+  margin: 0 auto;
 }
 
 .outer {
@@ -751,7 +756,7 @@ video {
 }
 .sec05 .bg01 .img07{
   position: absolute;
-  top: -18%;
+  top: -23%;
   right: -4%;
   width: 53%;
   margin: auto;
@@ -780,6 +785,12 @@ video {
 .new-mini .txt{
   font-size: 32px !important;
   margin: 0 auto 20px;
+}
+.new-mini .mini{
+  font-size: 13px;
+  line-height: 1.4;
+  width: 90%;
+  margin: auto;
 }
 /*
 .electric{
@@ -911,7 +922,7 @@ video {
 }
 
 .btns{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .btns li{
   display: inline-block;
@@ -922,6 +933,10 @@ video {
 }
 .btns li:last-child{
   margin-right: auto;
+}
+.btns li.single{
+    width: 90%;
+    max-width: 700px;
 }
 .shiny-btn {
   display: block;
@@ -1374,6 +1389,13 @@ video {
   line-height: 1.6;
   margin: 0 auto 50px;
 }
+.intro .lead02{
+  font-size: 28px;
+  line-height: 1.6;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
 .sec01 .bg01{
   background: url(../images/top/bg01-sp.jpg);
   background-size: cover;
@@ -1790,10 +1812,12 @@ video {
 /*  max-width: 700px;*/
   width: 90%;
   margin-right: 0;
+  margin-bottom: 20px;
   text-align: center;
  }
 .btns li:last-child{
   margin-right: auto;
+  margin-bottom: auto;
  }
 
   .comment{
