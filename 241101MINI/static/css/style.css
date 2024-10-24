@@ -355,7 +355,11 @@ video {
   margin: 0 auto 50px;
 }
 .intro .lead02{
-  font-size: 38px;
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 60px;
+  font-size: 32px;
   line-height: 1.6;
   margin: 0 auto;
 }
@@ -788,7 +792,7 @@ video {
 }
 .new-mini .mini{
   font-size: 13px;
-  line-height: 1.4;
+  line-height: 1.6;
   width: 90%;
   margin: auto;
 }
@@ -896,6 +900,7 @@ video {
 .sec04{
     border-bottom: 1px solid #d1d1d1;
     margin-bottom: 50px;
+    padding-bottom: 30px;
 }
 .sec04 .txt{
   font-size: 30px;
@@ -920,22 +925,22 @@ video {
   line-height: 1.4;
   margin: 0 auto 50px;
 }
+.sec04 .btns{
+  text-align: center;
+}
 
 .btns{
   margin-bottom: 20px;
 }
 .btns li{
   display: inline-block;
-/*  max-width: 700px;*/
-  width: 30%;
-  margin-right: 2%;
+  max-width: 400px;
+  padding: 10px 10px 0;
   text-align: center;
 }
-.btns li:last-child{
-  margin-right: auto;
-}
+
 .btns li.single{
-    width: 90%;
+/*    width: 90%;*/
     max-width: 700px;
 }
 .shiny-btn {
@@ -1390,8 +1395,9 @@ video {
   margin: 0 auto 50px;
 }
 .intro .lead02{
-  font-size: 28px;
-  line-height: 1.6;
+  display: block;
+  font-size: 25px;
+  padding: 10px 20px;
   margin: 0 auto 20px;
   text-align: center;
 }
@@ -1805,18 +1811,16 @@ video {
    }
     
   .btns{
-    margin-bottom: 30px;
     text-align: center;
   }
   .btns li{
-/*  max-width: 700px;*/
   width: 90%;
-  margin-right: 0;
+  margin: auto;
+  padding: 0;
   margin-bottom: 20px;
   text-align: center;
  }
 .btns li:last-child{
-  margin-right: auto;
   margin-bottom: auto;
  }
 
