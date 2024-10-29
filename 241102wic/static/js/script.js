@@ -50,7 +50,7 @@ $('.diesel .slider').slick({
 
 
 $(function() {
-$('.phev .slider').slick({
+$('.exhibition .slider').slick({
     autoplay: true,
     dots: true,
     centerMode: true,
