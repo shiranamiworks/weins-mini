@@ -312,6 +312,7 @@ End-responsible-contents  only-pc
   position: relative;
   overflow: hidden;
   width: 100%;
+  max-width: 820px;
   vertical-align: middle;
   margin-bottom: 20px;
 }
@@ -354,13 +355,11 @@ margin-bottom: 20px;
 }
 .sec01 .text{
   clear: both;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 1.4;
 }
 .sec01 .text.line{
   margin-bottom: 50px;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #d1d1d1;
 }
 .sec01 .text01{
   font-size: 32px;
@@ -412,64 +411,69 @@ margin-bottom: 20px;
   padding-bottom: 50px;
   border-bottom: 1px solid #d1d1d1;
 }
-.sec01 .delivery{
-  margin-bottom: 50px;
-  border-bottom: 1px solid #d1d1d1;
-}
-.sec01 .delivery .tit{
-  font-size: 36px;
-  line-height: 1.4;
-  margin-bottom: 50px;
-}
-.sec01 .delivery .tit01{
-  font-size: 36px;
-  line-height: 1.4;
-  margin: 30px 0;
-}
-.sec01 .delivery .text{
-  font-size: 22px;
-  line-height: 1.4;
-  margin-bottom: 50px;
-}
 
-.sec01 .diesel{
-  margin-bottom: 50px;
-  border-bottom: 1px solid #d1d1d1;
+.sec02.bg{
+  background: rgba(183,226,244,.5);
 }
-.sec01 .diesel .txt01{
-  font-size: 26px;
-  line-height: 1.4;
-  margin-bottom: 20px;
-}
-.sec01 .diesel .txt02{
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-.sec01 .diesel .txt03{
-  font-size: 24px;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-.sec01 .diesel .mini{
-  margin-top: 0;
-  font-size: 12px;
-}
-.sec01 .diesel .list li{
-  vertical-align: top;
+.sec02.bg .tit{
   display: inline-block;
-  width: 44%;
-  margin-right: 2%;
+  background: #005493;
+  color: #fff;
+  font-size: 32px;
+  padding: 15px 25px 10px;
+  border-radius: 30px;
+  margin-left: 3.5%;
+  margin-top: -30px;
+  margin: -30px auto 50px 3.5%;
 }
-.sec01 .diesel .list li:last-child{
-  width: 40%;
-  margin-right: auto;
+.sec02.bg .sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
-.sec01 .diesel .wrap{
-  max-width: 1000px;
-  margin: auto;
+.sec02.bg .sub .box{
+  display: inline-block;
+  color: #005493;
+  background-color:#DBF0F9; 
+  font-size: 32px;
+  padding: 15px 25px 10px;
+  border: 1px solid;
 }
-
+.sec02.bg .sub::after{
+  position: relative;
+  z-index: -1;
+  content: "";
+  display: block;
+  background-color: #005493;
+  width: 94vw;
+  height: 1px;
+  margin-left: -180px;
+}
+.sec02 .art{
+  width: 94%;
+  max-width: 1600px;
+  margin: 0 auto 3.5%;
+}
+.sec02 .art.art01{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec02 .art li{
+   display: inline-block;
+}
+.sec02 .art .txt01{
+   font-size: 24px;
+   line-height: 1.4;
+   width: 45%;
+}
+.sec02 .art .image{
+   width: 50%;
+   float: right;
+}
+.sec02 .art.art02{
+   margin-top: -50px;
+}
 .slider img {
   width: 100%;
   object-fit: cover;
