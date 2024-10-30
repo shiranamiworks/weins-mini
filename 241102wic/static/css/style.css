@@ -401,7 +401,11 @@ End-responsible-contents  only-pc
   display: block;
   background-color: #005493;
   width: 90vw;
+  max-width: 1600px;
   height: 1px;
+}
+.sec02.bg .art.art02 .sub{
+  display: block;
 }
 .sec02.bg .art.art02 .sub::after{
   height: 0;
