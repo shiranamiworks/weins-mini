@@ -1627,6 +1627,9 @@ video {
   font-size: 24px !important;
   margin: 0 auto 20px;
 }
+.new-mini .tit-small{
+  text-align: left;
+}
 /*
 .sec05 .electric{
   margin: 0 auto 60px;
