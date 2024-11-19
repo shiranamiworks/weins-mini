@@ -368,7 +368,7 @@ video {
 .intro .lead{
   font-size: 28px;
   line-height: 2;
-  margin: 0 auto 120px;
+  margin: 0 auto 60px;
 }
 
 .outer {
@@ -408,6 +408,10 @@ video {
 .sections .wrap{
   width: 94%;
   margin: auto;
+}
+
+.sec01{
+  margin-top: 100px;
 }
 
 .sec01 .bg01{
@@ -1378,12 +1382,14 @@ video {
   margin: 0 auto 30px;
 }
 .intro .lead{
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
-  margin: 0 auto 50px;
+  margin: 0 auto 30px;
 }
     
-    
+.sec01{
+  margin-top: 50px;
+}   
 .sec01 .bg01 .bg-txt{
   text-align: left;
   margin: 50px auto;
