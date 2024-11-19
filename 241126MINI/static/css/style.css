@@ -447,7 +447,7 @@ video {
 .sec01 .bg02{
   text-align: center;
   background: #000;
-  padding: 100px 0 150px;
+  padding: 100px 0;
 }
 .sec01 .bg02 .tab-inner {
   display: none;
@@ -542,6 +542,7 @@ video {
 
 .sec02{
   text-align: center;
+  padding-top: 100px;
 }
 .sec02 .tit{
   font-size: 32px;
@@ -553,7 +554,7 @@ video {
   text-align: center;
   font-size: 20px;
   line-height: 1.6;
-  margin: 150px auto;
+  margin: 150px auto 75px;
 }
 .sec02 .bg01 .bg-txt .big{
   font-size: 150%;
@@ -580,7 +581,7 @@ video {
 .sec02 .bg02{
   text-align: center;
   background: #fff;
-  padding: 100px 0 150px;
+  padding: 50px 0 150px;
 }
 .sec02 .bg02 .tab-inner {
   display: none;
@@ -995,7 +996,7 @@ video {
   line-height: 1.7;
 }
 .holiday {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.7;
   text-align: center;
   border: 1px solid;
