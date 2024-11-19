@@ -282,6 +282,18 @@ video {
   position: relative;
   z-index: 2;
 }
+.js-scroll.speed01 {
+  transform: translateY(30px);
+  transition-delay: .5s;
+}
+.js-scroll.speed02 {
+  transform: translateY(30px);
+  transition-delay: .75s;
+}
+.js-scroll.speed03 {
+  transform: translateY(30px);
+  transition-delay: .25s;
+}
 .js-scroll.on {
   transform: translateY(0px);
   opacity: 1;
