@@ -419,6 +419,11 @@ video {
   background: #70c5c2;
   padding: 50px 0 0;
 }
+.sec01 .title{
+  max-width: 600px;
+  width: 60%;
+  margin: 0 auto 25px;
+}
 .sec01 .bg01 .bg-txt{
   text-align: center;
   font-size: 30px;
@@ -1194,7 +1199,7 @@ video {
   margin: 0 auto;
 /*  width: 83%;*/
 }
-.sec01 .bg01 .image{
+.sec01 .title{
   width: 80%;
 }
 .sec01 .bg01 .image.img02{
