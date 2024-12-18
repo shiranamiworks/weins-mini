@@ -167,7 +167,8 @@ End-responsible-contents  only-pc
 ----------------------------*/
 @media (max-width: 768px) {
   sup {
-    font-size: 8px;
+    font-size: 12px;
+    text-align: left;
   }
   .pc {
     display: none !important;
@@ -215,7 +216,7 @@ End-responsible-contents  only-pc
 
 .content-wrap02 {
     max-width: 1000px;
-    width: 90%;
+    width: 94%;
     margin: auto;
 }
 
@@ -453,8 +454,8 @@ video {
   margin: 50px auto 25px;
 }
 .sec01 .bg01 .image.img02{
-  max-width: 185px;
-  width: 20%;
+  max-width: 360px;
+  width: 26%;
   margin: 50px auto;
 }
 .sec01 .big{
@@ -673,7 +674,7 @@ video {
     margin-bottom: 50px;
 }
 .sec04 .txt{
-  font-size: 30px;
+  font-size: 29px;
   margin-bottom: 10px;
   font-weight: bold;
   line-height: 1.5;
@@ -801,7 +802,7 @@ video {
   margin: auto;
 }
 .eco-text {
-  font-size: 24px;
+  font-size: 22px;
   padding-top: 4%;
   line-height: 1.7;
 }
@@ -834,8 +835,11 @@ video {
 .store-list li{
   vertical-align: text-top;
   display: inline-block;
-  width: 32.2%;
+  width: 29%;
   margin-right: 1%;
+}
+.store-list li.shop{
+  width: 36%;
 }
 .store-list li:last-child{
   vertical-align: top;
@@ -876,7 +880,7 @@ video {
 }
 .store-list .name{
   position: relative;
-  font-size: 26px;
+  font-size: 25px;
   line-height: 1.25;
 }
 .store-list .name01{
@@ -888,12 +892,12 @@ video {
   color: #a40000;
 }
 .store-list .mini-logo{
-  max-width: 88px;
+  max-width: 80px;
   margin-right: 10px;
   vertical-align: middle;
 }
 .store-list .add{
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.4;
 }
 .store-list .link{
@@ -1109,6 +1113,9 @@ video {
     width: 80%;
     margin: 0 auto 20px;
   }
+  .store-list li.shop{
+    width: 80%;
+  }
   .store-list .name{
     font-size: 22px;
     margin-bottom: 10px;
@@ -1197,9 +1204,8 @@ video {
 /*  margin-top: 50px;*/
 }   
 .sec01 .bg01 .bg-txt{
-  text-align: left;
   margin: 0 auto;
-  width: 83%;
+/*  width: 83%;*/
 }
 .sec01 .bg01 .image{
   width: 80%;
@@ -1349,7 +1355,7 @@ video {
   }
     
   .holiday {
-  font-size: 16px;
+  font-size: 14px;
   }
 
   .store-list{
@@ -1363,6 +1369,9 @@ video {
     margin-top: 45px;
   }
   .store-list li{
+    width: 100%;
+  }
+  .store-list li.shop{
     width: 100%;
   }
   .store-list .name{
