@@ -167,7 +167,7 @@ End-responsible-contents  only-pc
 ----------------------------*/
 @media (max-width: 768px) {
   sup {
-    font-size: 8px;
+    font-size: 10px;
   }
   .pc {
     display: none !important;
@@ -215,7 +215,7 @@ End-responsible-contents  only-pc
 
 .content-wrap02 {
     max-width: 1000px;
-    width: 90%;
+    width: 94%;
     margin: auto;
 }
 
@@ -431,7 +431,7 @@ video {
   width: 80%;
   margin: 0 auto;
   padding-top: 50px;
-  border-top: 1px solid #8c8c8c;
+  border-top: 1px solid #fff;
 }
 .sec01 .bg01 .bg-txt .red{
   color: #e7014c;
@@ -441,6 +441,7 @@ video {
 .sec01 .bg01 .bg-txt .middle{
   font-size: 24px;
   background: #fff;
+  padding: 5px 5px 0;
 }
 .sec01 .bg01 .bg-txt sup{
   display: inline-block;
@@ -467,6 +468,7 @@ video {
 .sec01 .big{
   font-size: 150%;
   background: #fff;
+  padding: 3px 6px 0;
 }
 .sec01 .mini{
   font-size: 80%;
@@ -514,14 +516,14 @@ video {
   margin-bottom: 50px;
 }
 .new-mini .text01{
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   padding-top: 25px;
   line-height: 1.6;
   margin-bottom: 25px;
 }
 .new-mini .tit-small{
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
   padding-top: 10px;
   line-height: 1.6;
@@ -823,7 +825,7 @@ video {
   margin: auto;
 }
 .eco-text {
-  font-size: 24px;
+  font-size: 22px;
   padding-top: 4%;
   line-height: 1.7;
 }
@@ -856,9 +858,13 @@ video {
 .store-list li{
   vertical-align: text-top;
   display: inline-block;
-  width: 32.2%;
+  width: 29%;
   margin-right: 1%;
 }
+.store-list li.shop{
+  width: 36%;
+}
+
 .store-list li:last-child{
   vertical-align: top;
   margin-right: auto;
@@ -898,7 +904,7 @@ video {
 }
 .store-list .name{
   position: relative;
-  font-size: 26px;
+  font-size: 25px;
   line-height: 1.25;
 }
 .store-list .name01{
@@ -910,12 +916,12 @@ video {
   color: #a40000;
 }
 .store-list .mini-logo{
-  max-width: 88px;
+  max-width: 80px;
   margin-right: 10px;
   vertical-align: middle;
 }
 .store-list .add{
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.4;
 }
 .store-list .link{
@@ -1131,6 +1137,9 @@ video {
     width: 80%;
     margin: 0 auto 20px;
   }
+  .store-list li.shop{
+    width: 80%;
+  }
   .store-list .name{
     font-size: 22px;
     margin-bottom: 10px;
@@ -1219,7 +1228,6 @@ video {
 /*  margin-top: 50px;*/
 }   
 .sec01 .bg01 .bg-txt{
-  text-align: left;
   margin: 0 auto;
   width: 83%;
 }
@@ -1294,11 +1302,17 @@ video {
   margin: auto;
 }
 .new-mini{
-  margin: 60px auto;
+  margin: 30px auto;
 }
 .new-mini .tit{
   width: 90%;
-  margin: 0 auto 20px;
+  margin: auto;
+}
+.new-mini .text01{
+  margin-bottom: 10px;
+}
+.new-mini .image.img01 {
+  margin-bottom: 20px;
 }
 .new-mini .txt{
   font-size: 24px !important;
@@ -1306,6 +1320,7 @@ video {
 }
 .new-mini .tit-small{
   text-align: left;
+  margin-bottom: 30px;
 }
 
 .stock {
@@ -1371,7 +1386,7 @@ video {
   }
     
   .holiday {
-  font-size: 16px;
+  font-size: 14px;
   }
 
   .store-list{
@@ -1385,6 +1400,9 @@ video {
     margin-top: 45px;
   }
   .store-list li{
+    width: 100%;
+  }
+  .store-list li.shop{
     width: 100%;
   }
   .store-list .name{
