@@ -208,7 +208,7 @@ End-responsible-contents  only-pc
 }
 .content-wrap{
   position: relative;
-  max-width: 1400px;
+  max-width: 1200px;
   width: 94%;
   margin: auto;
 }
@@ -379,6 +379,10 @@ End-responsible-contents  only-pc
 .sections .line{
 margin-bottom: 30px;
 }
+
+.sec01{
+    text-align: center;
+}
 .sec01 .day{
   clear: both;
   font-size: 26px;
@@ -388,8 +392,8 @@ margin-bottom: 30px;
 .sec01 .text{
   clear: both;
   text-align: center;
-  font-size: 32px;
-  line-height: 1.4;
+  font-size: 22px;
+  line-height: 1.6;
   margin-bottom: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid #d1d1d1;
@@ -404,8 +408,8 @@ margin-bottom: 30px;
   font-size: 34px;
   display: block;
 }
-.sec01 .text .font60{
-  font-size: 60%;
+.sec01 .text .font70{
+  font-size: 70%;
 }
 .sec01 .text .red{
   display: inline-block;
@@ -520,11 +524,12 @@ margin-bottom: 30px;
     font-size: 120%;
 }
 .sec02 .list{
-  margin-bottom: 40px;
+  margin-bottom: 80px;
+  text-align: center;
 }
 .sec02 .list li{
   display: inline-block;
-  width: 40%;
+  width: 34%;
   margin-right: 2%;
   vertical-align: middle;
   filter: drop-shadow(3px 3px 3px rgba(0,0,0,.1));
@@ -548,8 +553,23 @@ margin-bottom: 30px;
 .sec02 .list li:last-child{
   margin-right: auto;
 }
+.sec02 .new-stock{
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.5;
+}
+.new-stock.blue{
+    color: #123F94;
+}
+.new-stock.green{
+    color: #003016;
+}
+.new-stock.pink{
+    color: #e7014c;
+}
 .sec02 .list01{
-  margin: 20px 0 40px;
+  margin: 20px 0 150px;
+  text-align: center;
 }
 .sec02 .list01 li{
   display: inline-block;
@@ -567,19 +587,23 @@ margin-bottom: 30px;
 
 .test-drive .txt{
   font-size: 22px;
+  text-align: center;
   line-height: 1.4;
   margin: 40px 0;
 }
 .test-drive .detail{
-  font-size: 28px;
+  font-size: 20px;
+  text-align: left;
   line-height: 1.8;
-  margin: 30px 0;
-  max-width: 600px;
+  margin: 30px auto;
+  max-width: 508px;
 }
 .test-drive .conditions{
+  display: inline-block;
   font-size: 16px;
+  text-align: left;
   line-height: 1.8;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
   border: 1px solid;
   padding: 20px;
   box-sizing: border-box;
@@ -1172,11 +1196,11 @@ margin-bottom: 30px;
     margin-bottom: 10px;
   }
   .sec01 .text{
-    font-size: 20px;
     margin-bottom: 20px;
-    line-height: 1.5;
     padding-bottom: 20px;
+    font-size: 16px;
   }
+
   .sec01 .text .bold{
     font-size: 22px;
   }
@@ -1438,7 +1462,9 @@ margin-bottom: 30px;
     margin: auto;
     display: block;
   }
-    
+  .sec02 .new-stock{
+    font-size: 24px;
+}
   .sec02 .list li{
     display: block;
     width: 100%;
