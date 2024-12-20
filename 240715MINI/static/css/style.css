@@ -387,6 +387,7 @@ margin-bottom: 30px;
 }
 .sec01 .text{
   clear: both;
+  text-align: center;
   font-size: 32px;
   line-height: 1.4;
   margin-bottom: 50px;
@@ -396,18 +397,21 @@ margin-bottom: 30px;
 .sec01 .text .mark{
   display: block;
   width: 161px;
-  margin-bottom: 15px;
+  margin: 0 auto 15px;
 }
 .sec01 .text .bold{
   font-weight: 600;
   font-size: 34px;
   display: block;
 }
+.sec01 .text .font60{
+  font-size: 60%;
+}
 .sec01 .text .red{
   display: inline-block;
-  color: #ff0000;
+  color: #E7034A;
   border: 1px solid;
-  padding: 10px 10px 0;
+  padding: 15px 20px 10px;
   margin-bottom: 20px;
 }
 .sec01 .test-drive .text{
@@ -475,26 +479,74 @@ margin-bottom: 30px;
 .sec01 .list02 .logo{
   margin-bottom: 10px;
 }
-.sec02{
-  border-top: 1px solid #d1d1d1;
-  padding: 50px 0;
+.sec02 .text{
+  text-align: center;
+  font-size: 22px;
+  margin: 40px 0 0;
 }
-.sec02 .txt{
-  font-size: 32px;
-  margin: 40px 0;
+.sec02 .text .mark{
+  display: block;
+  max-width: 150px;
+  margin: 10px auto 30px;
+}
+.sec02 .text .font120{
+  font-size: 120%;
+}
+.sec02 .point {
+    margin-top: 40px;
+}
+.sec02 .point li{
+    display: inline-block;
+    width: 30%;
+    margin-right: 2%;
+    vertical-align: top;
+}
+.sec02 .point li .text{
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.sec02 .point li .text .title{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+.sec02 .point li .text .title.MINI{
+    font-size: 150%;
+}
+.sec02 .point li .text .MINI{
+    font-size: 120%;
 }
 .sec02 .list{
   margin-bottom: 40px;
 }
 .sec02 .list li{
   display: inline-block;
-  width: 30%;
+  width: 40%;
   margin-right: 2%;
   vertical-align: middle;
+  filter: drop-shadow(3px 3px 3px rgba(0,0,0,.1));
+}
+.sec02 .list li .image{
+  padding: 20px;
+  background: #fff;
+}
+.sec02 .list li:first-child{
+  width: 100%;
+  filter: none;
+}
+.sec02 .list li:first-child .image{
+  width: 50%;
+  max-width: 440px;
+  margin: 0 auto 50px;
+}
+.sec02 .list li:nth-child(2){
+  margin-left: 9%;
 }
 .sec02 .list li:last-child{
   margin-right: auto;
-  width: 67%;
 }
 .sec02 .list01{
   margin: 20px 0 40px;
@@ -513,12 +565,8 @@ margin-bottom: 30px;
   line-height: 1.5;
 }
 
-.test-drive{
-  border-bottom: 1px solid #d1d1d1;
-  margin-bottom: 50px;
-}
 .test-drive .txt{
-  font-size: 32px;
+  font-size: 22px;
   line-height: 1.4;
   margin: 40px 0;
 }
@@ -526,10 +574,10 @@ margin-bottom: 30px;
   font-size: 28px;
   line-height: 1.8;
   margin: 30px 0;
-  max-width: 900px;
+  max-width: 600px;
 }
 .test-drive .conditions{
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.8;
   margin-bottom: 50px;
   border: 1px solid;
@@ -559,9 +607,9 @@ margin-bottom: 30px;
   padding: 50px 0;
 }
 .sec05 .txt{
-  font-size: 32px;
+  font-size: 22px;
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .sec05 .list{
   margin-bottom: 40px;
@@ -571,20 +619,20 @@ margin-bottom: 30px;
 }
 .sec05 .list li{
   display: inline-block;
-  width: 38%;
+  width: 31%;
   margin-right: 2%;
   vertical-align: top;
 }
 .sec05 .list li:last-child{
   margin-right: auto;
-  width: 57%;
 }
 .sec05 .list .lead{
-  font-size: 26px;
-  line-height: 1.8;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
 }
 .sec05 .list .mini{
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.5;
   margin-top: 6px;
 }
@@ -599,22 +647,22 @@ margin-bottom: 30px;
 }
 .slider .slick-slide {
   height: auto;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .slider {
   margin: 0 auto;
 }
-.diesel .slick-dotted.slick-slider{
+.slick-dotted.slick-slider{
   margin-bottom: 80px;
 }
 .slick-img img {
   height: auto;
   width: 100%;
 }
-.diesel .slick-dots li {
+.slick-dots li {
   width: 14px;
 }
-.diesel .slick-dots li button{
+.slick-dots li button{
   opacity: .3;
   color: #000;
   background: #000;
@@ -622,10 +670,10 @@ margin-bottom: 30px;
   width: 10px;
   height: 10px;
 }
-.diesel .slick-dots{
+.slick-dots{
   bottom: -34px;
 }
-.diesel .slick-dots li.slick-active button{
+.slick-dots li.slick-active button{
   opacity: 1;
 }
 
@@ -719,7 +767,7 @@ margin-bottom: 30px;
 }
 .btns li{
   display: block;
-  max-width: 900px;
+  max-width: 720px;
   margin: auto;
   text-align: center;
 }
@@ -957,13 +1005,17 @@ margin-bottom: 30px;
 }
 
 .stock {
-  margin-bottom: 50px;
+  width: 80%;
+  margin: 0 auto 50px;
 }
 .stock li{
-  width: 32%;
+  width: 30%;
   display: inline-block;
-  margin-right: 1%;
+  margin-right: 3%;
   position: relative;
+}
+.stock li:last-child{
+  margin-right: auto;
 }
 .stock li a .arrow{
   max-width: 35px;
@@ -1123,6 +1175,7 @@ margin-bottom: 30px;
     font-size: 20px;
     margin-bottom: 20px;
     line-height: 1.5;
+    padding-bottom: 20px;
   }
   .sec01 .text .bold{
     font-size: 22px;
@@ -1192,52 +1245,40 @@ margin-bottom: 30px;
 .sec02{
   padding: 20px 0;
 }
-.sec02 .txt{
-  font-size: 20px;
+.sec02 .text{
+  font-size: 16px;
   line-height: 1.4;
   margin: 20px 0;
 }
 .sec02 .list{
   margin-bottom: 40px;
 }
-.sec02 .list li{
-  display: block;
-  width: 100%;
-  margin-bottom: 20px;
-}
-.sec02 .list li:last-child{
-  margin: auto;
-  width: 100%;
-}
 .sec02 .list01{
   margin: 20px 0 40px;
-}
-.sec02 .list01 li{
-  display: block;
-  width: 100%;
-  margin-bottom: 20px;
-}
-.sec02 .list01 li:last-child{
-  margin: auto;
 }
 .sec02 .mini{
   font-size: 11px;
 }
-    
+.slider .slick-slide{
+   padding: 0 5px;
+} 
+.sec02 .point li .text{
+   padding: 0 15px;
+ }
 .test-drive{
   padding: 20px 0 0;
 }
 .test-drive .txt{
-  font-size: 20px;
+  font-size: 18px;
   margin: 20px 0;
 }
 .test-drive .detail{
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   margin: 20px 0;
 }
 .test-drive .conditions{
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.6;
   margin-bottom: 40px;
   border: 1px solid;
@@ -1259,7 +1300,7 @@ margin-bottom: 30px;
   padding: 20px 0;
 }
 .sec05 .txt{
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.4;
   margin-bottom: 20px;
 }
@@ -1269,21 +1310,12 @@ margin-bottom: 30px;
 .sec05 .list.last{
   margin-bottom: 0;
 }
-.sec05 .list li{
-  display: block;
-  width: 100%;
-  margin-bottom: 20px;
-}
-.sec05 .list li:last-child{
-  margin: auto;
-  width: 100%;
-}
 .sec05 .list .lead{
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.8;
 }
 .sec05 .list .mini{
-  font-size: 13px;
+  font-size: 11px;
   line-height: 1.5;
   margin-top: 6px;
 }
@@ -1318,7 +1350,7 @@ margin-bottom: 30px;
     font-size: 16px;
     margin: 0 auto 30px;
   }
-    
+
   .eco-text{
     font-size: 20px;
   }
@@ -1390,8 +1422,12 @@ margin-bottom: 30px;
 /*    width: 94%;*/
     margin: auto;
   }
+  .stock{
+    width: 100%;
+  }
   .stock li{
     width: 48%;
+    margin-right: 2%;
     display: inline-block;
     margin-bottom: 20px;
   }
@@ -1403,6 +1439,30 @@ margin-bottom: 30px;
     display: block;
   }
     
+  .sec02 .list li{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sec02 .list li:first-child .image{
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .sec02 .list li:nth-child(2){
+    margin-left: 0;
+  }
+  .sec02 .list li:last-child{
+    margin: auto;
+    width: 100%;
+  }
+  .sec02 .list01 li{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sec02 .list01 li:last-child{
+    margin: auto;
+  }
   .sec02 .ev02{
     margin: 20px auto 30px;
   }
@@ -1419,6 +1479,19 @@ margin-bottom: 30px;
 
   .sec04 .text01 .mini{
     font-size: 12px;
+  }
+  .sec05 .list li{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sec05 .list li:last-child{
+    margin: auto;
+    width: 100%;
+  }
+  .sec05 .list .btns{
+     width: 90%;
+     margin: 40px auto 0;
   }
   .instagram{
     margin-bottom: 30px;

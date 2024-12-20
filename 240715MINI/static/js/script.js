@@ -33,15 +33,18 @@ $(function(){
 
 
 $(function() {
-$('.diesel .slider').slick({
+$('.slider').slick({
     autoplay: true,
     dots: true,
     centerMode: true,
-    slidesToShow: 3,
+    centerPadding: "20%",
+    slidesToShow: 1,
+    updateOnMove: true,
     responsive: [{
                 breakpoint: 768,
                   settings: {
                     slidesToShow: 1,
+                    centerPadding: "5%",
                 }
               }
               ]
