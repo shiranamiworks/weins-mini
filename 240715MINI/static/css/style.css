@@ -216,7 +216,7 @@ End-responsible-contents  only-pc
 
 .fixed-banner {
   position: fixed;
-  width: 240px;
+  width: 300px;
   height: auto;
   bottom: 0%;
   right: 0%;
@@ -236,9 +236,9 @@ End-responsible-contents  only-pc
   display: block;
   cursor: pointer;
   position: absolute;
-  top: -22px;
-  right: 2px;
-  width: 10%;
+  top: 0px;
+  right: 0px;
+  width: 8%;
 }
 
 @media (max-width: 768px) {
@@ -258,8 +258,8 @@ End-responsible-contents  only-pc
     display: inherit;
   }
   .fixed-banner .close {
-    width: 20px;
-    top: -20px;
+    width: 26px;
+    top: 0px;
   }
 }
 
