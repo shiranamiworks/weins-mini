@@ -486,7 +486,7 @@ margin-bottom: 30px;
 }
 .sec02 .text .mark{
   display: block;
-  max-width: 150px;
+  max-width: 200px;
   margin: 10px auto 30px;
 }
 .sec02 .text .font120{
@@ -637,8 +637,8 @@ margin-bottom: 30px;
   margin-top: 6px;
 }
 .sec05 .list .btns{
-  width: 90%;
-  margin: 40px 0 0;
+  width: 100%;
+  margin: 20px auto 0;
 }
 
 .slider img {
@@ -1320,8 +1320,8 @@ margin-bottom: 30px;
   margin-top: 6px;
 }
 .sec05 .list .btns{
-  width: 90%;
-  margin: 40px auto 0;
+  width: 100%;
+  margin: 20px auto 0;
 }
 
   .movie{
@@ -1490,8 +1490,8 @@ margin-bottom: 30px;
     width: 100%;
   }
   .sec05 .list .btns{
-     width: 90%;
-     margin: 40px auto 0;
+     width: 100%;
+     margin: 20px auto 0;
   }
   .instagram{
     margin-bottom: 30px;
