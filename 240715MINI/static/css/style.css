@@ -483,6 +483,9 @@ margin-bottom: 30px;
 .sec01 .list02 .logo{
   margin-bottom: 10px;
 }
+.sec02 {
+  margin-top: 100px;
+}
 .sec02 .text{
   text-align: center;
   font-size: 22px;
@@ -584,6 +587,12 @@ margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.5;
 }
+
+/*
+.test-drive {
+  border-bottom: 1px solid #d1d1d1
+}
+*/
 
 .test-drive .txt{
   font-size: 22px;
@@ -1267,7 +1276,7 @@ margin-bottom: 30px;
   }
     
 .sec02{
-  padding: 20px 0;
+  margin-top: 50px;
 }
 .sec02 .text{
   font-size: 16px;
@@ -1432,11 +1441,9 @@ margin-bottom: 30px;
 
 
 @media screen and (max-width:768px) {
-/*
   .all_wrap{
-    width: 100%;
+    overflow:hidden;
   }
-*/
   .content-wrap {
     width: 94%;
     margin: auto;
