@@ -1200,12 +1200,7 @@ video {
   }
     
   .stock li{
-    width: 32%;
-    display: inline-block;
-    margin-right: 1%;
-  }
-  .stock li:nth-child(2n){
-    margin-right: auto;
+    width: 31%;
   }
     
   .sec02 .btn02{
@@ -1237,6 +1232,10 @@ video {
   .sec04 .text02{
     font-size: 16px;
     margin: 0 auto 30px;
+  }
+    
+  .instagram .tit05 .btn a{
+    padding: 6px 30px;
   }
 
   .stores{
@@ -1464,7 +1463,7 @@ video {
   width: auto;
 }
 .stock li{
-  width: 49%;
+  width: 48%;
   margin-bottom: 20px;
   position: relative;
 }
@@ -1485,6 +1484,9 @@ video {
       width: 100%;
       float: none;
    }
+  .instagram .tit05 .btn a{
+      padding: 14px 30px;
+   }
   .instagram .image{
       margin-top: 30px;
       width: 100%;
@@ -1497,7 +1499,6 @@ video {
       width: 100%;
       margin-top: auto;
    }
-    
    .instagram .insta li{
       width: 48%;
       margin-right: auto;
