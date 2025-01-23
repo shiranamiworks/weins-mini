@@ -374,6 +374,15 @@ End-responsible-contents  only-pc
   font-size: 24px;
   line-height: 1.8;
 }
+.sec01 .text02{
+  clear: both;
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 1.6;
+  border: 1px solid;
+  display: inline-block;
+  padding: 20px;
+}
 
 .sec02.bg{
   background: rgba(183,226,244,.5);
@@ -389,6 +398,9 @@ End-responsible-contents  only-pc
   margin-left: 3.5%;
   margin-top: -30px;
   margin: -30px auto 0 3.5%;
+}
+.sec02.bg .tit span{
+  font-size: 20px;
 }
 .sec02.bg .sub{
     position: relative;
@@ -421,6 +433,12 @@ End-responsible-contents  only-pc
 }
 .sec02.bg .art.art02 .sub::after{
   height: 0;
+}
+.sec02 .btn02{
+  max-width: 400px;
+  width: 94%;
+  margin: auto;
+  text-align: center;
 }
 /*
 .sec02.bg .art.art03 .sub::after{
@@ -456,7 +474,7 @@ End-responsible-contents  only-pc
    text-align: center;
 }
 .sec02 .art .full .txt01{
-   font-size: 24px;
+   font-size: 22px;
    line-height: 1.4;
    text-align: left;
    width: 100%;
@@ -469,7 +487,7 @@ End-responsible-contents  only-pc
    float: none;
 }
 .sec02 .art .flat .txt01{
-   font-size: 24px;
+   font-size: 22px;
    line-height: 1.4;
    text-align: left;
    width: 100%;
@@ -490,7 +508,7 @@ End-responsible-contents  only-pc
   position: relative;
 }
 .sec02 .art .txt01{
-   font-size: 24px;
+   font-size: 22px;
    line-height: 1.6;
    width: 50%;
 }
@@ -745,6 +763,10 @@ End-responsible-contents  only-pc
   clear: both;
   font-size: 18px;
 }
+.sec01 .text02 {
+  font-size: 16px;
+  margin: 20px auto;
+}
 .sec02.bg.mb60 {
   margin-bottom: 60px;
 }
@@ -753,6 +775,9 @@ End-responsible-contents  only-pc
 }
 .sec02.bg .tit{
   font-size: 24px;
+}
+.sec02.bg .tit span{
+  font-size: 16px;
 }
 .sec02.bg .sub{
   display: flex;
@@ -823,6 +848,9 @@ End-responsible-contents  only-pc
 .sec02 .art .btn{
    margin: auto;
    width: 100%;
+}
+.sec02 .art.art03{
+   padding-top: 14%;
 }
 
 .sec03 {
