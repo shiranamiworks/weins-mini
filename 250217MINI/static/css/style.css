@@ -422,7 +422,26 @@ video {
   width: 94%;
   margin: auto;
 }
-
+.sec01{
+    padding-bottom: 15%;
+}
+.sec01 .bg{
+    position: relative;
+}
+.sec01 .text{
+    width: 40%;
+    position: absolute;
+    bottom:  13.5%;
+    right: 30%;
+    color: #fff;
+}
+.sec01 .cars{
+    width: 62.5%;
+    position: absolute;
+    bottom: -6%;
+    right: 18.75%;
+}
+    
 .sec02 {
   margin: 100px auto 0;
 }
@@ -639,6 +658,7 @@ video {
   text-align: left;
 }
 
+/*
 .youtube {
   position: relative;
   width: 100%;
@@ -652,56 +672,93 @@ video {
   width: 100%;
   height: 100%;
 }
+*/
 
-.instagram{
+.sns{
     position: relative;
     border-bottom: 1px solid #d1d1d1;
     margin: 30px auto;
     padding-bottom: 80px;
     text-align: center;
 }
-.instagram.wrap{
+.sns.wrap{
     max-width: 1200px;
     width: 94%;
 }
-.instagram .tit05{
+.sns .tit05{
     margin-top: 50px;
     width: 25%;
     float: left;
 }
-.instagram .tit05 .image{
+.sns .tit05 .image{
     max-width: 260px;
     margin: auto;
 }
-.instagram .tit05 .lead{
+.sns .tit05 .lead{
     display: inline-block;
     line-height: 1.6;
     text-align: left;
     font-size: 14px;
     padding-bottom: 20px;
 }
-.instagram .tit05 .btn a{
+.sns .tit05 .btn a{
   color: #fff;
   background: linear-gradient(90deg, rgb(236, 0, 23), rgb(193, 0, 154));
   padding: 12px 30px;
   display: inline-block;
   transition: .3s;
 }
-.instagram .tit05 .btn a:hover {
+.sns .tit05 .btn a:hover {
   transform: scale(1.1);
 }
-.instagram .insta{
+.sns .insta{
     width: 70%;
     float: right;
     margin-top: 80px;
 }
-.instagram .insta li{
+.sns .insta li{
     display: inline-block;
     width: 23%;
     margin-right: 1%;
 }
-.instagram .insta li:last-child{
+.sns .insta li:last-child{
     margin-right: auto;
+}
+.sns .tit05 .btn02 a{
+  color: #fff;
+  background: #000;
+  padding: 18px 30px;
+  display: inline-block;
+  transition: .3s;
+}
+.sns .tit05 .btn02 a:hover {
+  transform: scale(1.1);
+}
+.sns .youtube{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px -48px 0;
+    float: right;
+}
+.sns .youtube li{
+    width: 46%;
+    margin-right: 10px;
+}
+.sns .youtube li:last-child{
+    margin-right: auto;
+}
+.sns .youtube li.frame{
+    position: relative;
+    padding-top: 28.25%;
+}
+.sns .youtube li.frame>iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .sec04{
@@ -1156,7 +1213,16 @@ video {
   .stock li{
     width: 31%;
   }
-    
+  .sec01 .text{
+      width: 50%;
+      right: 20%;
+      bottom: 10%;
+  }
+  .sec01 .cars{
+      width: 80%;
+      right: 10%;
+      bottom: -11%;
+  }
   .sec02 .btn02{
       bottom: 31%;
   }
@@ -1269,7 +1335,7 @@ video {
   margin-bottom: 30px;
 }
 .intro .mark{
-  width: 100%;
+  width: 75%;
 }
 .intro .txt01{
   font-size: 14px;
@@ -1282,6 +1348,20 @@ video {
   line-height: 1.6;
   margin: 0 auto 30px;
 }
+ 
+.sec01 {
+   padding-bottom: 70%;
+} 
+.sec01 .text{
+   width: 80%; 
+   bottom: 8%;
+   right: 10%;
+} 
+.sec01 .cars{
+   width: 90%; 
+   bottom: -30%;
+   right: 5%;
+}  
     
 .sec02 {
   margin: 50px auto 0;
@@ -1429,39 +1509,54 @@ video {
     padding: 30px 0 50px;
     text-align: center;
   }
-  .instagram.wrap{
+  .sns.wrap{
     width: 86%;
     margin: 30px auto 0;
+    overflow: hidden;
   }
-  .instagram .tit05{
+  .sns .tit05{
       margin: 0 auto 30px;
       width: 100%;
       float: none;
    }
-  .instagram .tit05 .btn a{
+  .sns .tit05 .btn a{
       padding: 14px 30px;
    }
-  .instagram .image{
+  .sns .image{
       margin-top: 30px;
       width: 100%;
       float: none;
    }
-   .instagram .tit05 .insta{
+   .sns .tit05 .insta{
       width: 100%;
    }
-   .instagram .insta{
+   .sns .insta{
       width: 100%;
       margin-top: auto;
    }
-   .instagram .insta li{
+   .sns .insta li{
       width: 48%;
       margin-right: auto;
       margin-bottom: 2%;
    }
-   .instagram .insta li:last-child{
+   .sns .insta li:last-child{
       margin-bottom: auto;
    }
+   .sns .youtube{
+      width: 94%;
+      margin: 0 3%;
+      display: block;
+      
+   }
+   .sns .youtube li.frame{
+      width: 100%;
+      padding-top: 58.25%;
+   }
+   .sns .youtube li:last-child{
+      margin-top: 20px;
+   }
 
+    
   .btn a{
     font-size: 17px;
   }    
