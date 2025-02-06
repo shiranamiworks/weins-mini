@@ -657,7 +657,11 @@ video {
   margin: auto;
   text-align: left;
 }
-
+.sec06 {
+  max-width: 1200px;
+  width: 94%;
+  margin: 30px auto 0;
+}
 /*
 .youtube {
   position: relative;
