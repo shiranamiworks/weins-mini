@@ -408,34 +408,29 @@ margin-bottom: 30px;
   font-size: 34px;
   display: block;
 }
-.sec01 .text .font70{
-  font-size: 70%;
+.sec01 .text .font80{
+  font-size: 80%;
 }
 .sec01 .text .red{
   display: inline-block;
   color: #E7034A;
   border: 1px solid;
+  line-height: 1.4;
   padding: 15px 20px 10px;
   margin-bottom: 20px;
+}
+.sec01 .text .mini{
+  font-size: 80%;
 }
 .sec01 .test-drive .text{
   padding-bottom: 0;
   border-bottom: none;
+  margin-bottom: 20px;
 }
-.sec01 .text01{
-  font-size: 30px;
-  line-height: 1.8;
-  margin-bottom: 10px;
-}
-.sec01 .text01 .orange{
-  color: #ed5700;
-  font-size: 34px;
-}
-.sec01 .text01 .mini{
+.sec01 .test-drive .text01{
   font-size: 15px;
-  display: block;
-  padding-top: 10px;
-  margin-bottom: 30px;
+  line-height: 1.7;
+  margin-bottom: 80px;
 }
 .sec01 .list01{
   margin-bottom: 20px;
@@ -1304,6 +1299,7 @@ margin-bottom: 30px;
 .test-drive .txt{
   font-size: 18px;
   margin: 20px 0;
+  text-align: left;
 }
 .test-drive .detail{
   font-size: 16px;
@@ -1453,6 +1449,18 @@ margin-bottom: 30px;
 /*    width: 94%;*/
     margin: auto;
   }
+    
+  .sec01 .text .mini{
+    font-size: 90%;
+  }
+.sec01 .test-drive .red{
+  margin-bottom: 0px;
+}
+.sec01 .test-drive .text01{
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 40px;
+}
   .stock{
     width: 100%;
   }
