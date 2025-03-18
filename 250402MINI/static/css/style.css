@@ -507,14 +507,36 @@ video {
 
 .sec01{
   margin-bottom: 120px;
+  text-align: center;
 }
 .sec01 .img02{
   max-width: 790px;
-  margin: 120px auto 60px;
+  margin: 120px auto 30px;
+}
+.sec01 .text{
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.sec01 .text02{
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.6;
+  display: inline-block;
+  border: 1px solid;
+  margin: 0 auto 50px;
+  padding: 10px 20px;
 }
 .sec01 .img03{
   max-width: 1000px;
-  margin: 0 auto 80px;
+  margin: 0 auto 20px;
+}
+.sec01 .mini{
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 80px;
 }
 .sec01 .btns{
   text-align: center;
@@ -541,11 +563,46 @@ video {
 .points{
   background: #F6F1EB;
   padding: 120px 0;
+  margin: auto;
+  text-align: center;
 }
+.points .tit {
+    font-size: 30px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+.points .lead {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+.points .lists {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.points .lists li {
+    display: inline-block;
+    width: 31%;
+    margin-right: 2%;
+    vertical-align: top;
+}
+.points .lists .txt {
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: left;
+    margin: 10px auto;
+}
+.points .lists .txt02 {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+}
+/*
 .points .image{
   max-width: 1000px;
   margin: auto;
 }
+*/
     
 .sec02 {
   margin: 100px auto 0;
@@ -579,7 +636,9 @@ video {
 .sec03 {
   max-width: 1200px;
   width: 94%;
-  margin: 30px auto 0;
+  margin: 30px auto 70px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #d1d1d1;
 }
 
 .new-mini{
@@ -763,7 +822,7 @@ video {
   text-align: left;
 }
 .sec06 {
-  max-width: 1200px;
+  max-width: 1220px;
   width: 94%;
   margin: 30px auto 0;
 }
@@ -820,10 +879,12 @@ video {
 .sns .tit05 .btn a:hover {
   transform: scale(1.1);
 }
+.sns.instagram .tit05{
+    margin-top: 0px;
+}
 .sns .insta{
     width: 70%;
     float: right;
-    margin-top: 80px;
 }
 .sns .insta li{
     display: inline-block;
@@ -1050,8 +1111,8 @@ video {
   line-height: 1.7;
 }
 .holiday {
-  font-size: 22px;
-  line-height: 1.7;
+  font-size: 19px;
+  line-height: 1.9;
   text-align: center;
   border: 1px solid;
   display: table;
@@ -1435,7 +1496,7 @@ video {
   margin-bottom: 30px;
 }
 .intro .mark{
-  width: 75%;
+  width: 100%;
 }
 .intro .txt01{
   font-size: 14px;
@@ -1516,8 +1577,8 @@ video {
   margin-bottom: 16px;
 }
 .bg02 .btns a{
-  font-size: 15px;
-  padding: 26px 0;
+  font-size: 17px;
+  padding: 28px 0 25px;
 }
 
 .sec01{
@@ -1535,14 +1596,28 @@ video {
   margin: auto;
 }
 .sec01 .btns a{
-  font-size: 15px;
-  padding: 26px 0;
+  font-size: 17px;
+  padding: 28px 0 25px;
 }
 
 .points{
   padding: 60px 0;
 }
-    
+.points .tit {
+    font-size: 24px;
+}
+.points .lead {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+.points .lists li {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+ 
 .sec02 {
   margin: 50px auto 0;
 }
