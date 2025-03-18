@@ -477,6 +477,9 @@ video {
   background: url(../images/top/bg06.jpg) top;
   background-size: cover;
 }
+.bg-fix.fix06 {
+  background-color: #000;
+}
 
 .bg01{
   background: #000;
@@ -604,7 +607,7 @@ video {
 }
 .points .lists .txt02 {
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1.6;
     text-align: left;
 }
 /*
