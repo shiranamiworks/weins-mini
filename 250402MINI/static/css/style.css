@@ -370,7 +370,7 @@ video {
   margin: auto;
 }
 .intro .mark{
-  max-width: 642px;
+  max-width: 854px;
   margin: auto;
 }
 .intro .txt01{
@@ -422,49 +422,129 @@ video {
   width: 94%;
   margin: auto;
 }
+
+.bg-fix .parallax {
+  background: url(../images/top/bg01.jpg) top;
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-fix .area {
+  max-width: 1150px;
+  width: 90%;
+  margin: auto;
+  padding: 0 0 160px;
+  position: relative;
+}
+.bg-fix .card {
+  max-width: 448px;
+  margin: auto;
+  padding: 0 0 160px;
+  position: relative;
+}
+.bg-fix.fix02 .parallax {
+  background: url(../images/top/bg02.jpg) top;
+  background-size: cover;
+}
+.bg-fix.fix03 .parallax {
+  background: url(../images/top/bg03.jpg) top;
+  background-size: cover;
+}
+.bg-fix.fix04 .parallax {
+  background: url(../images/top/bg04.jpg) top;
+  background-size: cover;
+}
+.bg-fix.fix05 .parallax {
+  background: url(../images/top/bg05.jpg) top;
+  background-size: cover;
+}
+.bg-fix.fix06 .parallax {
+  background: url(../images/top/bg06.jpg) top;
+  background-size: cover;
+}
+
+.bg01{
+  background: #000;
+  padding: 350px 0;
+}
+.bg01 .image{
+  max-width: 480px;
+  margin: auto;
+}
+.bg02{
+  text-align: center;
+  background: #000;
+  padding: 140px 0;
+}
+.bg02 .btns{
+  max-width: 770px;
+  width: 90%;
+  margin: auto;
+}
+.bg02 .btn01{
+  margin-bottom: 36px;
+}
+.bg02 .btns a{
+  color: #fff;
+  background: #B40000;
+  border: 1px solid #B40000;
+  font-size: 20px;
+  padding: 30px 0;
+  display: block;
+  transition: .3s;
+}
+.bg02 .btns a:hover{
+  opacity: 1;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+}
+
 .sec01{
-    padding-bottom: 10%;
-    background-color: #000;
+  margin-bottom: 120px;
 }
-.sec01 .bg{
-    position: relative;
+.sec01 .img02{
+  max-width: 790px;
+  margin: 120px auto 60px;
 }
-.sec01 .text{
-    width: 40%;
-    position: absolute;
-    bottom:  13.5%;
-    right: 30%;
-    color: #fff;
+.sec01 .img03{
+  max-width: 1000px;
+  margin: 0 auto 80px;
 }
-.sec01 .cars{
-    width: 62.5%;
-    position: absolute;
-    bottom: -6%;
-    right: 18.75%;
+.sec01 .btns{
+  text-align: center;
+  max-width: 770px;
+  width: 90%;
+  margin: auto;
 }
-.sec01 .btn03{
-    margin: 100px auto 0;
-    width: 94%;
+.sec01 .btns a{
+  color: #fff;
+  background: #B40000;
+  border: 1px solid #B40000;
+  font-size: 20px;
+  padding: 30px 0;
+  display: block;
+  transition: .3s;
 }
-.sec01 .btn03 a{
-    display: block;
-    max-width: 770px;
-    margin: auto;
-    background: #B40000;
-    border: 1px solid #B40000;
-    color: #fff;
-    padding: 15px;
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.6;
-    border-radius: 3px;
-    transition: .3s;
+.sec01 .btns a:hover{
+  opacity: 1;
+  color: #000;
+  background: transparent;
+  border: 1px solid #000;
 }
-.sec01 .btn03 a:hover {
-    background: none;
-    color: #B40000;
-    border: 1px solid #B40000;
-    opacity: 1;
+
+.points{
+  background: #F6F1EB;
+  padding: 120px 0;
+}
+.points .image{
+  max-width: 1000px;
+  margin: auto;
 }
     
 .sec02 {
@@ -1242,16 +1322,7 @@ video {
   .stock li{
     width: 31%;
   }
-  .sec01 .text{
-      width: 50%;
-      right: 20%;
-      bottom: 10%;
-  }
-  .sec01 .cars{
-      width: 80%;
-      right: 10%;
-      bottom: -11%;
-  }
+
   .sec02 .btn02{
       bottom: 31%;
   }
@@ -1378,11 +1449,98 @@ video {
   margin: 0 auto 30px;
 }
  
-.sec01 {
-   padding-bottom: 20%;
-} 
-.sec01 .btn03{
-    margin: 40px auto 0;
+.bg-fix .parallax {
+  background: url(../images/top/bg01-sp.jpg) top;
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-fix .area {
+  max-width: 1150px;
+  width: 84%;
+  margin: auto;
+  padding: 0 0 100px;
+  position: relative;
+}
+.bg-fix .card {
+  max-width: inherit;
+  width: 100%;
+  margin: auto;
+  background: #000;
+  position: relative;
+  padding: 0 0 40px;
+}
+.bg-fix .card .image{
+  width: 84%;
+  margin: 0 auto;
+}
+.bg-fix.fix02 .parallax {
+  display: none;
+}
+.bg-fix.fix03 .parallax {
+  display: none;
+}
+.bg-fix.fix04 .parallax {
+  display: none;
+}
+.bg-fix.fix05 .parallax {
+  display: none;
+}
+.bg-fix.fix06 .parallax {
+  display: none;
+}
+
+.bg01{
+  background: #000;
+  padding: 60px 0 100px;
+}
+.bg01 .image{
+  width: 84%;
+  margin: auto;
+}
+.bg02{
+  text-align: center;
+  background: #000;
+  padding: 20px 0 60px;
+}
+.bg02 .btns{
+  width: 84%;
+  margin: auto;
+}
+.bg02 .btn01{
+  margin-bottom: 16px;
+}
+.bg02 .btns a{
+  font-size: 15px;
+  padding: 26px 0;
+}
+
+.sec01{
+  margin-bottom: 60px;
+}
+.sec01 .img02{
+  margin: 40px auto 30px;
+}
+.sec01 .img03{
+  max-width: 1000px;
+  margin: 0 auto 30px;
+}
+.sec01 .btns{
+  width: 84%;
+  margin: auto;
+}
+.sec01 .btns a{
+  font-size: 15px;
+  padding: 26px 0;
+}
+
+.points{
+  padding: 60px 0;
 }
     
 .sec02 {
