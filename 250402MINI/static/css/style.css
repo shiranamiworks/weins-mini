@@ -222,12 +222,16 @@ End-responsible-contents  only-pc
 
 .fixed-banner {
   position: fixed;
-  width: 340px;
+  width: 300px;
   height: auto;
-  bottom: 0%;
+  bottom: 13%;
   right: 0%;
   transform: translateY(-50%);
   z-index: 10000;
+}
+.fixed-banner.bnr02{
+  bottom: 0%;
+  right: 0%;
 }
 .fixed-banner a{
   display: block;
@@ -250,13 +254,19 @@ End-responsible-contents  only-pc
 @media (max-width: 768px) {
   .fixed-banner {
     max-width: inherit;
-    width: auto;
+    width: 50%;
     top: auto;
     bottom: 0;
-    right: 0;
+    left: 0;
+    right: auto;
     transform: translateY(0);
     z-index: 30;
   }
+  .fixed-banner.bnr02{
+    top: auto;
+    bottom: 0;
+    left: 50%;
+}
   .fixed-banner img.pc-img {
     display: none;
   }
@@ -264,8 +274,8 @@ End-responsible-contents  only-pc
     display: inherit;
   }
   .fixed-banner .close {
-    width: 30px;
-    top: 1px;
+    width: 26px;
+    top: -8px;
   }
 }
 
