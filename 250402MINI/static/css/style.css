@@ -224,7 +224,7 @@ End-responsible-contents  only-pc
   position: fixed;
   width: 300px;
   height: auto;
-  bottom: 13%;
+  bottom: 18%;
   right: 0%;
   transform: translateY(-50%);
   z-index: 10000;
@@ -448,13 +448,13 @@ video {
   max-width: 1150px;
   width: 90%;
   margin: auto;
-  padding: 0 0 160px;
+  padding: 30% 0 45%;
   position: relative;
 }
 .bg-fix .card {
   max-width: 448px;
   margin: auto;
-  padding: 0 0 160px;
+  padding: 25% 0 15%;
   position: relative;
 }
 .bg-fix.fix02 .parallax {
@@ -520,11 +520,17 @@ video {
 
 .sec01{
   margin-bottom: 120px;
+  padding: 140px 0;
+  background: #fff;
   text-align: center;
+}
+.sec01 .img01{
+  max-width: 1000px;
+  margin: 0 auto 30px;
 }
 .sec01 .img02{
   max-width: 790px;
-  margin: 120px auto 30px;
+  margin: 0 auto 50px;
 }
 .sec01 .text{
   font-size: 16px;
@@ -1538,7 +1544,7 @@ video {
   max-width: 1150px;
   width: 84%;
   margin: auto;
-  padding: 0 0 100px;
+  padding: 60% 0 90%;
   position: relative;
 }
 .bg-fix .card {
