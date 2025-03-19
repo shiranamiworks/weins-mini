@@ -1993,6 +1993,9 @@ video {
   .store-list .link a{
     font-size: 18px;
   }
+  .page-top {
+    bottom: 14%;
+}
 }
 
 footer {
