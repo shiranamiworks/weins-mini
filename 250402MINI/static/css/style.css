@@ -224,13 +224,13 @@ End-responsible-contents  only-pc
   position: fixed;
   width: 300px;
   height: auto;
-  bottom: 18%;
+  bottom: 24%;
   right: 0%;
   transform: translateY(-50%);
   z-index: 10000;
 }
 .fixed-banner.bnr02{
-  bottom: 0%;
+  bottom: 6%;
   right: 0%;
 }
 .fixed-banner a{
@@ -379,6 +379,11 @@ video {
   width: 94%;
   margin: auto;
 }
+.intro .text{
+  font-size: 18px;
+  margin: 40px auto;
+  line-height: 1.6;
+}
 .intro .mark{
   max-width: 854px;
   margin: auto;
@@ -392,6 +397,28 @@ video {
   font-size: 28px;
   line-height: 2;
   margin: 0 auto 60px;
+}
+
+.anchor{
+    margin: 0 auto 100px;
+    text-align: center;
+}
+.anchor li{
+    width: 300px;
+    display: inline-block;
+    border: 1px solid;
+    padding: 16px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.anchor .anc01{
+    background-color: #E00000;
+    border: 1px solid #E00000;
+}
+.anchor .anc02{
+    background-color: #000;
+    border: 1px solid #000;
 }
 
 .outer {
@@ -448,15 +475,29 @@ video {
   max-width: 1150px;
   width: 90%;
   margin: auto;
-  padding: 30% 0 45%;
+  padding: 30% 0;
   position: relative;
 }
+.bg-fix .card {
+  margin: 200px auto;
+  text-align: center;
+}
+.bg-fix .card li{
+  display: inline-block;
+  width: 31%;
+  margin-right: 2%;
+}
+.bg-fix .card li:last-child{
+  margin-right: auto;
+}
+/*
 .bg-fix .card {
   max-width: 448px;
   margin: auto;
   padding: 25% 0 15%;
   position: relative;
 }
+*/
 .bg-fix.fix02 .parallax {
   background: url(../images/top/bg02.jpg) top;
   background-size: cover;
@@ -470,15 +511,16 @@ video {
   background-size: cover;
 }
 .bg-fix.fix05 .parallax {
-  background: url(../images/top/bg05.jpg) top;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/top/bg05.jpg) top;
   background-size: cover;
 }
 .bg-fix.fix06 .parallax {
   background: url(../images/top/bg06.jpg) top;
   background-size: cover;
 }
-.bg-fix.fix03 {
-  background-color: #000;
+.bg-fix.fix05 .image{
+  max-width: 600px;
+  margin: auto;
 }
 .bg-fix.fix06 {
   background-color: #000;
@@ -1396,6 +1438,15 @@ video {
     max-height:100vh;
 }
 
+.page-top {
+    position: fixed;
+    display: block;
+    width: 40px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9;
+}
+
 @media screen and (max-width:1024px) {
   .pageTabs {
     display: inherit;
@@ -1534,6 +1585,14 @@ video {
   line-height: 1.6;
   margin: 0 auto 30px;
 }
+    
+.anchor{
+    margin: 0 auto 50px;
+}
+.anchor li{
+    margin-bottom: 10px;
+    margin-right: auto;
+}
  
 .bg-fix .parallax {
   background: url(../images/top/bg01-sp.jpg) top;
@@ -1550,9 +1609,23 @@ video {
   max-width: 1150px;
   width: 84%;
   margin: auto;
-  padding: 60% 0 90%;
+  padding: 60% 0 0;
   position: relative;
 }
+.bg-fix .card {
+  margin: 100px auto;
+  text-align: center;
+}
+.bg-fix .card li{
+  display: block;
+  width: 100%;
+  margin-right:auto;
+  margin-bottom: 5%;
+}
+.bg-fix .card li:last-child{
+  margin-right: auto;
+}
+/*
 .bg-fix .card {
   max-width: inherit;
   width: 100%;
@@ -1561,6 +1634,7 @@ video {
   position: relative;
   padding: 0 0 40px;
 }
+*/
 .bg-fix .card .image{
   width: 84%;
   margin: 0 auto;
@@ -1574,9 +1648,11 @@ video {
 .bg-fix.fix04 .parallax {
   display: none;
 }
+/*
 .bg-fix.fix05 .parallax {
   display: none;
 }
+*/
 .bg-fix.fix06 .parallax {
   display: none;
 }
@@ -1943,7 +2019,7 @@ footer .image{
   }
   footer{
     width:90%;
-    margin: 30px auto 50px;
+    margin: 30px auto 110px;
   }
 }
 
