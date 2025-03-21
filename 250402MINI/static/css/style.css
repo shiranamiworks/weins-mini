@@ -1250,8 +1250,9 @@ video {
 }
 .store-list .name{
   position: relative;
-  font-size: 21px;
+  font-size: 24px;
   line-height: 1.25;
+  padding-bottom: 10px;
 }
 .store-list .name01{
   line-height: .25;
@@ -1267,11 +1268,11 @@ video {
   vertical-align: middle;
 }
 .store-list .add{
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
 }
 .store-list .link{
-  margin-top: 40px;
+  margin-top: 35px;
   display: inline-block;
 }
 .store-list .link a{
@@ -1521,7 +1522,6 @@ video {
   }
   .store-list .name{
     font-size: 22px;
-    margin-bottom: 10px;
   }
   .store-list .mini-logo{
     width: 30%;
@@ -1970,7 +1970,6 @@ video {
   }
   .store-list .name{
     font-size: 22px;
-    margin-bottom: 10px;
   }
   .store-list .name .new{
     font-size: 12px;
