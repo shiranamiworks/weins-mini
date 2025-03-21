@@ -1614,11 +1614,11 @@ video {
   max-width: 1150px;
   width: 84%;
   margin: auto;
-  padding: 60% 0 0;
+  padding: 0;
   position: relative;
 }
 .bg-fix .card {
-  margin: 100px auto;
+  margin: 50px auto;
   text-align: center;
 }
 .bg-fix .card li{
@@ -1673,7 +1673,7 @@ video {
 .bg02{
   text-align: center;
   background: #000;
-  padding: 20px 0 60px;
+  padding: 60px 0;
 }
 .bg02 .btns{
   width: 84%;
