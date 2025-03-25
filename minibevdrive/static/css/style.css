@@ -465,6 +465,15 @@ margin-bottom: 30px;
   padding: 20px;
   box-sizing: border-box;
 }
+.test-drive .course {
+    margin: 30px auto 50px;
+    max-width: 1000px;
+}
+.test-drive .course .notes {
+    font-size: 11px;
+    line-height: 1.4;
+    padding-top: 30px;
+}
 
 /*
 .sec01 .list01{
@@ -1506,7 +1515,10 @@ margin-bottom: 30px;
   .test-drive .text03 {
     font-size: 16px;
     margin: 0;
-}
+  }
+  .test-drive .course .notes {
+    text-align: left;
+  }
 
   .stock{
     width: 100%;
