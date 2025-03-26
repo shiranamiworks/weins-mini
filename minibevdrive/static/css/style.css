@@ -577,6 +577,7 @@ margin-bottom: 30px;
   display: block;
   padding-bottom: 5px;
   font-size: 40px;
+  line-height: 1.4;
   color: #e00000;
 }
 .sec02 .list02{
@@ -599,6 +600,7 @@ margin-bottom: 30px;
 .sec02 .notes{
   text-align: center;
   font-size: 11px;
+  line-height: 1.4;
   color: #fff;
   padding-top: 40px;
 }
@@ -607,6 +609,7 @@ margin-bottom: 30px;
   margin: 30px auto 100px;
   text-align: center;
   font-size: 25px;
+  line-height: 1.4;
   color: #fff;
   border: 1px solid;
   padding: 10px 20px;
