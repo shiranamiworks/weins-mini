@@ -1230,6 +1230,9 @@ margin-bottom: 30px;
 }
 
 @media screen and (max-width:1024px) {
+  .all_wrap{
+    overflow:hidden;
+  }
   .main-visual {
     margin-bottom: 20px;
   }
