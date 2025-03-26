@@ -257,8 +257,8 @@ End-responsible-contents  only-pc
     display: inherit;
   }
   .fixed-banner .close {
-    width: 26px;
-    top: 0px;
+    width: 20px;
+    top: -10px;
   }
 }
 
