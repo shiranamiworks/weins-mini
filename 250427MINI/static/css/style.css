@@ -346,24 +346,13 @@ video {
 .main-visual {
   position: relative;
   text-align: center;
-  margin-bottom: 80px;
 }
 .main-visual img {
   width: 100%;
 }
-
 .main-contents {
   width: 100%;
   margin: auto;
-/*
-  opacity: 0;
-  position: absolute;
-  top: 100%;
-*/
-/*
-  -webkit-transform: translate(0);
-  transform: translate(0);
-*/
   z-index: 2;
   background: #fff;
 }
@@ -371,55 +360,142 @@ video {
   width: 100%;
 }
 
+.black{
+  background: #000;
+}
 .intro{
   text-align: center;
-  margin-bottom: 80px;
+  padding: 80px 0 120px;
 }
 .intro .wrap{
   width: 94%;
   margin: auto;
 }
-.intro .text{
-  font-size: 18px;
-  margin: 40px auto;
-  line-height: 1.6;
+.intro .bnr{
+  max-width: 550px;
+  margin: 0 auto 120px;
 }
-.intro .mark{
-  max-width: 854px;
+.intro .bnr a img{
+  transition: .5s;
+  transform: scale(.9);
+}
+.intro .bnr a:hover{
+  opacity: 1;
+}
+.intro .bnr a:hover img{
+  transform: scale(1);
+}
+.intro .txt{
+  max-width: 800px;
   margin: auto;
 }
-.intro .txt01{
-  font-size: 23px;
-  line-height: 1.8;
+
+.electrics{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 180px;
+}
+.electrics .wrap{
+  max-width: 1400px;
+  width: 90%;
+  margin: auto;
+}
+.electrics .tit{
+  width: 44%;
+  margin: 0;
+}
+.electrics .img01{
+  margin-top: -18%;
+  margin-bottom: 80px;
+}
+.electrics .logo{
+  max-width: 170px;
   margin: 0 auto 40px;
 }
-.intro .lead{
-  font-size: 28px;
+.electrics .txt{
+  font-size: 40px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.electrics .lead{
+  font-size: 15px;
   line-height: 2;
+  margin-bottom: 60px;
+}
+.electrics .list{
+  max-width: 884px;
   margin: 0 auto 60px;
 }
+.electrics .list .info{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.electrics .card{
+  max-width: 1100px;
+  margin: 0 auto 40px;
+}
+.button{
+  max-width: 1100px;
+  margin: auto;
+}
+.button a{
+  display: block;
+  background: #C11C1C;
+  color: #fff;
+  font-size: 20px;
+  padding: 30px 0;
+}
+.elect02 .img01{
+  margin-top: -11%;
+  margin-bottom: 80px;
+}
+.slick-slide{
+  transform: scale(0.8);
+  transition: all .5s;
+  opacity: 0.5;
+}
+.slick-slide.slick-center{
+  transform: scale(1);
+  opacity: 1;
+}
+.slick-dots {
+  bottom: auto;
+  text-align:center;
+  margin:20px 0 0 0;
+}
+.slick-dots li {
+  display:inline-block;
+  margin: 0 14px;
+}
+.slick-dots button {
+  color: transparent;
+  outline: none;
+  width:8px;
+  height:8px;
+  display:block;
+  border-radius:50%;
+  background:#959595;
+}
+.slick-dots .slick-active button{
+  background:#fff;
+}
+.slick-dots li button{
+  width: 12px !important;
+  height: 12px !important;
+}
+.slick-dots button{
+  border: 1px solid #fff !important;
+}
+@media screen and (max-width:768px) {
 
-.anchor{
-    margin: 0 auto 100px;
-    text-align: center;
-}
-.anchor li {
-    display: inline-block;
-}
-.anchor li .tit{
-    width: 300px;
-    font-size: 18px;
-    color: #fff;
-    padding: 16px 0;
-}
-
-.anchor .anc01{
-    background-color: #E00000;
-    border: 1px solid #E00000;
-}
-.anchor .anc02{
-    background-color: #000;
-    border: 1px solid #000;
+  .slick-dots {
+    margin:10px 0 0 0;
+  }
+  .slick-dots li {
+    display:inline-block;
+    margin: 0 5px;
+  }
 }
 
 .outer {
@@ -460,215 +536,10 @@ video {
   width: 94%;
   margin: auto;
 }
-
-.bg-fix .parallax {
-  background: url(../images/top/bg01.jpg) top;
-  width: 100%;
-  height: 100vh;
-  position: sticky;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.bg-fix .area {
-  max-width: 1150px;
-  width: 90%;
-  margin: auto;
-  padding: 30% 0;
-  position: relative;
-}
-.bg-fix .card {
-  margin: 200px auto;
-  text-align: center;
-}
-.bg-fix .card li{
-  display: inline-block;
-  width: 31%;
-  margin-right: 2%;
-}
-.bg-fix .card li:last-child{
-  margin-right: auto;
-}
-/*
-.bg-fix .card {
-  max-width: 448px;
-  margin: auto;
-  padding: 25% 0 15%;
-  position: relative;
-}
-*/
-.bg-fix.fix02 .parallax {
-  background: url(../images/top/bg02.jpg) top;
-  background-size: cover;
-}
-.bg-fix.fix03 .parallax {
-  background: url(../images/top/bg03.jpg) top;
-  background-size: cover;
-}
-.bg-fix.fix04 .parallax {
-  background: url(../images/top/bg04.jpg) top;
-  background-size: cover;
-}
-.bg-fix.fix05 .parallax {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/top/bg05.jpg) top;
-  background-size: cover;
-}
-.bg-fix.fix06 .parallax {
-  background: url(../images/top/bg06.jpg) top;
-  background-size: cover;
-}
-.bg-fix.fix05 .image{
-  max-width: 600px;
-  margin: auto;
-}
-.bg-fix.fix06 {
-  background-color: #000;
-}
-
-.bg01{
-  background: #000;
-  padding: 350px 0;
-}
-.bg01 .image{
-  max-width: 480px;
-  margin: auto;
-}
-.bg02{
-  text-align: center;
-  background: #000;
-  padding: 140px 0;
-}
-.bg02 .btns{
-  max-width: 770px;
-  width: 90%;
-  margin: auto;
-}
-.bg02 .btn01{
-  margin-bottom: 36px;
-}
-.bg02 .btns a{
-  color: #fff;
-  background: #B40000;
-  border: 1px solid #B40000;
-  font-size: 20px;
-  padding: 30px 0;
-  display: block;
-  transition: .3s;
-}
-.bg02 .btns a:hover{
-  opacity: 1;
-  color: #fff;
+.inner01:after {
   background: transparent;
-  border: 1px solid #fff;
 }
 
-.sec01{
-  margin-bottom: 120px;
-  padding: 140px 0;
-  background: #fff;
-  text-align: center;
-}
-.sec01 .img01{
-  max-width: 1000px;
-  margin: 0 auto 30px;
-}
-.sec01 .img02{
-  max-width: 790px;
-  margin: 0 auto 50px;
-}
-.sec01 .text{
-  font-size: 16px;
-  text-align: center;
-  line-height: 1.6;
-  margin-bottom: 40px;
-}
-.sec01 .text02{
-  font-size: 13px;
-  text-align: center;
-  line-height: 1.6;
-  display: inline-block;
-  border: 1px solid;
-  margin: 0 auto 50px;
-  padding: 10px 20px;
-}
-.sec01 .img03{
-  max-width: 1000px;
-  margin: 0 auto 20px;
-}
-.sec01 .mini{
-  font-size: 12px;
-  text-align: center;
-  line-height: 1.6;
-  margin-bottom: 80px;
-}
-.sec01 .btns{
-  text-align: center;
-  max-width: 770px;
-  width: 90%;
-  margin: auto;
-}
-.sec01 .btns a{
-  color: #fff;
-  background: #B40000;
-  border: 1px solid #B40000;
-  font-size: 20px;
-  padding: 30px 0;
-  display: block;
-  transition: .3s;
-}
-.sec01 .btns a:hover{
-  opacity: 1;
-  color: #000;
-  background: transparent;
-  border: 1px solid #000;
-}
-
-.points{
-  background: #F6F1EB;
-  padding: 120px 0;
-  margin: auto;
-  text-align: center;
-}
-.points .tit {
-    font-size: 30px;
-    line-height: 1.8;
-    margin-bottom: 10px;
-}
-.points .lead {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 60px;
-}
-.points .lists {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-.points .lists li {
-    display: inline-block;
-    width: 31%;
-    margin-right: 2%;
-    vertical-align: top;
-}
-.points .lists .txt {
-    font-size: 20px;
-    line-height: 1.4;
-    text-align: left;
-    margin: 10px auto;
-}
-.points .lists .txt02 {
-    font-size: 14px;
-    line-height: 1.6;
-    text-align: left;
-}
-/*
-.points .image{
-  max-width: 1000px;
-  margin: auto;
-}
-*/
-    
 .sec02 {
   margin: 100px auto 0;
 }
@@ -713,10 +584,7 @@ video {
   text-align: center;
   font-size: 30px;
   line-height: 1.8;
-  margin: 0px auto;
-}
-.new-mini .tit span{
-  font-size: 18px;
+  margin: 0px auto 40px;
 }
 .new-mini .image.img01{
   margin-bottom: 50px;
@@ -728,16 +596,37 @@ video {
   line-height: 1.6;
   margin-bottom: 25px;
 }
-.new-mini .tit-small{
-  font-size: 12px;
-  text-align: center;
-  padding-top: 10px;
-  line-height: 1.6;
-  margin-bottom: 50px;
-}
 .new-mini .txt{
   font-size: 32px !important;
   margin: 0 auto 20px;
+}
+.new-mini .mini{
+  font-size: 11px;
+  line-height: 1.6;
+  margin-top: 10px;
+  text-align: center;
+}
+.new-mini .box-tit{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background: #68C8F0;
+  padding: 20px 0 18px;
+  margin-bottom: 20px;
+}
+.new-mini .tit02{
+  background: #113F94;
+}
+.new-mini .tit03{
+  background: #641978;
+}
+.new-mini .lead{
+  font-size: 13px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.new-mini .imgs{
+  margin-bottom: 30px;
 }
 
 .lineup{
@@ -1313,14 +1202,25 @@ video {
   margin: 0 auto 60px;
 }
 .stock li{
-  width: 32%;
+  width: 30%;
   display: inline-block;
-  margin-right: 1%;
+  vertical-align: top;
   margin-bottom: 50px;
   position: relative;
 }
+.stock li:nth-child(2){
+  margin-right: 2%;
+  margin-left: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
 .stock li .image{
   position: relative;
+}
+.stock li .image.bottom{
+  margin-bottom: 30px;
 }
 .stock li .arrow{
   position: absolute;
@@ -1589,140 +1489,6 @@ video {
   font-size: 20px;
   line-height: 1.6;
   margin: 0 auto 30px;
-}
-    
-.anchor{
-    margin: 0 auto 50px;
-}
-.anchor li{
-    margin-bottom: 10px;
-    margin-right: auto;
-}
- 
-.bg-fix .parallax {
-  background: url(../images/top/bg01-sp.jpg) top;
-  width: 100%;
-  height: 100vh;
-  position: sticky;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.bg-fix .area {
-  max-width: 1150px;
-  width: 84%;
-  margin: auto;
-  padding: 0;
-  position: relative;
-}
-.bg-fix .card {
-  margin: 50px auto;
-  text-align: center;
-}
-.bg-fix .card li{
-  display: block;
-  width: 100%;
-  margin-right:auto;
-  margin-bottom: 5%;
-}
-.bg-fix .card li:last-child{
-  margin-right: auto;
-}
-/*
-.bg-fix .card {
-  max-width: inherit;
-  width: 100%;
-  margin: auto;
-  background: #000;
-  position: relative;
-  padding: 0 0 40px;
-}
-*/
-.bg-fix .card .image{
-  width: 84%;
-  margin: 0 auto;
-}
-.bg-fix.fix02 .parallax {
-  display: none;
-}
-.bg-fix.fix03 .parallax {
-  display: none;
-}
-.bg-fix.fix04 .parallax {
-  display: none;
-}
-/*
-.bg-fix.fix05 .parallax {
-  display: none;
-}
-*/
-.bg-fix.fix06 .parallax {
-  display: none;
-}
-
-.bg01{
-  background: #000;
-  padding: 60px 0 100px;
-}
-.bg01 .image{
-  width: 84%;
-  margin: auto;
-}
-.bg02{
-  text-align: center;
-  background: #000;
-  padding: 60px 0;
-}
-.bg02 .btns{
-  width: 84%;
-  margin: auto;
-}
-.bg02 .btn01{
-  margin-bottom: 16px;
-}
-.bg02 .btns a{
-  font-size: 17px;
-  padding: 28px 0 25px;
-}
-
-.sec01{
-  padding: 20px 0 60px;
-  margin-bottom: 0;
-}
-.sec01 .img02{
-  margin: 40px auto 30px;
-}
-.sec01 .img03{
-  max-width: 1000px;
-  margin: 0 auto 30px;
-}
-.sec01 .btns{
-  width: 84%;
-  margin: auto;
-}
-.sec01 .btns a{
-  font-size: 17px;
-  padding: 28px 0 25px;
-}
-
-.points{
-  padding: 60px 0;
-}
-.points .tit {
-    font-size: 24px;
-}
-.points .lead {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 60px;
-}
-.points .lists li {
-    display: block;
-    width: 100%;
-    margin-right: auto;
-    margin-bottom: 4%;
 }
  
 .sec02 {

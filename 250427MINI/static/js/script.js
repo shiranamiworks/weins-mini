@@ -33,6 +33,25 @@
 //    });
 //  }
 //});
+$(function() {
+  $(".electrics .list").slick({
+    autoplay: true,
+    autoplaySpeed: 3500,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+        slidesToShow: 1,
+        },
+      },
+    ],
+  });
+});
 
 
 $(function(){
