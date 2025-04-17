@@ -222,7 +222,7 @@ End-responsible-contents  only-pc
 
 .fixed-banner {
   position: fixed;
-  width: 300px;
+  width: 230px;
   height: auto;
   bottom: 24%;
   right: 0%;
@@ -422,6 +422,29 @@ video {
   line-height: 2;
   margin-bottom: 60px;
 }
+
+.electrics .list02{
+  margin: 0 auto 50px;
+}
+.electrics .list02 li{
+  display: inline-block;
+  width: 21%;
+  margin-right: 2%;
+  vertical-align: text-top;
+}
+.electrics .list02 li:last-child{
+  margin-right: auto;
+}
+.electrics .list02 .info{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.electrics .card{
+  max-width: 1100px;
+  margin: 0 auto 40px;
+}
+
 .electrics .list{
   max-width: 884px;
   margin: 0 auto 60px;
@@ -1450,11 +1473,6 @@ video {
   overflow: hidden;
 }
 
-.main-visual{
-  margin-bottom: 30px;
-}
-
-
 .content-wrap {
     width: 94%;
     margin: auto;
@@ -1467,10 +1485,14 @@ video {
 /*    width: 94%;*/
     margin: auto;
 }
-
+    
+.intro .bnr {
+    max-width: 550px;
+    margin: 0 auto 40px;
+}
 .intro{
   text-align: left;
-  margin-bottom: 30px;
+  padding: 40px 0 80px;
 }
 .intro .text{
   font-size: 16px;
@@ -1490,7 +1512,49 @@ video {
   line-height: 1.6;
   margin: 0 auto 30px;
 }
- 
+
+.electrics {
+  padding-bottom: 80px;
+}
+.electrics .tit{
+  width: 90%;
+  margin: 0;
+}
+.electrics .img01 {
+  margin-top: -28%;
+  margin-bottom: 80px;
+}
+.electrics .txt {
+  font-size: 26px;
+}
+.electrics .lead {
+  font-size: 14px;
+}
+    
+.electrics .list02{
+  margin: 0 auto 50px;
+}
+.electrics .list02 li{
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+  vertical-align: text-top;
+  margin-bottom: 10px;
+}
+.electrics .list02 li:nth-child(2){
+  margin-right: auto;
+}
+.electrics .list02 li:last-child{
+  margin-right: auto;
+}
+ .electrics .list02 .info {
+  font-size: 12px;
+}
+    
+.electrics .list{
+  width: 90%;
+}
+    
 .sec02 {
   margin: 50px auto 0;
 }
