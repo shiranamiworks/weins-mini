@@ -1630,9 +1630,18 @@ video {
   width: auto;
 }
 .stock li{
-  width: 48%;
-  margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 40px;
   position: relative;
+}
+.stock li:nth-child(2){
+  margin: 0 auto 40px;
+  padding: 0;
+  border-left: none;
+  border-right: none;
+}
+.stock li:last-child{
+  margin: auto;
 }
     
   .sec04 .text01 .mini{
