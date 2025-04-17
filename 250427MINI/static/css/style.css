@@ -254,7 +254,7 @@ End-responsible-contents  only-pc
 @media (max-width: 768px) {
   .fixed-banner {
     max-width: inherit;
-    width: 50%;
+    width: 100%;
     top: auto;
     bottom: 0;
     left: 0;
@@ -405,7 +405,7 @@ video {
   margin: 0;
 }
 .electrics .img01{
-  margin-top: -18%;
+  margin-top: -14%;
   margin-bottom: 80px;
 }
 .electrics .logo{
@@ -436,7 +436,7 @@ video {
   margin-right: auto;
 }
 .electrics .list02 .info{
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 14px;
   line-height: 1.5;
 }
@@ -1522,7 +1522,7 @@ video {
 }
 .electrics .img01 {
   margin-top: -28%;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .electrics .txt {
   font-size: 26px;
@@ -1671,8 +1671,8 @@ video {
   margin: auto;
 }
 .new-mini .tit{
-  width: 90%;
   margin: auto;
+  font-size: 26px;
 }
 .new-mini .text01{
   margin-bottom: 10px;
