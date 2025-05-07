@@ -556,6 +556,7 @@ margin-bottom: 30px;
 .sec02 .list li:first-child{
   width: 100%;
   filter: none;
+  margin-right: auto;
 }
 .sec02 .list li:first-child .image{
   width: 50%;
@@ -568,6 +569,7 @@ margin-bottom: 30px;
 
 .bg{
   background-color: #000;
+  margin-bottom: 100px;
 }
 .sec02 .text.jcw{
   text-align: center;
@@ -1333,6 +1335,10 @@ margin-bottom: 30px;
     padding-bottom: 30px;
   }
     
+.bg{
+  margin-bottom: 50px;
+}
+    
 .sec02{
   margin-top: 50px;
 }
@@ -1565,8 +1571,8 @@ margin-bottom: 30px;
   }
   .sec02 .list01 li{
     display: block;
-    width: 100%;
-    margin-bottom: 20px;
+    width: 90%;
+    margin: 0 auto 20px;
   }
   .sec02 .list01 li:last-child{
     margin: auto;
