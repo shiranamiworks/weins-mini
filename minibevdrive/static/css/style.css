@@ -423,6 +423,12 @@ margin-bottom: 30px;
 .sec01 .award span{
   font-size: 14px;
 }
+.sec01 .award .mark{
+  max-width: 100px;
+  display: block;
+  margin: auto;
+}
+
 .test-drive {
   text-align: center;
 }
