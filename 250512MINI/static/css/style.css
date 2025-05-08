@@ -828,7 +828,7 @@ video {
 }
 .sns.wrap{
     max-width: 1200px;
-    width: 94%;
+    width: 90%;
 }
 .sns .tit05{
     margin-top: 50px;
@@ -1379,7 +1379,7 @@ video {
   }
     
   .stock li{
-    width: 31%;
+    width: 30%;
   }
 
   .sec02 .btn02{
@@ -1415,6 +1415,11 @@ video {
     
   .instagram .tit05 .btn a{
     padding: 6px 30px;
+  }
+  .sns.wrap{
+    width: 86%;
+    margin: 30px auto 0;
+    overflow: hidden;
   }
 
   .stores{
