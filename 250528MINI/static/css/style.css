@@ -1627,6 +1627,29 @@ video {
   width: 90%;
   font-size: 16px;
 }
+    
+  .cooper {
+    padding-bottom: 15%;
+  }
+  .cooper .all_box {
+    display: block;
+  }
+  .cooper .right_side {
+    width: 96vw;
+    margin: 130% auto 0;
+  }
+  .cooper .right_side .scroll-box {
+    width: 98%;
+    margin: auto;
+  }
+  .cooper .left_side {
+    width: 100vw;
+    height: 0;
+    display: block;
+    align-items: center;
+    position: relative;
+    top: 0;
+  }
    
 
 .lineup{
@@ -1753,7 +1776,7 @@ video {
 }
 .stock li{
   width: 100%;
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
   position: relative;
 }
 .stock li:nth-child(2){
