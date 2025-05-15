@@ -365,14 +365,14 @@ video {
 }
 .intro{
   text-align: center;
-  padding: 80px 0 120px;
+  padding: 80px 0 200px;
 }
 .intro .wrap{
   width: 94%;
   margin: auto;
 }
 .intro .bnr{
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto 80px;
 }
 .intro .bnr a img{
@@ -411,7 +411,7 @@ video {
 }
 
 .cooper {
-  padding-bottom: 54%;
+  padding-bottom: 60%;
 }
 .cooper .all_box {
   display: flex;
@@ -419,7 +419,7 @@ video {
   position: relative;
 }
 .cooper .right_side {
-  width: 60vw;
+  width: 50vw;
 }
 .cooper .right_side .tit {
   max-width: 417px;
@@ -451,11 +451,11 @@ video {
 .cooper .right_side .scroll-box {
   text-align: left;
   width: 58%;
-  margin: auto;
+  margin: 100px auto 0;
 }
 
 .cooper .left_side {
-  width: 40vw;
+  width: 50vw;
   height: 0;
   display: flex;
   align-items: flex-start;
@@ -921,7 +921,7 @@ video {
 
 .sns{
     position: relative;
-    border-bottom: 1px solid #d1d1d1;
+/*    border-bottom: 1px solid #d1d1d1;*/
     margin: 30px auto;
     padding-bottom: 80px;
     text-align: center;
@@ -955,6 +955,9 @@ video {
 }
 .sns .tit05 .btn a:hover {
   transform: scale(1.1);
+}
+.sns.instagram {
+  border-bottom: 1px solid #d1d1d1;
 }
 .sns.instagram .tit05{
     margin-top: 0px;
@@ -1009,27 +1012,35 @@ video {
 }
 
 .sec04{
-    border-bottom: 1px solid #d1d1d1;
-    margin-bottom: 50px;
-    padding: 50px 0;
+  margin: 100px auto;
+  text-align: center;
+}
+.sec04 .image{
+  margin-bottom: 100px;
+}
+.sec04 .tit{
+  font-size: 30px;
+  margin-bottom: 50px;
+  line-height: 1.6;
 }
 .sec04 .txt{
-  font-size: 29px;
-  margin-bottom: 10px;
-  font-weight: bold;
-  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 50px;
+  line-height: 1.8;
 }
-.sec04 .text-img{
-  vertical-align: text-top;
-  height: 23px;
+.sec04 .logo{
+  max-width: 300px;
+  margin: 0 auto 50px;
 }
 .sec04 .text01{
-  font-size: 20px;
-  line-height: 1.4;
-  margin: 20px auto 20px;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0 auto 50px;
 }
 .sec04 .text01 .mini{
-  font-size: 15px;
+  font-size: 14px;
+  display: block;
+  padding-top: 30px;
 }
 .sec04 .text02{
   font-size: 20px;
@@ -1176,14 +1187,13 @@ video {
 
 .eco {
   margin: 30px auto;
-  display: inline-flex;
 }
-.eco-mark {
-  width: 160px;
-  margin: auto;
+.eco-text img {
+  max-width: 150px;
+  margin-right: 2%;
 }
 .eco-text {
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 4%;
   line-height: 1.7;
 }
@@ -1198,17 +1208,19 @@ video {
 }
 
 .stores{
+    border-top: 1px solid #d1d1d1;
     border-bottom: 1px solid #d1d1d1;
-    padding-bottom: 30px;
+    padding: 100px 0 30px;
     margin-bottom: 50px;
 }
 .stores h2{
-  font-size: 42px;
+  font-size: 35px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .stores .text-img{
   vertical-align: text-top;
-  height: 35px;
+  height: 28px;
 }
 .store-list{
   margin-bottom: 40px;
