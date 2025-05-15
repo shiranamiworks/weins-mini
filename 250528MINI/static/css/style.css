@@ -224,7 +224,7 @@ End-responsible-contents  only-pc
   position: fixed;
   width: 230px;
   height: auto;
-  bottom: 24%;
+  bottom: 22%;
   right: 0%;
   transform: translateY(-50%);
   z-index: 10000;
@@ -254,18 +254,18 @@ End-responsible-contents  only-pc
 @media (max-width: 768px) {
   .fixed-banner {
     max-width: inherit;
-    width: 100%;
+    width: 41%;
     top: auto;
-    bottom: 0;
-    left: 0;
+    bottom: 1%;
+    left: 1%;
     right: auto;
     transform: translateY(0);
     z-index: 30;
   }
   .fixed-banner.bnr02{
     top: auto;
-    bottom: 0;
-    left: 50%;
+    bottom: 1%;
+    left: 44%;
 }
   .fixed-banner img.pc-img {
     display: none;
@@ -274,8 +274,9 @@ End-responsible-contents  only-pc
     display: inherit;
   }
   .fixed-banner .close {
-    width: 26px;
-    top: -8px;
+    width: 23px;
+    top: 0px;
+    right: 0px;
   }
 }
 
@@ -373,6 +374,7 @@ video {
 }
 .intro .bnr{
   max-width: 400px;
+  width: 94%;
   margin: 0 auto 80px;
 }
 .intro .bnr a img{
@@ -423,6 +425,7 @@ video {
 }
 .cooper .right_side .tit {
   max-width: 417px;
+  width: 94%;
   margin: 0 auto 120px;
 }
 .cooper .right_side .txt {
@@ -688,12 +691,17 @@ video {
   text-align: center;
   margin-bottom: 120px;
 }
+.mini-32 .wrap{
+  width: 94%;
+  margin: auto;
+}
 .mini-32 .movie{
   margin-bottom: 120px;
 }
 .mini-32 .txt{
   font-size: 38px;
   margin-bottom: 40px;
+  line-height: 1.4;
 }
 .mini-32 .lead{
   font-size: 16px;
@@ -702,6 +710,7 @@ video {
 }
 .mini-32 .list{
   max-width: 798px;
+  width: 94%;
   margin: 0 auto 40px;
 }
 .mini-32 .list li{
@@ -1015,6 +1024,10 @@ video {
   margin: 100px auto;
   text-align: center;
 }
+.sec04 .wrap{
+  width: 94%;
+  margin: auto;
+}
 .sec04 .image{
   margin-bottom: 100px;
 }
@@ -1186,7 +1199,7 @@ video {
 }
 
 .eco {
-  margin: 30px auto;
+  margin: 0 auto 30px;
 }
 .eco-text img {
   max-width: 150px;
@@ -1496,16 +1509,9 @@ video {
     width: 240px;
     font-size: 16px;
   }
-
-  .sec04{
-      margin-bottom: 30px;
-  }
+    
   .sec04 .tit{
       margin-bottom: 10px;
-  }
-  .sec04 .txt{
-    font-size: 20px;
-    line-height: 1.4;
   }
   .sec04 .text-img{
     vertical-align: text-top;
@@ -1529,19 +1535,14 @@ video {
     overflow: hidden;
   }
 
-  .stores{
-      padding-bottom: 0;
-      margin-bottom: 30px;
-  }
   .stores h2{
     font-size: 24px;
-    margin-bottom: 10px;
     line-height: 1.2;
   }
   .stores .text-img{
     vertical-align: text-top;
     height: 22px;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
   }
   .store-list h2{
     font-size: 30px;
@@ -1603,21 +1604,24 @@ video {
     margin: 0 auto 40px;
 }
 .intro{
-  text-align: left;
+  text-align: center;
   padding: 40px 0 80px;
 }
 .intro .text{
   font-size: 16px;
   text-align: center;
 }
+.intro .txt02 {
+  font-size: 50px;
+}
+.intro .day span {
+  font-size: 21px;
+}
 .intro .mark{
   width: 100%;
 }
 .intro .txt01{
-  font-size: 14px;
-  line-height: 1.6;
-  width: 70%;
-  margin: 0 auto 30px;
+  font-size: 20px;
 }
 .intro .lead{
   font-size: 20px;
@@ -1641,18 +1645,31 @@ video {
 }
     
   .cooper {
-    padding-bottom: 15%;
+    padding-bottom: 10%;
   }
   .cooper .all_box {
     display: block;
   }
+  .cooper .right_side .tit {
+    margin: 0 auto 60px;
+}
+  .cooper .right_side .txt {
+    font-size: 35px;
+    margin: 0 auto 40px;
+  }
   .cooper .right_side {
-    width: 96vw;
+    width: 94vw;
     margin: 130% auto 0;
+  }
+  .cooper .right_side .lead {
+    margin: 0 auto 60px;
   }
   .cooper .right_side .scroll-box {
     width: 98%;
     margin: auto;
+  }
+  .cooper .right_side .img03 {
+    margin-bottom: 60px;
   }
   .cooper .left_side {
     width: 100vw;
@@ -1765,7 +1782,10 @@ video {
 }
 .new-mini .tit{
   margin: auto;
-  font-size: 26px;
+  font-size: 24px;
+}
+.new-mini .tit span {
+    font-size: 16px;
 }
 .new-mini .text01{
   margin-bottom: 10px;
@@ -1800,7 +1820,51 @@ video {
 .stock li:last-child{
   margin: auto;
 }
-    
+
+.mini-32 {
+  margin-bottom: 60px;
+}
+.mini-32 .movie {
+  margin-bottom: 60px;
+}
+.mini-32 .txt {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+.mini-32 .lead {
+  padding: 0 10px;
+}
+.mini-32 .list li {
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.mini-32 .list li:nth-child(2n) {
+    margin-right: auto;
+}
+.mini-32 .list li:last-child {
+   float: left;
+  margin-bottom: 30px;
+}
+.mini-32 .button {
+   clear: both;
+}
+.mini-32 .list01 li {
+   width: auto;
+}
+.mini-32 .list01 .txt01 {
+    text-align: center;
+    font-size: 27px;
+}
+.mini-32 .list01 li:last-child {
+   width: auto;
+}
+  .sec04{
+    margin: 0 auto 50px;
+  }
+  .sec04 .image{
+   margin-bottom: 50px;
+  }
   .sec04 .text01 .mini{
     font-size: 12px;
   }
@@ -1878,12 +1942,16 @@ video {
 
   .eco-text{
     font-size: 16px;
+    text-align: center;
   }
     
   .holiday {
   font-size: 14px;
   }
 
+  .stores {
+    padding-top: 50px;
+  }
   .store-list{
     margin-bottom: 20px;
   }
@@ -1925,7 +1993,7 @@ video {
     font-size: 18px;
   }
   .page-top {
-    bottom: 14%;
+    bottom: 1%;
 }
 }
 
