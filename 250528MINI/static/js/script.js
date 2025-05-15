@@ -106,6 +106,17 @@ $(function() {
 
 
 $(function() {
+  $(".slider01").slick({
+    autoplay: true,
+    autoplaySpeed: 3500,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+  });
+});
+
+
+$(function() {
     $("[data-id]").on("click", function() {
   
 　const id = $(this).data('id');　// data-idのidを取得

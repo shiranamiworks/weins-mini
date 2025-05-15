@@ -372,8 +372,8 @@ video {
   margin: auto;
 }
 .intro .bnr{
-  max-width: 550px;
-  margin: 0 auto 120px;
+  max-width: 500px;
+  margin: 0 auto 80px;
 }
 .intro .bnr a img{
   transition: .5s;
@@ -385,94 +385,121 @@ video {
 .intro .bnr a:hover img{
   transform: scale(1);
 }
-.intro .txt{
-  max-width: 800px;
-  margin: auto;
-}
-
-.electrics{
-  text-align: center;
-  color: #fff;
-  padding-bottom: 180px;
-}
-.electrics .wrap{
-  max-width: 1400px;
-  width: 90%;
-  margin: auto;
-}
-.electrics .tit{
-  width: 44%;
-  margin: 0;
-}
-.electrics .img01{
-  margin-top: -14%;
-  margin-bottom: 80px;
-}
-.electrics .logo{
-  max-width: 170px;
-  margin: 0 auto 40px;
-}
-.electrics .txt{
-  font-size: 40px;
-  line-height: 1.6;
+.intro .txt01{
+  font-size: 24px;
   margin-bottom: 20px;
 }
-.electrics .lead{
-  font-size: 15px;
+.intro .txt02{
+  font-size: 64px;
+  color: #5EC7E7;
+}
+.intro .txt03{
+  font-size: 16px;
+  color: #5EC7E7;
+  margin-bottom: 20px;
+}
+.intro .day{
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.intro .day span{
+  font-size: 28px;
+}
+.intro .info{
+  font-size: 16px;
   line-height: 2;
-  margin-bottom: 60px;
 }
 
-.electrics .list02{
-  margin: 0 auto 50px;
+.cooper {
+  padding-bottom: 54%;
 }
-.electrics .list02 li{
-  display: inline-block;
-  width: 21%;
-  margin-right: 2%;
-  vertical-align: text-top;
+.cooper .all_box {
+  display: flex;
+  justify-content: left;
+  position: relative;
 }
-.electrics .list02 li:last-child{
-  margin-right: auto;
+.cooper .right_side {
+  width: 60vw;
 }
-.electrics .list02 .info{
-  margin-top: 10px;
-  font-size: 14px;
+.cooper .right_side .tit {
+  max-width: 417px;
+  margin: 0 auto 120px;
+}
+.cooper .right_side .txt {
+  text-align: center;
+  font-size: 40px;
   line-height: 1.5;
+  margin: 0 auto 80px;
 }
-.electrics .card{
-  max-width: 1100px;
-  margin: 0 auto 40px;
+.cooper .right_side .lead {
+  max-width: 376px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0 auto 120px;
+}
+.cooper .right_side .img03 {
+  margin-bottom: 120px;
+}
+.cooper .right_side .img04 {
+  margin-bottom: 40px;
+}
+.cooper .right_side .img05 {
+  margin-bottom: 40px;
 }
 
-.electrics .list{
-  max-width: 884px;
-  margin: 0 auto 60px;
+.cooper .right_side .scroll-box {
+  text-align: left;
+  width: 58%;
+  margin: auto;
 }
-.electrics .list .info{
-  margin-top: 20px;
-  font-size: 14px;
-  line-height: 1.5;
+
+.cooper .left_side {
+  width: 40vw;
+  height: 0;
+  display: flex;
+  align-items: flex-start;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
-.electrics .card{
-  max-width: 1100px;
-  margin: 0 auto 40px;
+
+.cooper .left_side p:first-child,
+.cooper .left_side p.active {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
 }
+
 .button{
-  max-width: 1100px;
+  max-width: 900px;
   margin: auto;
 }
 .button a{
+  text-align: center;
   display: block;
-  background: #C11C1C;
+  background: #000;
   color: #fff;
   font-size: 20px;
-  padding: 30px 0;
+  line-height: 1.2;
+  padding: 22px 0 16px;
+  border: 1px solid;
+  transition: .3s;
 }
-.elect02 .img01{
-  margin-top: -11%;
-  margin-bottom: 80px;
+.button a span{
+  font-size: 12px;
 }
+.button a:hover{
+  display: block;
+  background: #fff;
+  color: #000;
+  opacity: 1;
+}
+.button01 a{
+  padding: 14px 0 10px;
+}
+
+/*
 .slick-slide{
   transform: scale(0.8);
   transition: all .5s;
@@ -482,8 +509,12 @@ video {
   transform: scale(1);
   opacity: 1;
 }
+*/
+.slick-dotted.slick-slider{
+ margin-bottom: 0 !important;
+}
 .slick-dots {
-  bottom: auto;
+  bottom: 0 !important;
   text-align:center;
   margin:20px 0 0 0;
 }
@@ -595,19 +626,17 @@ video {
 .sec03 {
   max-width: 1200px;
   width: 94%;
-  margin: 30px auto 70px;
-  padding-bottom: 100px;
-  border-bottom: 1px solid #d1d1d1;
+  margin: 30px auto 100px;
 }
 
-.new-mini{
-  margin: 50px auto 0px;
-}
 .new-mini .tit{
   text-align: center;
   font-size: 30px;
   line-height: 1.8;
   margin: 0px auto 40px;
+}
+.new-mini .tit span{
+  font-size: 20px;
 }
 .new-mini .image.img01{
   margin-bottom: 50px;
@@ -631,11 +660,12 @@ video {
 }
 .new-mini .box-tit{
   text-align: center;
+  max-width: 1000px;
   font-size: 20px;
   color: #fff;
   background: #68C8F0;
   padding: 20px 0 18px;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
 }
 .new-mini .tit02{
   background: #113F94;
@@ -648,9 +678,79 @@ video {
   line-height: 2;
   margin-bottom: 20px;
 }
-.new-mini .imgs{
-  margin-bottom: 30px;
+.new-mini .info{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 20px;
 }
+
+.mini-32{
+  text-align: center;
+  margin-bottom: 120px;
+}
+.mini-32 .movie{
+  margin-bottom: 120px;
+}
+.mini-32 .txt{
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+.mini-32 .lead{
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 60px;
+}
+.mini-32 .list{
+  max-width: 798px;
+  margin: 0 auto 40px;
+}
+.mini-32 .list li{
+  display: inline-block;
+  vertical-align: top;
+  width: 18%;
+  margin-right: 2%;
+}
+.mini-32 .list li:last-child{
+  margin: auto;
+}
+.mini-32 .list .name{
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 15px auto 24px;
+}
+.mini-32 .list .name.top{
+  margin: 5px auto 10px;
+}
+.mini-32 .list .info{
+  font-size: 12px;
+  line-height: 2;
+  text-align: left;
+}
+.mini-32 .list01{
+  max-width: 860px;
+  margin: 40px auto 0;
+}
+.mini-32 .list01 li{
+  display: inline-block;
+  vertical-align: middle;
+  width: 46%;
+  margin-right: 2%;
+}
+.mini-32 .list01 li:last-child{
+  width: 50%;
+  margin: auto;
+}
+.mini-32 .list01 .txt01{
+  text-align: left;
+  font-size: 38px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.mini-32 .list01 .mini{
+  text-align: left;
+  font-size: 12px;
+}
+
 
 .lineup{
   text-align: center;
@@ -1220,24 +1320,19 @@ video {
 }
 
 .stock {
-  max-width: 1200px;
+  max-width: 1000px;
   width: 90%;
-  margin: 0 auto 60px;
+  margin: 0 auto 80px;
 }
 .stock li{
-  width: 30%;
+  width: 31%;
+  margin-right: 3%;
   display: inline-block;
   vertical-align: top;
-  margin-bottom: 50px;
   position: relative;
 }
-.stock li:nth-child(2){
-  margin-right: 2%;
-  margin-left: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  border-left: 1px solid;
-  border-right: 1px solid;
+.stock li:last-child{
+  margin: auto;
 }
 .stock li .image{
   position: relative;
@@ -1516,48 +1611,6 @@ video {
   font-size: 20px;
   line-height: 1.6;
   margin: 0 auto 30px;
-}
-
-.electrics {
-  padding-bottom: 80px;
-}
-.electrics .tit{
-  width: 90%;
-  margin: 0;
-}
-.electrics .img01 {
-  margin-top: -28%;
-  margin-bottom: 40px;
-}
-.electrics .txt {
-  font-size: 26px;
-}
-.electrics .lead {
-  font-size: 14px;
-}
-    
-.electrics .list02{
-  margin: 0 auto 50px;
-}
-.electrics .list02 li{
-  display: inline-block;
-  width: 48%;
-  margin-right: 2%;
-  vertical-align: text-top;
-  margin-bottom: 10px;
-}
-.electrics .list02 li:nth-child(2){
-  margin-right: auto;
-}
-.electrics .list02 li:last-child{
-  margin-right: auto;
-}
- .electrics .list02 .info {
-  font-size: 12px;
-}
-    
-.electrics .list{
-  width: 90%;
 }
     
 .sec02 {
