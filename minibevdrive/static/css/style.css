@@ -334,7 +334,7 @@ End-responsible-contents  only-pc
 .main-visual {
   position: relative;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .main-visual img {
   width: 100%;
@@ -758,45 +758,23 @@ margin-bottom: 30px;
 }
 
 .sec04{
-    border-top: 1px solid #d1d1d1;
-    padding-top: 50px;
-    margin-bottom: 50px;
+/*    border-top: 1px solid #d1d1d1;*/
+    margin-bottom: 100px;
+    text-align: center;
 }
-.sec04 .tit{
-  font-size: 40px;
-  margin-bottom: 0;
-  line-height: 1.4;
-}
-.sec04 li{
-  display: inline-block;
-  width: 46%;
-  margin-right: 2%;
+.sec04 .text img{
+  height: 20px;
   vertical-align: text-top;
 }
-.sec04 li .text img{
-  height: 14px;
-  vertical-align: text-top;
-}
-.sec04 li .text{
-  font-size: 20px;
+.sec04 .text{
+  font-size: 26px;
   line-height: 1.6;
+  margin: 50px auto;
 }
-.sec04 li .btn{
-  max-width: 300px;
-  margin: 30px 0 0;
-}
-.sec04 .text01{
-  font-size: 20px;
-  line-height: 1.4;
-  margin: 20px auto 20px;
-}
-.sec04 .text01 .mini{
-  font-size: 15px;
-}
-.sec04 .text02{
-  font-size: 20px;
-  line-height: 1.4;
-  margin: 0 auto 50px;
+.sec04 .btn{
+  max-width: 800px;
+  width: 94%;
+  margin: auto;
 }
 
 
@@ -1027,7 +1005,7 @@ margin-bottom: 30px;
 }
 .store-list .name{
   position: relative;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.6;
 }
 .store-list .name01{
@@ -1248,7 +1226,7 @@ margin-bottom: 30px;
     overflow:hidden;
   }
   .main-visual {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
     
   .pageTabs {
@@ -1620,10 +1598,14 @@ margin-bottom: 30px;
     margin-bottom: 50px;
   }
 
-  .sec04 li .text {
-    font-size: 16px;
-    line-height: 1.6;
+  .sec04 {
+    margin-bottom: 50px;
   }
+  .sec04 .text{
+    font-size: 19px;
+    margin: 30px auto;
+  }
+
     
     
   .sec05 .list li{
