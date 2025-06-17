@@ -593,7 +593,7 @@ margin-bottom: 30px;
 }
 .sec02 .list02{
   text-align: center;
-  padding: 50px 0 30px;
+  padding: 50px 0 100px;
 }
 .sec02 .list02 li{
   display: inline-block;
@@ -1576,7 +1576,7 @@ margin-bottom: 30px;
   }
   
   .sec02 .list02 {
-    padding-top: 20px;
+    padding: 20px 0 50px;
   }
   .sec02 .list02 li{
     display: block;
