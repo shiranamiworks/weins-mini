@@ -624,6 +624,9 @@ video {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 40px;
+  margin-left: 1em;
+  text-indent: -1.8em;
+  padding-left: 1em;
 }
 .sec03 .list .color{
   font-size: 20px;
@@ -737,17 +740,20 @@ video {
 .mini-32 .lists .txt{
   font-size: 36px;
   line-height: 1.4;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .mini-32 .lists .box{
   text-align: left;
-  border: 1px solid;
-  font-size: 22px;
-  padding: 10px;
+  border: 1px solid #26D6C3;
+  background-color: #26D6C3;
+  color: #fff;
+  font-size: 23px;
+  padding: 14px 10px 10px;
+  margin-bottom: 10px;
   box-sizing: border-box;
   display: inline-block;
 }
-.mini-32 .lists .box span{
+.mini-32 .lists .mini{
   font-size: 16px;
 }
 .mini-32 .lists .lead{
@@ -1685,10 +1691,10 @@ video {
   font-size: 24px;
 }
 .mini-32 .lists .box{
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.3;
 }
-.mini-32 .lists .box span{
+.mini-32 .lists .mini{
   font-size: 14px;
 }
 .mini-32 .list02{
