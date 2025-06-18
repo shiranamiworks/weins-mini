@@ -82,18 +82,19 @@ $(function(){
 });
 
 $(function() {
-$('.phev .slider').slick({
+$('.slider').slick({
     autoplay: true,
-    dots: true,
-    centerMode: true,
-    slidesToShow: 3,
-    responsive: [{
-                breakpoint: 768,
-                  settings: {
-                    slidesToShow: 1,
-                }
-              }
-              ]
+    arrows: false,
+    dots: false,
+    slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
   });
 });
 
