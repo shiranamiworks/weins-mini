@@ -92,6 +92,8 @@ $('.slider').slick({
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
+          centerMode: true,
+          centerPadding: "10%",
         }
       },
     ]
