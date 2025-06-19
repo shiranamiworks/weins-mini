@@ -1020,6 +1020,9 @@ video {
   margin-bottom: 50px;
   line-height: 1.8;
 }
+.sec04 .txt .mini{
+  font-size: 13px;
+}
 .sec04 .logo{
   max-width: 300px;
   margin: 0;
