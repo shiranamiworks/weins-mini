@@ -441,6 +441,91 @@ video {
   border-bottom: 1px solid;
 }
 
+.sec01{
+  padding-bottom: 80px;
+  border-bottom: 1px solid #26D6C2;
+  margin-bottom: 120px;
+}
+.sec01 .wrap{
+  max-width: 1200px;
+  width: 94%;
+}
+.sec01 .lead{
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  margin: 30px auto 60px;
+}
+.sec01 .list01{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto 50px;
+}
+.sec01 .list01 li{
+  margin-right: 2%;
+}
+.sec01 .list01 li:last-child{
+  margin-right: auto;
+}
+.sec01 .txt{
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.sec01 .txt02{
+  font-size: 16px;
+  line-height: 1.8;
+}
+.sec01 .list02{
+  margin: 50px auto;
+}
+.sec01 .list02 li{
+  display: inline-block;
+  width: 32%;
+  margin-right: 6%;
+  vertical-align: middle;
+}
+.sec01 .list02 li:last-child{
+  width: 60%;
+  margin-right: auto;
+}
+.sec01 .list02 .name {
+    font-size: 26px;
+    line-height: 1.6;
+    padding-bottom: 5px;
+}
+.sec01 .list02 .spec {
+    font-size: 16px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+.sec01 .list02 .price {
+    font-size: 24px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+.sec01 .list02 .price span {
+    font-size: 14px;
+}
+
+.sec01 .card{
+  max-width: 1100px;
+  margin: 0 auto 40px;
+}
+
+.sec01 .list{
+  max-width: 884px;
+  margin: 0 auto 60px;
+}
+.sec01 .list .info{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.sec01 .card{
+  max-width: 1100px;
+  margin: 0 auto 40px;
+}
+
 .sec02{
   padding-bottom: 80px;
   border-bottom: 1px solid #26D6C2;
@@ -1605,6 +1690,64 @@ video {
 .intro .mini{
   text-align: left;
   font-size: 12px;
+}
+    
+.sec01{
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+.sec01 .lead{
+  font-size: 16px;
+  margin: 30px auto;
+}
+.sec01 .list01{
+  display: block;
+  margin: 0 auto 30px;
+}
+.sec01 .list01 li{
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.sec01 .list01 li:nth-child(2n){
+  margin-right: auto;
+}
+.sec01 .txt{
+  font-size: 25px;
+}
+.sec01 .txt02{
+  font-size: 15px;
+  line-height: 1.8;
+}
+.sec01 .list02{
+  margin: 30px auto 0;
+}
+.sec01 .list02 li{
+  display: inline-block;
+  width: 100%;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.sec01 .list02 li:last-child{
+  width: 100%;
+  margin-right: auto;
+}
+.sec01 .list02 .name {
+    font-size: 24px;
+}
+.sec01 .list02 .spec {
+    font-size: 14px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+.sec01 .list02 .price {
+    font-size: 22px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+.sec01 .list02 .price span {
+    font-size: 12px;
 }
 
 .sec02{
