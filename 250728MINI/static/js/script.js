@@ -101,6 +101,26 @@ $('.slider').slick({
 });
 
 $(function() {
+$('.slider02').slick({
+    autoplay: true,
+    arrows: false,
+    dots: false,
+//    centerMode: true,
+    slidesToShow: 2,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          centerMode: true,
+          centerPadding: "10%",
+        }
+      },
+    ]
+  });
+});
+
+$(function() {
   $(".fixed-banner .close").on("click",function(){
     $(window).off('scroll');
     $(".fixed-banner").fadeOut();
@@ -117,7 +137,6 @@ $(function() {
     dots: true,
   });
 });
-
 
 $(function() {
     $("[data-id]").on("click", function() {

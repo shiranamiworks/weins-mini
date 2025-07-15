@@ -361,6 +361,16 @@ video {
   width: 100%;
 }
 
+.obi{
+    background: #FFE419;
+}
+.obi .image{
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+
 .black{
   background: #000;
 }
@@ -403,17 +413,17 @@ video {
 }
 .intro .txt01{
   font-size: 24px;
-  color: #26D6C3;
+  color: #ED510D;
   margin-bottom: 20px;
 }
 .intro .txt02{
   font-size: 54px;
-  color: #26D6C3;
+  color: #ED510D;
   margin-bottom: 10px;
 }
 .intro .day{
   font-size: 20px;
-  color: #26D6C3;
+  color: #ED510D;
   margin-bottom: 100px;
   border-left: 8px solid;
   padding-left: 16px;
@@ -443,7 +453,7 @@ video {
 
 .sec01{
   padding-bottom: 80px;
-  border-bottom: 1px solid #26D6C2;
+  border-bottom: 1px solid #ED510D;
   margin-bottom: 120px;
 }
 .sec01 .wrap{
@@ -529,53 +539,38 @@ video {
 
 .sec02{
   padding-bottom: 80px;
-  border-bottom: 1px solid #26D6C2;
+  border-bottom: 1px solid #ED510D;
   margin-bottom: 120px;
 }
-.sec02 .wrap{
-  max-width: 1200px;
-  width: 94%;
-}
-.sec02 .lists{
+.sec02 .list{
+  max-width: 1000px;
+  margin: auto;
   padding-bottom: 40px;
 }
-.sec02 .list01{
-  padding-top: 80px;
-}
-.sec02 .lists li{
-  display: inline-block;
-  vertical-align: middle;
-  width: 26%;
-}
-.sec02 .lists li:first-child{
-  vertical-align: top;
-}
-.sec02 .lists li:nth-child(2){
-  width: 26%;
-  margin-right: 4%;
-}
-.sec02 .lists li:last-child{
-  width: 42%;
-  margin-right: auto;
-}
-.sec02 .lists .num{
-  font-size: 19px;
-  margin-bottom: 10px;
-}
-.sec02 .lists .name{
+.sec02 .tit{;
   font-size: 32px;
-  margin-bottom: 10px;
-}
-.sec02 .lists .sub{
-  font-size: 16px;
-}
-.sec02 .lists .txt{
-  font-size: 32px;
+  text-align: center;
   line-height: 1.5;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
-.sec02 .lists .lead{
-  font-size: 16px;
+.sec02 .slider02 .slick-slide{
+  margin: 0 20px;
+}
+.sec02 .list .name{;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.sec02 .list .text{
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.sec02 .list .price{
+  font-size: 20px;
+  line-height: 1.5;
+}
+.sec02 .list .price span{
+  font-size: 12px;
   line-height: 1.5;
 }
 
@@ -586,7 +581,7 @@ video {
 .button a{
   text-align: center;
   display: block;
-  background: #26D6C2;
+  background: #ED510D;
   color: #fff;
   font-size: 20px;
   line-height: 1.2;
@@ -600,7 +595,7 @@ video {
 .button a:hover{
   display: block;
   background: #fff;
-  color: #26D6C2;
+  color: #ED510D;
   opacity: 1;
 }
 .button01 a{
@@ -716,7 +711,7 @@ video {
 }
 .sec03 .list .color{
   font-size: 20px;
-  color: #26D6C3;
+  color: #ED510D;
   padding-right: 10px;
 }
 .sec03 .list .big{
@@ -776,7 +771,7 @@ video {
 .sec03 .txt{
   text-align: center;
   font-size: 32px;
-  color: #26D6C3;
+  color: #ED510D;
   line-height: 1.4;
   margin-bottom: 10px;
 }
@@ -790,7 +785,7 @@ video {
 .mini-32{
   text-align: center;
   padding-bottom: 80px;
-  border-bottom: 1px solid #26D6C3;
+  border-bottom: 1px solid #ED510D;
   margin-bottom: 80px;
 }
 .mini-32 .wrap{
@@ -830,8 +825,8 @@ video {
 }
 .mini-32 .lists .box{
   text-align: left;
-  border: 1px solid #26D6C3;
-  background-color: #26D6C3;
+  border: 1px solid #ED510D;
+  background-color: #ED510D;
   color: #fff;
   font-size: 23px;
   padding: 14px 10px 10px;
@@ -1753,7 +1748,7 @@ video {
 
 .sec02{
   padding-bottom: 60px;
-  border-bottom: 1px solid #26D6C2;
+  border-bottom: 1px solid #ED510D;
   margin-bottom: 60px;
 }
 .sec02 .lists{
