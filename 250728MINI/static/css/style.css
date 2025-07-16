@@ -635,7 +635,7 @@ video {
 }
 .sec02 .list{
   max-width: 1000px;
-  margin: auto;
+  margin: 40px auto 0;
   padding-bottom: 40px;
 }
 .sec02 .tit{;
@@ -1778,6 +1778,58 @@ video {
   text-align: left;
   font-size: 12px;
 }
+
+.summerfair-sp {
+   margin: 30px auto 60px;
+}
+.summerfair-sp .tit {
+   margin-bottom: 30px;
+}
+.summerfair-sp .txt {
+   font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.summerfair-sp .holiday {
+   background: #F7F7F7;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 30px;
+    text-align: left;
+    border: none;
+}
+.summerfair-sp .cooper01 {
+   margin: 0 auto 20px;
+}
+.summerfair-sp .cooper01 .logo {
+   width: 94%;
+  margin: 20px auto 20px;
+}
+.summerfair-sp .cooper01 .name {
+   font-size: 30px;
+  padding-bottom: 10px;
+}
+.summerfair-sp .cooper01 .lead {
+   font-size: 16px;
+  line-height: 1.6;
+}
+    
+.summerfair-sp .cooper02 {
+   margin-bottom: 40px;
+}
+.summerfair-sp .cooper02 .txt01 {
+   font-size: 18px;
+   line-height: 1.6;
+  margin: 10px auto;
+}
+.summerfair-sp .cooper02 .lead {
+   font-size: 16px;
+  line-height: 1.6;
+}
+    
     
 .sec01{
   padding-bottom: 60px;
@@ -1835,6 +1887,10 @@ video {
 }
 .sec01 .list02 .price span {
     font-size: 12px;
+}
+    
+.sec02 .tit{
+  font-size: 24px;
 }
 
 .sec02{
