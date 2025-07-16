@@ -224,13 +224,13 @@ End-responsible-contents  only-pc
   position: fixed;
   width: 230px;
   height: auto;
-  bottom: 22%;
+  bottom: 170px;
   right: 0%;
   transform: translateY(-50%);
   z-index: 10000;
 }
 .fixed-banner.bnr02{
-  bottom: 6%;
+  bottom: 6px;
   right: 0%;
 }
 .fixed-banner a{
