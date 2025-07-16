@@ -537,6 +537,97 @@ video {
   margin: 0 auto 40px;
 }
 
+.summerfair{
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.txt-box{
+  width: 55%;
+}
+.txt-box div{
+  width: 80%;
+  margin: auto;
+  padding-top: 20%;
+}
+.txt-box div:last-child{
+  padding-top: 60%;
+  padding-bottom: 60%;
+}
+.txt-box .tit{
+  max-width: 518px;
+  margin-bottom: 40px;
+}
+.txt-box .txt{
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+.txt-box .holiday{
+  background: #F7F7F7;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0 15px 20px;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 60px;
+  text-align: left;
+  border: none;
+}
+.txt-box .txt02{
+  max-width: 580px;
+  margin: 0 0 80px;
+}
+.txt-box .name{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.txt-box .lead{
+  font-size: 16px;
+  line-height: 2;
+}
+.txt-box .lead.bottom{
+  margin-bottom: 120px;
+}
+.txt-box .txt01{
+  font-size: 24px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+.images{
+  width: 45%;
+  height: 90vh;
+  display: flex;
+  align-items: flex-start;
+  position: sticky;
+  position: -webkit-sticky;
+  top:0;
+}
+.images p {
+  height: auto;
+  margin: auto;
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: .8s;
+  opacity: 0;
+}
+.images p:first-child,
+.images p.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+
 .sec02{
   padding-bottom: 80px;
   border-bottom: 1px solid #ED510D;
