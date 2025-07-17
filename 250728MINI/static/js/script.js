@@ -120,7 +120,7 @@ $('.slider').slick({
 $(function() {
 $('.slider02').slick({
     autoplay: true,
-    arrows: false,
+    arrows: true,
     dots: false,
 //    centerMode: true,
     slidesToShow: 2,

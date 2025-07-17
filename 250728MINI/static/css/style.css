@@ -636,7 +636,7 @@ video {
 .sec02 .list{
   max-width: 1000px;
   margin: 40px auto 0;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 .sec02 .tit{;
   font-size: 32px;
@@ -646,6 +646,10 @@ video {
 }
 .sec02 .slider02 .slick-slide{
   margin: 0 20px;
+}
+.sec02 .list li .image{
+  width: 90%;
+  margin: auto;
 }
 .sec02 .list .name{;
   font-size: 18px;
@@ -659,6 +663,7 @@ video {
 .sec02 .list .price{
   font-size: 20px;
   line-height: 1.5;
+  margin-bottom: 20px;
 }
 .sec02 .list .price span{
   font-size: 12px;
@@ -704,7 +709,7 @@ video {
  margin-bottom: 0 !important;
 }
 .slick-dots {
-  bottom: 0 !important;
+/*  bottom: 0 !important;*/
   text-align:center;
   margin:20px 0 0 0;
 }
@@ -722,14 +727,14 @@ video {
   background:#959595;
 }
 .slick-dots .slick-active button{
-  background:#fff;
+  background:#000;
 }
 .slick-dots li button{
   width: 12px !important;
   height: 12px !important;
 }
 .slick-dots button{
-  border: 1px solid #fff !important;
+  border: 1px solid #000 !important;
 }
 @media screen and (max-width:768px) {
 
