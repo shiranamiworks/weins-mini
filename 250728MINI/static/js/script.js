@@ -102,7 +102,7 @@ $(function() {
 $('.slider').slick({
     autoplay: true,
     arrows: false,
-    dots: false,
+    dots: true,
     slidesToShow: 4,
     responsive: [
       {
