@@ -406,21 +406,21 @@ video {
   margin: 0 auto 50px;
 }
 .intro .txt02{
-  font-size: 20px;
-  line-height: 1.7;
+  font-size: 18px;
+  line-height: 1.9;
   margin-bottom: 40px;
 }
 .intro .txt03{
   display: inline-block;
   padding: 20px 30px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.7;
   color: #000;
   background: #fff;
 }
 
 .sec01{
-  margin: 30px auto 100px;
+  margin: 30px auto 50px;
 }
 .sec01 ul{
   display: flex;
@@ -434,7 +434,7 @@ video {
   font-size: 16px;
   line-height: 1.7;
   text-align: left;
-  margin: 30px auto 60px;
+  margin: 30px auto;
 }
 
 .sec02{
@@ -1558,7 +1558,7 @@ video {
   width: 100%;
 }
 .sec01 .lead {
-  margin: 30px auto;
+  margin: 30px auto 0;
 }
     
 .sec02 .tit{
@@ -1566,13 +1566,13 @@ video {
 }
 
 .sec02{
-  margin: 0 auto 40px;
+  margin: 0 auto;
 }
 .sec02 .list{
   padding-bottom: 50px;
 }
 .sec02 .slider03{
-  margin-top: -36%;
+  margin-top: -60%;
 }
 
 .sec03 {
@@ -1605,11 +1605,13 @@ video {
 }
 
 .title {
-  font-size: 30px;
-  padding-bottom: 10px;
+  font-size: 24px;
 }
 .sub-tit{
   font-size: 14px;
+}
+.trim {
+  margin: 30px auto 50px;
 }
 .trim li {
     width: 100%;

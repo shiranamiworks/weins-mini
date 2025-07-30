@@ -208,4 +208,21 @@
     {
       top: 20%;
     }
+  .slick-prev:before
+{
+    content: url(../images/top/prev-sp.svg);
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: url(../images/top/next-sp.svg);
+}
+.slick-next:before
+{
+    content: url(../images/top/next-sp.svg);
+}
+[dir='rtl'] .slick-next:before
+{
+    content: url(../images/top/prev-sp.svg);
+}
+
 }
