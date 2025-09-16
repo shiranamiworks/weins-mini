@@ -388,9 +388,9 @@ video {
   text-align: center;
 }
 .intro .fair{
-  background: #B51919;
+  background: #ED510D;
   color: #fff;
-  padding: 50px 0 20px;
+  padding: 50px 0;
 }
 .intro .emblem{
     display: none;
@@ -422,6 +422,26 @@ video {
   color: #fff;
   border-bottom: 1px solid;
   margin-bottom: 50px;
+}
+.intro .anchor-btn a{
+  text-align: center;
+  display: block;
+  background: #B51919;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 22px 0 16px;
+  border: 1px solid;
+  transition: .3s;
+}
+.intro .anchor-btn a span{
+  font-size: 12px;
+}
+.intro .anchor-btn a:hover{
+  display: block;
+  background: #981414;
+  color: #fff;
+  opacity: 1;
 }
 
 .electric .bg{
@@ -620,11 +640,11 @@ video {
 }
 .button.white a{
   background: #fff;
-  color: #B51919;
+  color: #ED510D;
 }
 .button.white a:hover{
   color: #fff;
-  background: #B51919;
+  background: #ED510D;
 }
 
 .slick-dotted.slick-slider{
@@ -774,9 +794,11 @@ video {
   right: -0.05em;
   box-sizing: border-box;
 }
+/*
 .sec03 a{
   opacity: 1;
 }
+*/
 .sec03 a:hover .arrow{
 /*  background: transparent;*/
   color: #fff;
@@ -789,7 +811,7 @@ video {
 .sec03 .txt{
   text-align: center;
   font-size: 32px;
-  color: #B51919;
+  color: #ED510D;
   line-height: 1.4;
   margin-bottom: 10px;
 }
