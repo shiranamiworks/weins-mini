@@ -386,12 +386,11 @@ video {
 .intro{
   position: relative;
   text-align: center;
-  margin-bottom: 80px;
 }
 .intro .fair{
   background: #B51919;
   color: #fff;
-  padding: 100px 0 20px;
+  padding: 50px 0 20px;
 }
 .intro .emblem{
     display: none;
@@ -402,6 +401,10 @@ video {
 }
 .intro .emblem .image{
   max-width: 170px;
+}
+.intro .fair .icon{
+  max-width: 310px;
+  margin: 0 auto 20px;
 }
 .intro .fair .txt01{
   max-width: 500px;
@@ -420,43 +423,96 @@ video {
   border-bottom: 1px solid;
   margin-bottom: 50px;
 }
-.intro .list{
-  margin: 80px auto;
+
+.electric .bg{
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 80px 0;
 }
-.intro .list li{
+.electric .tit{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.electric .txt{
+  font-size: 56px;
+  line-height: 1.1;
+  margin-bottom: 80px;
+}
+.electric .list li{
   text-align: left;
   display: inline-block;
-  width: 45%;
+  width: 54%;
   margin-right: 4%;
   vertical-align: middle;
 }
-.intro .list li:last-child{
-  width: 50%;
+.electric .list li:last-child{
+  width: 41%;
   margin-right: auto;
 }
-.intro .list .tit{
+.electric .list .name{
+  font-size: 40px;
+  line-height: 1.4;
+  color: #B51919;
+  margin-bottom: 16px;
+}
+.electric .list .info{
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.electric .list .price{
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.electric .list .price span{
+  font-size: 32px;
+}
+.electric .list .mini{
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 30px;
+}
+.electric .button{
+  margin-bottom: 80px;
+}
+
+.campaign{
+  text-align: center;
+}
+.campaign .tit{
   font-size: 42px;
   line-height: 1.4;
-  margin-bottom: 30px;
+  color: #ED510D;
+  margin: 120px auto 40px;
 }
-.intro .list .lead{
+.campaign .txt{
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 auto 40px;
+}
+.campaign .point{
+  max-width: 560px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16);
   font-size: 16px;
-  line-height: 2;
-  margin-bottom: 30px;
+  line-height: 1.4;
+  margin: 0 auto 8px;
+  padding: 20px 0 19px;
 }
-.intro .list .price{
+.campaign .img01{
+  max-width: 960px;
+  margin: 40px auto;
+}
+.campaign .mini{
+  text-align: left;
   font-size: 12px;
-  line-height: 1.8;
-  margin-bottom: 20px;
+  line-height: 2;
+  max-width: 960px;
+  margin: 0 auto;
 }
-.intro .list .price span{
-  font-size: 27px;
-}
-.intro .list .price .num{
-  font-size: 20px;
-}
-.intro .button{
-  margin-bottom: 80px;
+.campaign-btn{
+  margin-top: 80px;
 }
 
 .sec01{
@@ -656,9 +712,12 @@ video {
 }
 
 .sec03 {
+  margin: 0 auto 120px;
+}
+.sec03 .wrap{
   max-width: 1200px;
   width: 94%;
-  margin: 0 auto 120px;
+  margin: 0 auto;
 }
 .sec03 .list{
   margin-bottom: 80px;
@@ -751,7 +810,7 @@ video {
 }
 
 .trim{
-  margin: 30px auto 100px;
+  margin: 0 auto 100px;
   background: #F7F7F7;
   padding: 80px 0;
 }
