@@ -490,7 +490,7 @@ video {
   font-size: 32px;
 }
 .electric .list .mini{
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.4;
   margin-top: 30px;
 }
@@ -509,7 +509,7 @@ video {
 }
 .campaign .txt{
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 0 auto 40px;
 }
 .campaign .point{
@@ -1732,7 +1732,58 @@ video {
 .sec01 .lead {
   margin: 20px auto;
 }
-    
+
+.electric .bg {
+    padding: 40px 0;
+}
+.electric .red-txt {
+  font-size: 40px;
+  color: #B51919;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.electric .sub-txt {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 80px;
+}
+.electric .txt {
+  font-size: 38px;
+  margin-bottom: 50px;
+}
+.electric .list .name {
+  font-size: 34px;
+}
+.electric .list .info {
+  font-size: 16px;
+}
+.electric .list li{
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 5%;
+}
+.electric .list li:last-child{
+  width: 100%;
+  margin-right: auto;
+}
+.electric .kv-txt.wrap{
+  position: relative;
+}
+.electric .txt-img{
+  margin-top: -80px;
+  margin-bottom: 80px;
+}
+
+.campaign .tit {
+  font-size: 32px;
+  margin: 40px auto 20px;
+}
+.campaign .txt {
+  margin: 0 auto 20px;
+}
+
 .sec02 .tit{
   font-size: 24px;
 }

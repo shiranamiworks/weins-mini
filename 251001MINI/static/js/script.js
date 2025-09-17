@@ -139,14 +139,15 @@ $('.slider02').slick({
 });
 $(function() {
 $('.slider03').slick({
-    fade: true,
-    speed: 1000,
-    autoplaySpeed: 5000,
+//    fade: true,
+//    speed: 1000,
+//    autoplaySpeed: 5000,
     arrows: false,
     autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    infinite: true
+    infinite: true,
+//    dots: true,
   });
 });
 
