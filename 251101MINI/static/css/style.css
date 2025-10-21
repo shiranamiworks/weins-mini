@@ -859,7 +859,7 @@ video {
 .sec03 .num{
   position: absolute;
   bottom: -65px;
-  left: 180px;
+  left: 160px;
 }
 .sec03 .list .tit{
   font-size: 22px;
@@ -2019,7 +2019,7 @@ video {
   margin-bottom: 40px;
 }
 .sec03 .num{
-  bottom: -24px;
+  bottom: -32px;
   left: 128px;
 }
 
