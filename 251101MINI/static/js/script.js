@@ -101,8 +101,7 @@ $(function(){
 $(function() {
 $('.slider').slick({
     autoplay: true,
-    arrows: false,
-    dots: true,
+    dots: false,
     slidesToShow: 4,
     responsive: [
       {

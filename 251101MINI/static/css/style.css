@@ -778,6 +778,14 @@ video {
 .slick-dots button{
   border: 1px solid #000 !important;
 }
+.slider .slick-prev, .slick-next {
+  z-index: 1;
+}
+.slider .slick-prev:before, .slick-next:before {
+  color: #000;
+}
+
+
 @media screen and (max-width:768px) {
 
   .slick-dots {
@@ -845,7 +853,13 @@ video {
   margin: 0 auto;
 }
 .sec03 .list{
-  margin: 40px 0 60px;
+  position: relative;
+  margin: 40px 0 30px;
+}
+.sec03 .num{
+  position: absolute;
+  bottom: -65px;
+  left: 180px;
 }
 .sec03 .list .tit{
   font-size: 22px;
@@ -1684,6 +1698,10 @@ video {
     width: 30%;
   }
     
+  .sec03 .num{
+    bottom: -55px;
+  }
+    
   .sec04 .tit{
       margin-bottom: 10px;
   }
@@ -1999,6 +2017,10 @@ video {
 .sec03 .mini{
   text-align: left;
   margin-bottom: 40px;
+}
+.sec03 .num{
+  bottom: -24px;
+  left: 128px;
 }
 
 .title {
