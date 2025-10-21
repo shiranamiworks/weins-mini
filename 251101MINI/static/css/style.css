@@ -595,7 +595,7 @@ video {
   vertical-align: middle;
   width: 50%;
 }
-.country .box .btn{
+.country .box .btn-right{
   display: inline-block;
   width: 49%;
 }
@@ -1772,7 +1772,10 @@ video {
 /*    width: 94%;*/
     margin: auto;
 }
-    
+
+.intro {
+    margin-bottom: 50px;
+}
 .intro .fair{
   padding: 50px 0 10px;
 }
@@ -1785,9 +1788,7 @@ video {
   max-width: 80px;
 }
 .intro .fair .txt01{
-  max-width: 500px;
-  width: 94%;
-  margin: 0 auto 30px;
+  font-size: 28px;
 }
 .intro .txt02{
   font-size: 16px;
@@ -1882,7 +1883,11 @@ video {
   margin-top: -80px;
   margin-bottom: 80px;
 }
+    
 
+.campaign {
+  margin-bottom: 50px;
+}
 .campaign .tit {
   font-size: 30px;
   margin: 40px auto 20px;
@@ -1924,7 +1929,7 @@ video {
 .country .box .price{
   width: 100%;
 }
-.country .box .btn{
+.country .box .btn-right{
   width: 100%;
 }
 
@@ -1933,6 +1938,7 @@ video {
 }
 .racing .tit {
   font-size: 30px;
+  margin: 50px auto 20px;
 }
 .racing ul {
   display: block; 
@@ -1964,6 +1970,9 @@ video {
 
 .sec03 {
   margin: 0 auto 60px;
+}
+.sec03 .txt01{
+  font-size: 28px;
 }
 .sec03 .list{
   margin-bottom: 60px;
