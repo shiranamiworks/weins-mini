@@ -220,7 +220,7 @@ End-responsible-contents  only-pc
 }
 
 .wrap{
-  max-width: 1400px;
+  max-width: 1200px;
   width: 94%;
   margin: auto;
 }
@@ -386,14 +386,13 @@ video {
 .intro{
   position: relative;
   text-align: center;
+  margin-bottom: 100px;
 }
 .intro .fair{
-  background: #ED510D;
-  color: #fff;
   padding: 50px 0;
 }
 .intro .emblem{
-    display: none;
+  display: none;
   position: absolute;
   top: -3%;
   left: 16%;
@@ -407,8 +406,9 @@ video {
   margin: 0 auto 20px;
 }
 .intro .fair .txt01{
-  max-width: 500px;
-  margin: 0 auto 50px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: left;
 }
 .intro .txt02{
   font-size: 18px;
@@ -500,39 +500,139 @@ video {
 
 .campaign{
   text-align: center;
+  margin-bottom: 100px;
+}
+.campaign .wrap{
+  max-width: 1200px;
+  margin: 40px auto;
 }
 .campaign .tit{
-  font-size: 42px;
+  font-size: 40px;
   line-height: 1.4;
-  color: #ED510D;
-  margin: 120px auto 40px;
+  text-align: left;
+  color: #26d6c2;
+  margin: 80px auto 40px;
 }
 .campaign .txt{
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 0 auto 40px;
+  font-size: 20px;
+  line-height: 1.9;
+  text-align: left;
+  margin: 0 auto 30px;
 }
 .campaign .point{
+/*
   max-width: 560px;
   box-shadow: 0 3px 6px rgba(0,0,0,.16);
-  font-size: 16px;
-  line-height: 1.4;
-  margin: 0 auto 8px;
-  padding: 20px 0 19px;
-}
-.campaign .img01{
-  max-width: 960px;
-  margin: 40px auto;
+*/
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: left;
+  margin: 0 auto 30px;
 }
 .campaign .mini{
   text-align: left;
   font-size: 12px;
   line-height: 2;
-  max-width: 960px;
-  margin: 0 auto;
+  margin: 10px auto 60px;
 }
 .campaign-btn{
   margin-top: 80px;
+}
+
+.country{
+  text-align: center;
+}
+.country .wrap{
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.country .tit{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  color: #26d6c2;
+  margin: 80px auto 40px;
+}
+.country .txt{
+  font-size: 20px;
+  line-height: 1.9;
+  text-align: left;
+  margin: 0 auto 30px;
+}
+.country ul{
+  display: flex;
+  justify-content: space-between;
+}
+.country li{
+  width: 24%;
+}
+.country .price{
+  margin: 30px auto;
+}
+.country .price .name{
+  text-align: left;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.country .price .name .kakaku{
+  font-size: 13px;
+  display: inline-block;
+  padding-left: 72px;
+}
+.country .price .name .kakaku02{
+  font-size: 13px;
+  display: inline-block;
+  padding-left: 20px;
+}
+.country .price .name .en{
+  font-size: 13px;
+  padding-left: 0px;
+}
+
+.country .box .price{
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+.country .box .btn{
+  display: inline-block;
+  width: 49%;
+}
+
+.racing{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.racing .wrap{
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.racing .tit{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  color: #26d6c2;
+  margin: 80px auto 40px;
+}
+.racing .txt{
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: left;
+  margin: 20px auto 0;
+}
+.racing .txt span{
+  font-weight: bold;
+  font-size: 24px;
+}
+.racing ul{
+  display: flex;
+  justify-content: space-between;
+}
+.racing li{
+  width: 32%;
+  margin-top: 30px;
 }
 
 .sec01{
@@ -734,13 +834,18 @@ video {
 .sec03 {
   margin: 0 auto 120px;
 }
+.sec03 .txt01{
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
 .sec03 .wrap{
   max-width: 1200px;
   width: 94%;
   margin: 0 auto;
 }
 .sec03 .list{
-  margin-bottom: 80px;
+  margin: 40px 0 60px;
 }
 .sec03 .list .tit{
   font-size: 22px;
@@ -763,27 +868,27 @@ video {
 }
 .sec03 a .arrow{
   position: absolute;
-  top: 49%;
-  right: 2%;
-  border: 1px solid #000;
-  padding: 16px 9px;
-  border-radius: 50px;
+  top: 55%;
+  right: 6%;
+/*  border: 1px solid #000;*/
+/*  padding: 16px 9px;*/
+/*  border-radius: 50px;*/
   transition: .3s;
 }
 .sec03 a .arrow-right {
   display: inline-block;
   vertical-align: middle;
-  color: #000;
+  color: #fff;
   line-height: 1;
   position: relative;
-  width: 1em;
-  height: 0.1em;
+  width: 2em;
+  height: 0.05em;
   background: currentColor;
 }
 .sec03 a .arrow-right::before {
   content: '';
-  width: 0.65em;
-  height: 0.65em;
+  width: 1em;
+  height: 1em;
   border: 0.1em solid currentColor;
   border-left: 0;
   border-bottom: 0;
@@ -802,24 +907,24 @@ video {
 .sec03 a:hover .arrow{
 /*  background: transparent;*/
   color: #fff;
-  background: #000;
+/*  background: #000;*/
 }
 .sec03 a:hover .arrow-right {
-  color: #fff;
-  background: currentColor;
+  color: #000;
+/*  background: currentColor;*/
 }
 .sec03 .txt{
-  text-align: center;
+  text-align: left;
   font-size: 32px;
-  color: #ED510D;
+  color: #26d6c2;
   line-height: 1.4;
   margin-bottom: 10px;
 }
 .sec03 .mini{
-  text-align: center;
+  text-align: left;
   font-size: 14px;
   line-height: 1.4;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .title{
@@ -1031,6 +1136,8 @@ video {
 }
 .sns.instagram {
   border-bottom: 1px solid #d1d1d1;
+  border-top: 1px solid #d1d1d1;
+  padding: 80px 0;
 }
 .sns.instagram .tit05{
     margin-top: 0px;
@@ -1122,6 +1229,14 @@ video {
   width: 59%;
 }
 
+.btn-right {
+   text-align: right;
+}
+.btn-right img{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
 
 .btns{
   margin-bottom: 50px;
@@ -1206,13 +1321,6 @@ video {
   100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
 
-.box{
-  max-width: 1000px;
-  margin: auto;
-  border: 1px solid #000;
-  padding: 30px;
-  text-align: center;
-}
 .comment{
   font-size: 18px;
   line-height: 1.5;
@@ -1383,8 +1491,7 @@ video {
   font-size: 18px;
 }
 .store-list .point-text{
-  display: none;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.4;
   color: #a40000;
   margin-bottom: 6px;
@@ -1777,12 +1884,69 @@ video {
 }
 
 .campaign .tit {
-  font-size: 32px;
+  font-size: 30px;
   margin: 40px auto 20px;
 }
 .campaign .txt {
   margin: 0 auto 20px;
+  font-size: 18px;
 }
+.campaign .point {
+  font-size: 18px;
+}
+
+.country .tit {
+  font-size: 30px;
+  margin: 40px auto 20px;
+}
+.country .txt {
+  margin: 0 auto 20px;
+  font-size: 18px;
+}
+.country ul {
+  display: block; 
+}
+.country li {
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.country li:nth-child(2n) {
+  margin-right: auto;
+}
+.country .price .name .kakaku {
+  padding-left: 0px; 
+}
+.country .price .name .kakaku02 {
+  padding-left: 0px; 
+}
+.country .box .price{
+  width: 100%;
+}
+.country .box .btn{
+  width: 100%;
+}
+
+.racing {
+  margin-bottom: 50px;
+}
+.racing .tit {
+  font-size: 30px;
+}
+.racing ul {
+  display: block; 
+}
+.racing li {
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+}
+.racing li:nth-child(n+2) {
+  margin-right: 0;
+  margin-top: 10px;
+}
+
 
 .sec02 .tit{
   font-size: 24px;
@@ -1951,6 +2115,9 @@ video {
    .sns .tit05 .insta{
       width: 100%;
    }
+  .sns.instagram {
+    padding: 40px 0;
+}
    .sns .insta{
       width: 100%;
       margin-top: auto;
@@ -1967,7 +2134,6 @@ video {
       width: 94%;
       margin: 0 3%;
       display: block;
-      
    }
    .sns .youtube li.frame{
       width: 100%;
@@ -1977,13 +2143,16 @@ video {
       margin-top: 20px;
    }
 
+   .btn-right {
+      text-align: center;
+    }
     
-  .btn a{
+   .btn a{
     font-size: 17px;
-  }    
-  .btns{
+   }    
+   .btns{
     margin-bottom: 30px;
-  }
+   }
 
   .comment{
     font-size: 16px;
