@@ -1205,16 +1205,16 @@ video {
   transform: scale(1.1);
 }
 .sns .youtube{
-    width: 75%;
+    width: 68%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 80px -48px 0;
+    margin: 80px 0 0;
     float: right;
 }
 .sns .youtube li{
-    width: 46%;
-    margin-right: 10px;
+    width: 48%;
+    margin-right: 20px;
 }
 .sns .youtube li:last-child{
     margin-right: auto;
