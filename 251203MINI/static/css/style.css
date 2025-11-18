@@ -750,13 +750,6 @@ video {
 .button01 a{
   padding: 14px 0 10px;
 }
-.button.black a{
-  background: #000;
-}
-.button.black a:hover{
-  color: #000;
-  background: #fff;
-}
 .button.white a{
   background: #fff;
   color: #ED510D;
