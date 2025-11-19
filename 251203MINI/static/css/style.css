@@ -907,27 +907,27 @@ video {
 }
 .sec03 a .arrow{
   position: absolute;
-  top: 55%;
-  right: 6%;
-/*  border: 1px solid #000;*/
-/*  padding: 16px 9px;*/
-/*  border-radius: 50px;*/
+  top: 49%;
+  right: 2%;
+  border: 1px solid #000;
+  padding: 16px 9px;
+  border-radius: 50px;
   transition: .3s;
 }
 .sec03 a .arrow-right {
   display: inline-block;
   vertical-align: middle;
-  color: #fff;
+  color: #000;
   line-height: 1;
   position: relative;
-  width: 2em;
-  height: 0.05em;
+  width: 1em;
+  height: 0.1em;
   background: currentColor;
 }
 .sec03 a .arrow-right::before {
   content: '';
-  width: 1em;
-  height: 1em;
+  width: 0.65em;
+  height: 0.65em;
   border: 0.1em solid currentColor;
   border-left: 0;
   border-bottom: 0;
@@ -946,11 +946,11 @@ video {
 .sec03 a:hover .arrow{
 /*  background: transparent;*/
   color: #fff;
-/*  background: #000;*/
+  background: #000;
 }
 .sec03 a:hover .arrow-right {
-  color: #000;
-/*  background: currentColor;*/
+  color: #fff;
+  background: currentColor;
 }
 .sec03 .txt{
   text-align: center;
