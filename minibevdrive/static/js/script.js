@@ -16,6 +16,19 @@ $(function(){
   });
 });
 
+$(function () {
+  if ($(".sections").length) {
+    $(window).on("load", function () {});
+    $(".buttons a,.buttons span").on("click", function (event) {
+      event.preventDefault();
+      $(this).siblings("a").addClass("on");
+      $(this).siblings("span").addClass("on");
+      $(this).removeClass("on");
+      $(this).parents(".pull").find("dd").stop(true, true).slideToggle(300);
+    });
+  }
+});
+
 $(function(){
   if($("#top").length){
     $(window).on("scroll resize",function(){
