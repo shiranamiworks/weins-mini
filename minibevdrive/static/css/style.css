@@ -222,7 +222,7 @@ End-responsible-contents  only-pc
 .content-wrap{
   position: relative;
   max-width: 1400px;
-  width: 94%;
+  width: 96%;
   margin: auto;
 }
 
@@ -775,6 +775,17 @@ margin-bottom: 30px;
   font-size: 13px;
   line-height: 1.6;
 }
+.pull dd ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+.pull dd ul li {
+    width: 49.5%;
+    display: flex;
+    vertical-align: middle;
+}
 
 .test-drive {
   text-align: center;
@@ -851,7 +862,7 @@ margin-bottom: 30px;
 .sec02 .bg{
   background: #fff;
   border-radius: 24px;
-  padding: 60px 0;
+  padding: 60px 10px;
   margin: 10px auto;
 }
 .sec02 .tit{
@@ -866,7 +877,7 @@ margin-bottom: 30px;
   margin-bottom: 20px;
 }
 .sec02 .img02{
-  max-width: 600px;
+  max-width: 660px;
   margin: 0 auto 60px;
 }
 .sec02 .img03{
@@ -901,9 +912,9 @@ margin-bottom: 30px;
 }
 .button01 a{
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   background: #2D46DF;
-  padding: 30px 0;
+  padding: 26px 0;
   display: block;
   border-radius: 3px;
   transition: .3s;
@@ -913,6 +924,9 @@ margin-bottom: 30px;
   opacity: 1;
 }
 
+.sec06 {
+  margin-bottom: 100px;
+}
 .sec06 .list{
   display: flex;
   justify-content: space-between;
@@ -929,7 +943,7 @@ margin-bottom: 30px;
   border-radius: 24px;
 }
 .sec06 .list li:last-child .texts{
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 .sec06 .list li:last-child .txt{
@@ -1060,17 +1074,23 @@ margin-bottom: 30px;
 
 .sec04{
 /*    border-top: 1px solid #d1d1d1;*/
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     text-align: center;
 }
+.sec04 .bg{
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 50px 0;
+  margin-top: 5px;
+}
 .sec04 .text img{
-  height: 20px;
+  height: 16px;
   vertical-align: text-top;
 }
 .sec04 .text{
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1.6;
-  margin: 50px auto;
+  margin-bottom: 30px;
 }
 .sec04 .btn{
   max-width: 800px;
@@ -1226,31 +1246,36 @@ margin-bottom: 30px;
   transition: .3s;
 }
 
-.eco{
-    margin: 30px auto;
-    display: inline-flex;
-}
 .eco-mark{
-    width: 160px;
+    width: 140px;
     margin: auto;
 }
 .eco-text{
-    font-size: 24px;
+    text-align: center;
+    font-size: 16px;
     padding-top: 4%;
     line-height: 1.7;
 }
 
 .stores{
-    border-top: 1px solid #d1d1d1;
-    padding: 50px 0 150px;
+/*    border-top: 1px solid #d1d1d1;*/
+    padding: 100px 0;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+.stores .wrap{
+  width: 90%;
+  margin: auto;
 }
 .stores h2{
-  font-size: 42px;
+  font-size: 36px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .stores .text-img{
   vertical-align: text-top;
-  height: 35px;
+  height: 28px;
 }
 .store-list{
 }
@@ -1542,6 +1567,44 @@ margin-bottom: 30px;
   .sections .tit {
     margin-bottom: 10px;
   }
+    
+  .sec01 ul{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .sec01 li{
+    width: 100%;
+    padding: 20px 0;
+  }
+  .sec01 .links .link-btn a {
+    padding: 10px 0;
+  }
+  .sec01 .links .link-btn {
+    width: 49%;
+  }
+  .sec01 .links .link-btn a .txt02{
+  font-size: 12px;
+  }
+  .sec01 .links .link-btn a .arrow::after {
+    width: 18px;
+    height: 18px;
+  }
+  .sec01 .links .link-btn a .txt02 span{
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .sec01 li .txt {
+    font-size: 32px;
+  }
+  .sec01 li .txt01 {
+    font-size: 24px;
+  }
+    
+  .pull dt .txt {
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.4;
+  }
 
   .sec01 .day{
     clear: both;
@@ -1620,9 +1683,6 @@ margin-bottom: 30px;
     padding-bottom: 30px;
   }
     
-.bg{
-  margin-bottom: 50px;
-}
     
 .sec02{
   margin-top: 50px;
@@ -1643,6 +1703,7 @@ margin-bottom: 30px;
 }
 .sec02 .mini{
   font-size: 11px;
+  text-align: left;
 }
 .slider .slick-slide{
    padding: 0 5px;
@@ -1650,6 +1711,10 @@ margin-bottom: 30px;
 .sec02 .point li .text{
    padding: 0 15px;
  }
+.sec02 .tit {
+  font-size: 26px;
+  line-height: 1.4;
+}
 
 .test-drive .txt{
   font-size: 18px;
@@ -1708,6 +1773,36 @@ margin-bottom: 30px;
   margin: 20px auto 0;
 }
 
+.sec06 {
+  margin-bottom: 50px;
+}
+.sec06 .list {
+  display: block;
+}
+.sec06 .list li {
+  width: 100%;
+}
+.sec06 .list li:last-child {
+  padding: 20px 0;
+}
+.sec06 .list li:last-child .txt {
+  font-size: 20px;
+}
+.sec06 .button-box {
+  display: block;
+}
+.button01  {
+    max-width: none;
+}
+.sec06 .button-box li{
+  padding-bottom: 20px;
+}
+.sec06 .button-box li:last-child{
+  padding-top: 0px;
+}
+    
+    
+    
   .movie{
     margin: 0 auto 20px;
   }
