@@ -544,26 +544,30 @@ video {
 .campaign .wrap{
   max-width: 1200px;
   margin: 40px auto;
+  text-align: center;
 }
 .campaign .tit{
   font-size: 40px;
   line-height: 1.4;
-  text-align: left;
   color: #B51919;
   margin: 80px auto 40px;
 }
 .campaign .txt{
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.9;
-  text-align: left;
   margin: 0 auto 30px;
 }
+.campaign .holiday{
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 10px 20px;
+  border: 1px solid;
+  color: #B51919;
+  margin-bottom: 30px;
+}
 .campaign .point{
-/*
-  max-width: 560px;
-  box-shadow: 0 3px 6px rgba(0,0,0,.16);
-*/
-  font-size: 20px;
+  max-width: 504px;
+  font-size: 16px;
   line-height: 1.8;
   text-align: left;
   margin: 0 auto 30px;
@@ -576,6 +580,10 @@ video {
 }
 .campaign-btn{
   margin-top: 80px;
+}
+.campaign .img01{
+  max-width: 1000px;
+  margin: auto;
 }
 
 .paul{
@@ -777,7 +785,6 @@ video {
  margin-bottom: 0 !important;
 }
 .slick-dots {
-/*  bottom: 0 !important;*/
   text-align:center;
   margin:20px 0 0 0;
 }
@@ -866,7 +873,7 @@ video {
 }
 .sec03 {
   background: #fff;
-  padding: 40px 0 120px;
+  padding:120px 0;
 }
 .sec03 .txt01{
   font-size: 30px;
@@ -878,6 +885,9 @@ video {
   width: 94%;
   margin: 0 auto;
 }
+.sec03 .line{
+  text-align: center;
+}
 .sec03 .list{
   position: relative;
   margin: 80px 0;
@@ -888,8 +898,9 @@ video {
   left: 160px;
 }
 .sec03 .list .tit{
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.6;
+  text-align: center;
   margin-bottom: 40px;
 }
 .sec03 .list .color{
@@ -898,7 +909,7 @@ video {
   padding-right: 10px;
 }
 .sec03 .list .big{
-  font-size: 32px;
+  font-size: 44px;
 }
 .sec03 .slider .slick-slide{
   margin: 0 10px;
@@ -908,8 +919,8 @@ video {
 }
 .sec03 a .arrow{
   position: absolute;
-  top: 49%;
-  right: 2%;
+  top: 79%;
+  right: 11%;
   border: 1px solid #000;
   padding: 16px 9px;
   border-radius: 50px;
@@ -955,10 +966,13 @@ video {
 }
 .sec03 .txt{
   text-align: center;
-  font-size: 32px;
+  font-size: 40px;
   color: #B51919;
   line-height: 1.4;
   margin-bottom: 10px;
+}
+.sec03 .txt span{
+  font-size: 20px;
 }
 .sec03 .mini{
   text-align: center;
@@ -1177,7 +1191,7 @@ video {
 .sns.instagram {
   background: #fff;
   border-bottom: 1px solid #d1d1d1;
-  border-top: 1px solid #d1d1d1;
+/*  border-top: 1px solid #d1d1d1;*/
   padding: 80px 0;
 }
 .sns.instagram .tit05{
