@@ -1638,7 +1638,13 @@ margin-bottom: 30px;
     font-size: 22px;
     line-height: 1.4;
   }
-
+  .pull dd ul {
+    display: block;
+  }
+  .pull dd .list li{
+    width: 100%;
+  }
+    
   .sec01 .day{
     clear: both;
     font-size: 20px;
