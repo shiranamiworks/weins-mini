@@ -81,6 +81,14 @@ $('.phev .slider').slick({
   });
 });
 
+$(function() {
+$('.sec01 .slider01').slick({
+    autoplay: true,
+    dots: true,
+    arrows: false,
+  });
+});
+
 
 $(function() {
     $("[data-id]").on("click", function() {

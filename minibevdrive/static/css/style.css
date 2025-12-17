@@ -786,6 +786,39 @@ margin-bottom: 30px;
     display: flex;
     vertical-align: middle;
 }
+.pull dd .list li {
+    width: 47%;
+    display: flex;
+    vertical-align: middle;
+}
+
+.pull dd .slider01 {
+    width: 100%;
+    margin: auto;
+}
+.pull dd .slider01 .img img{
+    border-radius: 24px;
+}
+.pull .slick-dots li button{
+  background: #FFE419;
+}
+.pull dd .slider01 .slick-dots{
+  display: inline-block;
+  width: auto;
+  bottom: 14px;
+  margin-left: -4.5%;
+  margin-bottom: 0;
+}
+.pull dd .slider01 .slick-dots li{
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
+.pull dd .slider01 .slick-dots li button{
+  width: 8px;
+  height: 8px;
+}
+
 
 .test-drive {
   text-align: center;
