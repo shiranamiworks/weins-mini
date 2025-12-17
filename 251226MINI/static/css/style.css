@@ -379,6 +379,9 @@ video {
     padding: 20px 0;
 }
 
+.bg-fix.fix03{
+  z-index: 2;
+}
 .intro{
   position: relative;
   text-align: center;
@@ -392,6 +395,9 @@ video {
 }
 .intro .emblem .image{
   max-width: 170px;
+}
+.intro .fair{
+  margin-top: -26%;
 }
 .intro .fair .icon{
   max-width: 310px;
