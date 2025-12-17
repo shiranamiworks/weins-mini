@@ -1113,8 +1113,8 @@ margin-bottom: 30px;
 .sec04 .bg{
   background-color: #fff;
   border-radius: 16px;
-  padding: 50px 0;
-  margin-top: 5px;
+  padding: 50px 20px;
+  margin-top: 10px;
 }
 .sec04 .text img{
   height: 16px;
@@ -1820,6 +1820,7 @@ margin-bottom: 30px;
 }
 .sec06 .list li {
   width: 100%;
+  padding-bottom: 10px;
 }
 .sec06 .list li:last-child {
   padding: 20px 0;
@@ -2037,10 +2038,12 @@ margin-bottom: 30px;
     margin-bottom: 50px;
   }
   .sec04 .text{
-    font-size: 19px;
-    margin: 30px auto;
+    font-size: 16px;
+    text-align: left;
   }
-
+  .sec04 .bg {
+    padding: 30px 20px;
+}
     
     
   .sec05 .list li{
