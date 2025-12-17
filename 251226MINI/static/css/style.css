@@ -1848,6 +1848,10 @@ video {
 /*    width: 94%;*/
     margin: auto;
 }
+    
+.intro .fair {
+    margin-top: 10px;
+}
 
 .intro .emblem{
   top: -1%;
@@ -1987,7 +1991,7 @@ video {
   padding-bottom: 60px;
 }
 .campaign .tit {
-  font-size: 30px;
+  font-size: 28px;
   margin: 40px auto 20px;
 }
 .campaign .txt {
@@ -2051,13 +2055,17 @@ video {
 }
 
 .sec03 {
-  margin: 0 auto;
-  padding: 0 0 60px;
+  margin: 50px auto;
+  padding: 0;
 }
 .sec03 .txt01{
   font-size: 28px;
 }
+.sec03 .txt span {
+  font-size: 16px;
+}
 .sec03 .list{
+  margin-top: 30px;
   margin-bottom: 60px;
 }
 .sec03 .list .tit{
@@ -2081,7 +2089,7 @@ video {
 }
 .sec03 .mini{
   text-align: left;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .sec03 .num{
   bottom: -32px;
@@ -2298,7 +2306,6 @@ video {
   }
     
   .holiday {
-    text-align: left;
     font-size: 13px;
   }
 
