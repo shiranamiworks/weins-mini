@@ -68,6 +68,7 @@ table {
 }
 main {
   display: block;
+  background-color: #F4EFE9;
 }
 a {
   text-decoration: none;
@@ -379,9 +380,6 @@ video {
     padding: 20px 0;
 }
 
-.bg-fix.fix03{
-  z-index: 2;
-}
 .intro{
   position: relative;
   text-align: center;
@@ -396,9 +394,7 @@ video {
 .intro .emblem .image{
   max-width: 170px;
 }
-.intro .fair{
-  margin-top: -26%;
-}
+
 .intro .fair .icon{
   max-width: 310px;
   margin: 0 auto 20px;
@@ -424,7 +420,7 @@ video {
 .intro .anchor-btn a{
   text-align: center;
   display: block;
-  background: #B51919;
+  background: #2D46DF;
   color: #fff;
   font-size: 20px;
   line-height: 1.2;
@@ -511,7 +507,7 @@ video {
 .electric .list .name{
   font-size: 40px;
   line-height: 1.4;
-  color: #B51919;
+  color: #2D46DF;
   margin-bottom: 16px;
 }
 .electric .list .info{
@@ -538,7 +534,6 @@ video {
 
 .campaign{
   text-align: center;
-  background: #fff;
   padding-bottom: 120px;
 }
 .campaign .wrap{
@@ -549,7 +544,7 @@ video {
 .campaign .tit{
   font-size: 40px;
   line-height: 1.4;
-  color: #B51919;
+  color: #2D46DF;
   margin: 80px auto 40px;
 }
 .campaign .txt{
@@ -562,7 +557,7 @@ video {
   line-height: 1.6;
   padding: 10px 20px;
   border: 1px solid;
-  color: #B51919;
+  color: #2D46DF;
   margin-bottom: 30px;
 }
 .campaign .point{
@@ -582,7 +577,8 @@ video {
   margin-top: 80px;
 }
 .campaign .img01{
-  max-width: 1000px;
+  max-width: 900px;
+  width: 90%;
   margin: auto;
 }
 
@@ -599,7 +595,7 @@ video {
 .paul .txt{
   font-size: 40px;
   margin-bottom: 20px;
-  color: #B51919;
+  color: #2D46DF;
 }
 .paul .lead{
   font-size: 18px;
@@ -640,7 +636,7 @@ video {
   font-weight: bold;
   line-height: 1.4;
   text-align: left;
-  color: #B51919;
+  color: #2D46DF;
   margin: 80px auto 40px;
 }
 .racing .txt{
@@ -739,7 +735,7 @@ video {
 .button a{
   text-align: center;
   display: block;
-  background: #B51919;
+  background: #2D46DF;
   color: #fff;
   font-size: 20px;
   line-height: 1.2;
@@ -872,8 +868,7 @@ video {
   background: transparent;
 }
 .sec03 {
-  background: #fff;
-  padding:120px 0;
+  padding:100px 0;
 }
 .sec03 .txt01{
   font-size: 30px;
@@ -966,8 +961,8 @@ video {
 }
 .sec03 .txt{
   text-align: center;
-  font-size: 40px;
-  color: #B51919;
+  font-size: 30px;
+  color: #2D46DF;
   line-height: 1.4;
   margin-bottom: 10px;
 }
@@ -1849,9 +1844,6 @@ video {
     margin: auto;
 }
     
-.intro .fair {
-    margin-top: 10px;
-}
 
 .intro .emblem{
   top: -1%;
@@ -1948,7 +1940,7 @@ video {
 }
 .electric .red-txt {
   font-size: 40px;
-  color: #B51919;
+  color: #2D46DF;
   line-height: 1.5;
   text-align: left;
   margin-bottom: 20px;
