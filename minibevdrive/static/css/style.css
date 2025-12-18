@@ -1005,6 +1005,12 @@ margin-bottom: 30px;
 .sec06 .list03 .button-box .button01 a:hover{
   background: #003620;
 }
+.sec06 .list04 .button-box .button01 a{
+  background: #E00201;
+}
+.sec06 .list04 .button-box .button01 a:hover{
+  background: #AD0000;
+}
 
 .all{
   border-top: 1px solid #d1d1d1;
