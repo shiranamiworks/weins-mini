@@ -891,6 +891,9 @@ video {
   position: relative;
   margin: 40px 0 100px;
 }
+.sec03 .list a:hover{
+  opacity: inherit;
+}
 .sec03 .list.list02{
   margin: 100px 0;
 }
