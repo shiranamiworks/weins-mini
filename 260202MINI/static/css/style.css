@@ -2059,15 +2059,19 @@ video {
 }
 
 .sec03 {
-  margin: 50px auto;
+  margin: -43% auto 60px;
   padding: 0;
 }
 .sec03 .txt01{
   font-size: 28px;
 }
 .sec03 .txt span {
+  display: block;
+  line-height: 1.6;
   font-size: 16px;
+  padding: 10px 0 5px;
 }
+
 .sec03 .list{
   margin-top: 30px;
   margin-bottom: 60px;
@@ -2088,12 +2092,10 @@ video {
   margin: 0 10px;
 }
 .sec03 .txt{
-  text-align: left;
   font-size: 24px;
 }
 .sec03 .mini{
-  text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 .sec03 .num{
   bottom: -32px;
