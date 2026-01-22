@@ -692,6 +692,10 @@ margin-bottom: 30px;
   width: 75%;
   margin: auto;
 }
+
+.sec01 .box03 {
+  display: none;
+}
 .sec01 .box03 ul{
   display: block;
   margin-bottom: 10px;
