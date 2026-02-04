@@ -381,7 +381,7 @@ video {
 }
 
 .intro{
-/*  position: relative;*/
+  margin-bottom: 80px;
   text-align: center;
 }
 .intro .emblem{
@@ -872,7 +872,7 @@ video {
   background: transparent;
 }
 .sec03 {
-  margin: -20% auto 80px;
+  margin: 80px auto 80px;
 }
 .sec03 .txt01{
   font-size: 30px;
@@ -975,7 +975,6 @@ video {
 .sec03 .txt{
   text-align: center;
   font-size: 30px;
-  color: #fff;
   line-height: 1.3;
 }
 .sec03 .txt span{
@@ -985,7 +984,6 @@ video {
   text-align: center;
   font-size: 12px;
   line-height: 1.4;
-  color: #fff;
 }
 
 .title{
@@ -1857,10 +1855,8 @@ video {
 }
     
 
-.intro .emblem{
-  top: -1%;
-  left: 8%;
-  z-index: 2;
+.intro {
+  margin-bottom: 40px;
 }
 .intro .emblem .image{
   max-width: 80px;
@@ -2059,7 +2055,7 @@ video {
 }
 
 .sec03 {
-  margin: -43% auto 60px;
+  margin: 40px auto 60px;
   padding: 0;
 }
 .sec03 .txt01{
