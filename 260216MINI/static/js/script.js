@@ -169,10 +169,22 @@ $('.slider02').slick({
   });
 });
 
-$(function() {
-  $(".fixed-banner .close").on("click",function(){
+$(function () {
+  const showPoint = 100;
+  let isClosed = false;
+
+  $(window).on('scroll', function () {
+    if (isClosed) return;
+
+    if ($(this).scrollTop() > showPoint) {
+      $('.fixed-banner').fadeIn();
+    }
+  });
+
+  $('.fixed-banner .close').on('click', function () {
+    isClosed = true;
     $(window).off('scroll');
-    $(".fixed-banner").fadeOut();
+    $('.fixed-banner').fadeOut();
   });
 });
 

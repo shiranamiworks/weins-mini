@@ -150,7 +150,7 @@
 
     display: inline-block;
 
-    width: 20px;
+    width: 10px;
     height: 20px;
     margin: 0 5px;
     padding: 0;
@@ -173,7 +173,8 @@
     color: transparent;
     border: 0;
     outline: none;
-    background: transparent;
+/*    background: transparent;*/
+    background: #D6D6D6;
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
