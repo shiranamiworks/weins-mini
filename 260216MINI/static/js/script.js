@@ -11,15 +11,29 @@
 //  });
 //});
 
-//$(function(){
-//$('.main-visual .mv01')
-//    .animate({'opacity':'1'}, 1600)
-//    .animate({'opacity': '0'}, 800);
-//    
-//$('.main-contents')
-//    .animate({'top':'0'}, 2400)
-//    .animate({'opacity':'1'}, 2000);
-//});
+$(function(){
+  const boxWrapper = document.querySelector('.animated-box-wrapper');
+  const boxTop = boxWrapper.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
+  if (boxTop < windowHeight - 100) { // スクロールで要素が見えたら発火
+    boxWrapper.classList.add('c-anim-up');
+  }
+});
+
+$(function(){
+$('.main-visual .line03')
+    .animate({'opacity':'1'}, 600)
+    .animate({'height':'58%'}, 700);
+        
+$('.main-visual .line04')
+    .animate({'opacity':'1'}, 600)
+    .animate({'width':'62%'}, 700);
+        
+$('.main-visual .mv01')
+    .animate({'opacity':'1'}, 800)
+    .animate({'left':'3%'}, 600)
+    
+});
 
 //$(function(){
 //  if($("#top").length){
@@ -49,6 +63,22 @@ $(function(){
 	});
 });
 
+$(function() {
+$('.fair .slider').slick({
+    autoplay: true,
+    dots: false,
+    arrows: false,
+    slidesToShow: 1,
+  });
+});
+$(function() {
+$('.debut .slider').slick({
+    autoplay: true,
+    dots: false,
+    arrows: false,
+    slidesToShow: 1,
+  });
+});
 
 $(function() {
   $(".electrics .list").slick({
@@ -99,7 +129,7 @@ $(function(){
 });
 
 $(function() {
-$('.slider').slick({
+$('.sec03 .slider').slick({
     autoplay: true,
     dots: true,
     arrows: false,
