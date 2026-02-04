@@ -496,13 +496,15 @@ video {
     transform:scale(.4);
   }
   100% {
-    transform:scale(1.1);
+    transform:scale(1);
   }
 }
 
+/*
 .debut{
   margin-top: 3%;
 }
+*/
 .debut .list01{
   display: flex;
   justify-content: space-between;
