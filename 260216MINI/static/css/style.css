@@ -232,7 +232,7 @@ End-responsible-contents  only-pc
   position: fixed;
   width: 290px;
   height: auto;
-  bottom: 170px;
+  bottom: 190px;
   right: 0%;
   transform: translateY(-50%);
   z-index: 10000;
@@ -541,7 +541,7 @@ video {
 .debut .list02 li{
   width: 30%;
   padding: 40px 0;
-  border-right: 1px solid;
+/*  border-right: 1px solid;*/
 }
 .debut .list02 li:last-child{
   width: 70%;
@@ -1082,22 +1082,25 @@ video {
 }
 .sec04 .list02{
   max-width: 700px;
-  margin: 30px auto 0;
+  margin: 100px auto 0;
 }
 .sec04 .list02 li{
   display: inline-block;
   vertical-align: middle;
-  width: 38%;
+  width: 28%;
+}
+.sec04 .list02 li .eco-mark{
+  max-width: 175px;
 }
 .sec04 .list02 li:last-child{
-  width: 60%;
+  width: 70%;
 }
 .sec04 .list02 .txt01{
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 30px;
 }
 .sec04 .list02 .txt01 img{
-  width: 54%;
+  width: 50%;
 }
 .sec04 .list02 .mini{
   font-size: 13px;
