@@ -29,6 +29,10 @@ $('.main-visual .line04')
     .animate({'opacity':'1'}, 600)
     .animate({'width':'62%'}, 700);
         
+$('.main-visual .line05')
+    .animate({'opacity':'1'}, 600)
+    .animate({'width':'10%'}, 700);
+        
 $('.main-visual .mv01')
     .animate({'opacity':'1'}, 800)
     .animate({'left':'3%'}, 600)
