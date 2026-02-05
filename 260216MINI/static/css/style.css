@@ -1682,6 +1682,9 @@ video {
 .intro{
   text-align: center;
 }
+.intro .fair .text{
+  width: 50%;
+}
 .intro .fair .list{
   display: block;
   margin: 40px auto 0;
