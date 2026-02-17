@@ -342,11 +342,11 @@ video {
   position: absolute;
   right: 0;
   left: 0;
-  bottom: 18%;
+  bottom: 43%;
   width: 94%;
   margin: auto;
   height: 12px;
-  background-color: #26D6C3;
+  background-color: #B51919;
   z-index: 2;
   animation: line01 .6s;
 }
@@ -363,11 +363,11 @@ video {
 .main-visual .line02{
   position: absolute;
   right: 3%;
-  bottom: 18%;
+  bottom: 43%;
   width: 12px;
   margin: auto;
-  height: 74%;
-  background-color: #26D6C3;
+  height: 50%;
+  background-color: #B51919;
   z-index: 2;
   animation: line02 .6s;
 }
@@ -384,11 +384,11 @@ video {
 .main-visual .line03{
   position: absolute;
   left: 3%;
-  bottom: 18%;
+  bottom: 43%;
   width: 12px;
   margin: auto;
   height: 0;
-  background-color: #26D6C3;
+  background-color: #B51919;
   z-index: 2;
   opacity: 0;
 }
@@ -399,7 +399,7 @@ video {
   width: 0;
   margin: auto;
   height: 12px;
-  background-color: #26D6C3;
+  background-color: #B51919;
   z-index: 2;
   opacity: 0;
 }
@@ -410,7 +410,7 @@ video {
   width: 0;
   margin: auto;
   height: 12px;
-  background-color: #26D6C3;
+  background-color: #B51919;
   z-index: 2;
   opacity: 0;
 }
@@ -423,260 +423,102 @@ video {
   z-index: 2;
   opacity: 0;
 }
+.main-visual .mv02{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 42%;
+  margin: auto;
+  z-index: 2;
+}
 .main-visual img {
   width: 100%;
 }
+.main-visual .green{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+}
 
 .intro{
-/*  position: relative;*/
   text-align: center;
+  margin-bottom: 120px;
 }
-.intro .fair .list{
+.intro .list01{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2%;
-}
-.intro .fair .list li{
-  width: 50%;
-  text-align: left;
-}
-.intro .fair .list li:first-child{
-  width: 42%;
-  margin: auto;
-}
-.intro .fair .tit{
-  font-size: 20px;
-  margin: 40px auto 10px;
-}
-.intro .fair .big-tit{
-  font-size: 44px;
-  margin-bottom: 10px;
-}
-.intro .fair .day{
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-.intro .fair .lead{
-  font-size: 13px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-.intro .fair .lead span{
-  font-size: 24px;
-}
-.intro .fair .fair01{
-  max-width: 200px;
-  margin-bottom: 20px;
-}
-.intro .fair .sliders{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-}
-.intro .fair .slide01{
-  width: 65%;
-}
-.intro .fair .slide02{
-  width: 35%;
-}
-.intro .fair .bg{
-  position: relative;
-}
-.intro .fair .bg-image{
-  animation: wide linear both;
-  animation-timeline: view();
-  animation-range: entry 25% cover 50%;
-  margin: auto;
-  position: relative;
-  overflow: hidden;
-}
-.intro .fair .text{
-  width: 34%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-@keyframes wide {
-  0% {
-    transform:scale(.4);
-  }
-  50% {
-    transform:scale(.4);
-  }
-  100% {
-    transform:scale(1);
-  }
-}
-
-/*
-.debut{
-  margin-top: 3%;
-}
-*/
-.debut .list01{
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid;
-}
-.debut .list01 li{
-  width: 30%;
-  padding: 40px 0;
-  border-right: 1px solid;
-}
-.debut .list01 li:last-child{
-  width: 68%;
-  border-right: none;
-  padding-left: 2%;
-  box-sizing: border-box;
-}
-.debut .list01 .txt{
-  font-size: 44px;
-  line-height: 1.2;
-}
-.debut .list01 .txt span{
-  font-size: 36px;
-}
-.debut .list01 .txt .mini{
-  font-size: 15px;
-}
-.debut .list02{
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid;
-  align-items: flex-start;
-}
-.debut .list02 .texts{
-  width: 90%;
-  margin: auto;
-}
-.debut .list02 li{
-  width: 30%;
-  padding: 40px 0;
-/*  border-right: 1px solid;*/
-}
-.debut .list02 li:last-child{
-  width: 70%;
-  border-right: none;
-  padding: 0;
-}
-.debut .sliders{
-  display: flex;
-}
-.debut .slide01{
-  width: 63%;
-}
-.debut .slide02{
-  width: 23%;
-}
-.debut .list02 .txt01{
-  font-size: 32px;
-  line-height: 1.2;
-  margin-bottom: 10px;
-}
-.debut .list02 .lead{
-  font-size: 13px;
-  line-height: 1.8;
+  margin-top: -14%;
   margin-bottom: 60px;
 }
-.debut .list02 .txt02{
-  font-size: 18px;
-  line-height: 1.2;
-  margin-bottom: 10px;
-  font-weight: bold;
+.intro .list01 li{
+  width: 24%;
 }
-.debut .list02 .mini{
-  font-size: 12px;
-  line-height: 1.8;
-}
-.debut .list03{
-  display: flex;
-  justify-content: center;
-  border-bottom: 1px solid;
-  align-items: center;
-  padding: 80px 0;
-}
-.debut .list03 li{
-  width: 28%;
-}
-.debut .list03 li:last-child{
-  width: 48%;
-  margin-left: 4%;
-}
-.debut .list03 .txt03{
-  font-size: 44px;
-  line-height: 1.2;
-  margin-bottom: 10px;
-}
-.debut .list03 .price{
-  font-size: 44px;
-  line-height: 1.2;
-}
-.debut .list03 .price span{
+.intro .list01 li .txt{
   font-size: 13px;
+  line-height: 1.4;
+  margin: 10px auto 0;
+}
+.intro .list02{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 980px;
+}
+.intro .list02 li{
+  text-align: left;
+  width: 48%;
+}
+.intro .list02 li .name{
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.intro .list02 li .info{
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.intro .list02 li .price{
+  font-size: 13px;
+  line-height: 1.6;
+}
+.intro .list02 li .price span{
+  font-size: 44px;
 }
 
 .family{
-  padding-bottom: 64%;
-}
-.family .all_box {
-  display: flex;
-  justify-content: left;
-  position: relative;
-}
-.family .right_side {
-  width: 50vw;
-}
-.family .right_side .tit {
-  max-width: 417px;
-  width: 94%;
-  margin: 0 auto 120px;
-}
-.family .right_side .txt {
-  font-size: 36px;
-  line-height: 1.5;
-  margin: 0 auto 20px;
-}
-.family .right_side .lead {
-  font-size: 16px;
-  line-height: 1.4;
-  margin: 0 auto 20px;
-}
-.family .right_side .mini {
-  font-size: 14px;
-  line-height: 1.6;
-  margin: 0 auto 60px;
-}
-.family .right_side .caps {
-  font-size: 12px;
-  line-height: 1.5;
-  margin: 40px auto;
-}
-.family .right_side .img02 {
   margin-bottom: 40px;
 }
-.family .right_side .scroll-box {
-  text-align: left;
-  width: 68%;
-  margin: 200px auto 0;
-}
-.family .left_side {
-  width: 50vw;
-  height: 0;
+.family .list {
+  max-width: 1000px;
+  margin: 100px auto 0;
   display: flex;
-  align-items: flex-start;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
+  justify-content: space-between;
+  align-items: center;
 }
-.family .left_side p:first-child,
-.family .left_side p.active {
-  visibility: visible;
-  opacity: 1;
-  position: relative;
+.family .list li{
+  width: 46%;
+}
+.family .list li .txt{
+  font-size: 36px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.family .list li .lead{
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.family .list li .mini{
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 50px;
 }
 
 .button{
@@ -686,8 +528,9 @@ video {
 .button a{
   text-align: center;
   display: block;
-  background: #26D6C3;
   color: #fff;
+  background: #01693E;
+  border: 1px solid;
   font-size: 16px;
   line-height: 1.2;
   padding: 26px 0;
@@ -695,8 +538,8 @@ video {
 }
 .button a:hover{
   display: block;
-  background: #23BEAD;
-  color: #fff;
+  background: #fff;
+  color: #01693E;
   opacity: 1;
 }
 .button01 a{
@@ -746,8 +589,8 @@ video {
   background:#000;
 }
 .slick-dots li button{
-  width: 12px !important;
-  height: 12px !important;
+  width: 8px !important;
+  height: 8px !important;
 }
 /*
 .slick-dots button{
@@ -779,7 +622,6 @@ video {
   overflow: hidden;
   width: 100%;
   vertical-align: middle;
-  margin-bottom: 20px;
 }
 .outer.on .inner {
   transform: translateX(0);
@@ -789,7 +631,6 @@ video {
 }
 .inner {
   display: inline-block;
-  padding: 4px 0;
   transform: translateX(-101%);
   transition: transform .75s;
   position: relative;
@@ -801,7 +642,7 @@ video {
   right: 0;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: #01693E;
   transition: width .65s .3s;
 }
 .sections .line{
@@ -812,12 +653,13 @@ video {
   margin: auto;
 }
 .inner01:after {
-  background: transparent;
+  background: #01693E;
 }
 
 .sec03 {
-  padding: 120px 0 80px;
-  border-bottom: 1px solid;
+  padding: 80px 0 80px;
+  background: #01693E;
+  color: #fff;
 }
 .sec03 .logo{
   max-width: 130px;
@@ -827,6 +669,7 @@ video {
   text-align: center;
   font-size: 30px;
   line-height: 1.3;
+  margin-bottom: 10px;
 }
 .sec03 .txt span{
   font-size: 18px;
@@ -1681,124 +1524,6 @@ video {
     
 .intro{
   text-align: center;
-}
-.intro .fair .text{
-  width: 50%;
-}
-.intro .fair .list{
-  display: block;
-  margin: 40px auto 0;
-}
-.intro .fair .list li{
-  width: 100%;
-  margin: auto;
-}
-.intro .fair .list li:first-child{
-  width: 94%;
-  margin: 0 auto 20px;
-}
-.intro .fair .tit{
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-.intro .fair .big-tit{
-  font-size: 44px;
-  margin-bottom: 10px;
-}
-.intro .fair .day{
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-.intro .fair .lead{
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-.intro .fair .lead span{
-  font-size: 22px;
-}
-.intro .fair .fair01{
-  max-width: 200px;
-  margin-bottom: 20px;
-}
-.intro .fair .sliders{
-  display: block;
-}
-.intro .fair .slide01{
-  width: 100%;
-  margin-bottom: 20px;
-}
-.intro .fair .slide02{
-  width: 100%;
-}
-    
-.debut .list01 {
-  display: block;
-}
-.debut .list01 .txt {
-  font-size: 36px;
-}
-.debut .list01 .txt span {
-  font-size: 26px;
-}
-.debut .list01 li:last-child {
-  width: 94%;
-  padding: 0;
-  margin: 30px auto;
-}
-.debut .list01 .txt .mini {
-  font-size: 13px;
-}
-.debut .list02 {
-  display: flex;
-  flex-direction: column;
-}
-.debut .list02 li {
-  width: 100%;
-  padding: 40px 0;
-  order: 2;
-}
-.debut .list02 li:last-child {
-  width: 100%;
-  order: 1;
-}
-.debut .sliders{
-  display: block;
-}
-.debut .slide01{
-  width: 100%;
-}
-.debut .slide02{
-  width: 50%;
-  margin-top: -30px;
-  float: right;
-}
-.debut .list02 .txt01 {
-  font-size: 27px;
-}
-.debut .list02 .lead {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-.debut .list03 {
-  display: block;
-  clear: both;
-  padding: 40px 0;
-}
-.debut .list03 li {
-  width: 90%;
-  margin: auto;
-}
-.debut .list03 .txt03 {
-  font-size: 32px;
-}
-.debut .list03 li:last-child {
-  width: 90%;
-  margin-left: auto;
-}
-.debut .list03 .price {
-  font-size: 30px;
-  margin-bottom: 20px;
 }
 
 .sec03 {
