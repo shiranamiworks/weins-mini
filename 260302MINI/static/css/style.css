@@ -255,7 +255,7 @@ End-responsible-contents  only-pc
   display: block;
   cursor: pointer;
   position: absolute;
-  top: 2px;
+  top: 8px;
   right: 2px;
   width: 9%;
 }
@@ -284,7 +284,7 @@ End-responsible-contents  only-pc
   }
   .fixed-banner .close {
     width: 23px;
-    top: 0px;
+    top: 4px;
     right: 0px;
   }
 }
@@ -734,7 +734,7 @@ video {
   position: absolute;
   top: 85%;
   right: 7%;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   padding: 16px 9px;
   border-radius: 50px;
   transition: .3s;
@@ -742,7 +742,7 @@ video {
 .sec03 a .arrow-right {
   display: inline-block;
   vertical-align: middle;
-  color: #000;
+  color: #fff;
   line-height: 1;
   position: relative;
   width: 1em;
@@ -770,11 +770,11 @@ video {
 */
 .sec03 a:hover .arrow{
 /*  background: transparent;*/
-  color: #fff;
-  background: #000;
+  color: #01693E;
+  background: #fff;
 }
 .sec03 a:hover .arrow-right {
-  color: #fff;
+  color: #01693E;
   background: currentColor;
 }
 
@@ -1228,8 +1228,8 @@ video {
 .store-list .link a{
   background: #000;
   color: #fff;
-  padding: 10px 30px 5px;
-  font-size: 23px;
+  padding: 15px 40px 10px;
+  font-size: 20px;
 }
 .store-list .point-text{
   font-size: 15px;
@@ -1508,6 +1508,11 @@ video {
 .main-visual .mv01 {
   width: 80%;
 }
+    
+.main-visual .mv02{
+  bottom: 3%;
+  width: 90%;
+}
 
 .content-wrap {
     width: 94%;
@@ -1524,11 +1529,71 @@ video {
     
 .intro{
   text-align: center;
+  margin-bottom: 40px;
+}
+.intro .tit{
+  font-size: 25px;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: left;
+}
+.intro .lead{
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: left;
+}
+.intro .list01{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.intro .list01 li{
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+.intro .list01 li:nth-child(2n){
+  margin-right: auto;
+}
+.intro .list01 li .txt{
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 10px auto 0;
+}
+.intro .list02{
+  display: block;
+}
+.intro .list02 li{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.intro .list02 li:last-child{
+  margin-bottom: 0px;
+}
+.intro .list02 li .name{
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.intro .list02 li .info{
+  font-size: 12px;
+}
+.intro .list02 li .price{
+  font-size: 12px;
+  line-height: 1.6;
+}
+.intro .list02 li .price span{
+  font-size: 30px;
 }
 
 .sec03 {
   margin: 40px auto 60px;
-  padding: 0 0 40px;
+  padding: 40px 0;
+}
+.sec03 .logo {
+  max-width: 100px;
 }
 .sec03 .txt01{
   font-size: 28px;
@@ -1562,7 +1627,7 @@ video {
   margin: 0 0 20px;
 }
 .sec03 .txt{
-  font-size: 30px;
+  font-size: 26px;
   text-align: left;
 }
 .sec03 .mini{
@@ -1574,38 +1639,41 @@ video {
   left: 128px;
 }
     
-.family {
-  padding-bottom: 40px;
+.family{
+  margin-bottom: 40px;
 }
-.family .all_box {
+.family .list {
   display: block;
+  width: 94%;
+  margin: 40px auto 0;
 }
-.family .left_side {
-  width: 100vw;
-  height: 0;
-  display: block;
-  align-items: center;
-  position: relative;
-  top: 0;
-}
-.family .right_side {
-  width: 94vw;
-  margin: 140% auto 0;
-}
-.family .right_side .scroll-box {
+.family .list li{
   width: 100%;
-  margin: 200px auto 0;
 }
-.family .right_side .txt {
-  font-size: 29px;
+.family .list li .image{
+  margin-bottom: 40px;
 }
-.family .right_side .mini {
-    margin: 0 auto 40px;
+.family .list li .txt{
+  font-size: 25px;
 }
+.family .list li .lead{
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.family .list li .mini{
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.family .list li .mini .small{
+  font-size: 11px;
+  line-height: 1.6;
+}
+
     
 .button a {
-  font-size: 20px;
-  padding: 20px 0;
+  font-size: 18px;
+  padding: 15px 0 10px;
 }
 
 .title {

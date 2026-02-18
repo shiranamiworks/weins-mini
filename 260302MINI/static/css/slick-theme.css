@@ -174,7 +174,7 @@
     border: 0;
     outline: none;
 /*    background: transparent;*/
-    background: #D6D6D6;
+    background: #fff;
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
