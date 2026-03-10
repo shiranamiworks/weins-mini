@@ -482,10 +482,10 @@ video {
   margin-bottom: 80px;
 }
 .new-content li{
-  width: 42%;
+  width: 40%;
 }
 .new-content li:last-child{
-  width: 52%;
+  width: 55%;
 }
 .new-content .info{
   text-align: left;
@@ -756,12 +756,10 @@ video {
 .button a{
   text-align: center;
   display: block;
-  background: #B51919;
+  background: #000;
   color: #fff;
   font-size: 20px;
   line-height: 1.2;
-/*  padding: 22px 0 16px;*/
-  border: 1px solid;
   transition: .3s;
 }
 .button a span{
@@ -814,23 +812,23 @@ video {
   height:8px;
   display:block;
   border-radius:50%;
-  background:#959595;
+  background: #fff;
 }
 .slick-dots .slick-active button{
-  background:#000;
+  background: #fff;
 }
 .slick-dots li button{
   width: 12px !important;
   height: 12px !important;
 }
 .slick-dots button{
-  border: 1px solid #000 !important;
+  border: 1px solid #fff !important;
 }
 .slider .slick-prev, .slick-next {
   z-index: 1;
 }
 .slider .slick-prev:before, .slick-next:before {
-  color: #000;
+  color: #fff;
 }
 
 
@@ -953,7 +951,7 @@ video {
   position: absolute;
   top: 85%;
   right: 7%;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   padding: 16px 9px;
   border-radius: 50px;
   transition: .3s;
@@ -961,7 +959,7 @@ video {
 .sec03 a .arrow-right {
   display: inline-block;
   vertical-align: middle;
-  color: #000;
+  color: #fff;
   line-height: 1;
   position: relative;
   width: 1em;
@@ -989,11 +987,11 @@ video {
 */
 .sec03 a:hover .arrow{
 /*  background: transparent;*/
-  color: #fff;
-  background: #000;
+  color: #94A04C;
+  background: #fff;
 }
 .sec03 a:hover .arrow-right {
-  color: #fff;
+  color: #94A04C;
   background: currentColor;
 }
 .sec03 .txt{
@@ -1277,7 +1275,7 @@ video {
 }
 
 .sec04 {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: -4%;
 }
 .sec04 .wrap{
