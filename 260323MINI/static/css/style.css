@@ -68,7 +68,7 @@ table {
 }
 main {
   display: block;
-  background-color: #F4EFE9;
+  background-color: #fff;
 }
 a {
   text-decoration: none;
@@ -233,14 +233,14 @@ End-responsible-contents  only-pc
   position: fixed;
   width: 290px;
   height: auto;
-  bottom: 170px;
+  bottom: 36%;
   right: 0%;
-  transform: translateY(-50%);
   z-index: 10000;
 }
 .fixed-banner.bnr02{
-  bottom: 70px;
+  bottom: 24%;
   right: 0%;
+  margin-top: 10px;
 }
 .fixed-banner a{
   display: block;
@@ -255,9 +255,9 @@ End-responsible-contents  only-pc
   display: block;
   cursor: pointer;
   position: absolute;
-  top: 2px;
+  top: 8px;
   right: 2px;
-  width: 9%;
+  width: 7%;
 }
 
 @media (max-width: 768px) {
@@ -381,7 +381,8 @@ video {
 }
 
 .intro{
-  margin-bottom: 80px;
+  margin-top: -4%;
+  margin-bottom: 120px;
   text-align: center;
 }
 .intro .emblem{
@@ -436,6 +437,67 @@ video {
   background: #981414;
   color: #fff;
   opacity: 1;
+}
+
+.new-content{
+  position: relative;
+  text-align: center;
+  padding-bottom: 120px;
+  color: #748893;
+  background: #fff;
+  border-radius: 0 0 50px 50px;
+}
+.new-content .wrap{
+  max-width: 1000px;
+}
+.new-content .tit{
+  font-size: 32px;
+  line-height: 1.1;
+  padding-bottom: 14px;
+  margin-bottom: 30px;
+  border-bottom: 2px dotted;
+}
+.new-content .txt{
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.new-content .img01{
+  max-width: 836px;
+  margin: 40px auto;
+}
+.new-content .mini{
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 80px;
+}
+.new-content .img02{
+  margin-bottom: 80px;
+}
+.new-content ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.new-content li{
+  width: 42%;
+}
+.new-content li:last-child{
+  width: 52%;
+}
+.new-content .info{
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.new-content .price{
+  text-align: left;
+  font-size: 12px;
+}
+.new-content .price span{
+  font-size: 24px;
 }
 
 .bg-fix{
@@ -535,6 +597,7 @@ video {
 .campaign{
   text-align: center;
   padding-bottom: 120px;
+  margin-top: -4%;
 }
 .campaign .wrap{
   max-width: 1200px;
@@ -542,9 +605,8 @@ video {
   text-align: center;
 }
 .campaign .tit{
-  font-size: 40px;
+  font-size: 36px;
   line-height: 1.4;
-  color: #B51919;
   margin: 80px auto 40px;
 }
 .campaign .txt{
@@ -561,69 +623,24 @@ video {
   margin-bottom: 30px;
 }
 .campaign .point{
-  max-width: 504px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.8;
-  text-align: left;
   margin: 0 auto 30px;
 }
 .campaign .mini{
+  max-width: 800px;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2;
-  margin: 10px auto 60px;
+  margin: 20px auto 40px;
 }
 .campaign-btn{
   margin-top: 80px;
 }
 .campaign .img01{
-  max-width: 900px;
+  max-width: 866px;
   width: 90%;
-  margin: auto;
-}
-
-.paul{
-  text-align: center;
-  background: #F4EFE9;
-  padding: 0 0 120px;
-  color: #000;
-}
-.paul .img02{
-  max-width: 538px;
-  margin: 80px auto 40px;
-}
-.paul .txt{
-  font-size: 40px;
-  margin-bottom: 20px;
-  color: #B51919;
-}
-.paul .lead{
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 60px;
-}
-.paul .mini{
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-.paul .price{
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 60px;
-}
-.paul .price span{
-  font-size: 32px;
-}
-.paul .slider02{
-  margin-bottom: 60px;
-}
-.paul .slick-slide{
-  margin: 0 10px;
-}
-.paul .color-img{
-  max-width: 800px;
-  margin: 30px auto 70px;
+  margin: 0 auto 40px;
 }
 
 .racing{
@@ -869,7 +886,16 @@ video {
   background: transparent;
 }
 .sec03 {
-  margin: 80px auto 80px;
+  position: relative;
+  background: #748893;
+  color: #fff;
+  margin-top: -4%;
+  padding: 140px 0 120px;
+  border-radius: 0 0 50px 50px;
+}
+.sec03 .logo{
+  text-align: center;
+  margin-bottom: 20px;
 }
 .sec03 .txt01{
   font-size: 30px;
@@ -1054,6 +1080,7 @@ video {
 .sec05 .bg02 .txt{
   font-size: 12px;
   margin-bottom: 20px;
+  position: relative;
 }
 .sec05 .bg02 .tab-inner.current {
   display: block;
@@ -1159,6 +1186,7 @@ video {
 /*    border-bottom: 1px solid #d1d1d1;*/
     padding-bottom: 80px;
     text-align: center;
+    border-radius: 0 0 50px 50px;
 }
 .sns.wrap{
     max-width: 1200px;
@@ -1192,7 +1220,6 @@ video {
 }
 .sns.instagram {
   background: #fff;
-  border-bottom: 1px solid #d1d1d1;
 /*  border-top: 1px solid #d1d1d1;*/
   padding: 80px 0;
 }
@@ -1250,6 +1277,7 @@ video {
 
 .sec04 {
   margin-bottom: 100px;
+  margin-top: -4%;
 }
 .sec04 .wrap{
   max-width: 900px;
@@ -2024,20 +2052,6 @@ video {
 .campaign .point {
   font-size: 16px;
 }
-
-.paul {
-  padding-bottom: 60px;
-}
-.paul .txt {
-  font-size: 40px;
-}
-.paul .lead {
-  font-size: 16px;
-}
-.paul .img02 {
-  margin: 40px auto;
-}
-    
 
 .racing {
   padding-bottom: 60px;
