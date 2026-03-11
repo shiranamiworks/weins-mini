@@ -284,7 +284,7 @@ End-responsible-contents  only-pc
   }
   .fixed-banner .close {
     width: 23px;
-    top: 0px;
+    top: 3px;
     right: 0px;
   }
 }
@@ -756,7 +756,7 @@ video {
 .button a{
   text-align: center;
   display: block;
-  background: #000;
+/*  background: #000;*/
   color: #fff;
   font-size: 20px;
   line-height: 1.2;
@@ -1277,6 +1277,9 @@ video {
 .sec04 {
   margin-bottom: 50px;
   margin-top: -4%;
+  padding-bottom: 80px;
+  background: #F5F5F5;
+  border-radius: 0 0 50px 50px;
 }
 .sec04 .wrap{
   max-width: 900px;
@@ -1456,17 +1459,22 @@ video {
   float: left;
   width: 48%;
   padding-right: 0 !important!;
-  padding-bottom: 0;
+  padding-bottom: 10px;
   font-size: 14px;
+}
+.pageTabs li:first-child {
+  width: 100%;
 }
 .pageTabs li:nth-child(2n) {
   float: right;
   clear: none;
   margin-right: 0;
 }
+/*
 .pageTabs li:not(:nth-child(-n+2)) {
   padding-top: 10px;
 }
+*/
 .pageTabs li a {
   display: block;
   padding: 8px 0;
@@ -1906,53 +1914,36 @@ video {
     
 
 .intro {
+  margin-top: -8%;
   margin-bottom: 40px;
 }
-.intro .emblem .image{
-  max-width: 80px;
+
+.new-content {
+  padding-bottom: 50px;
 }
-.intro .fair .txt01{
-  font-size: 28px;
+.new-content .tit {
+  font-size: 24px;
 }
-.intro .txt02{
-  font-size: 16px;
-}
-.intro .txt03{
+.new-content .txt {
   font-size: 14px;
 }
-
-.intro .list{
-  margin: 20px auto 40px;
+.new-content .mini {
+  font-size: 14px;
+  margin-bottom: 40px;
 }
-.intro .list li{
-  text-align: left;
-  display: inline-block;
-  width: 100%;
-  margin-right: 0;
+.new-content .img02 {
+  margin-bottom: 40px;
 }
-.intro .list li:last-child{
-  width: 100%;
-  margin-right: auto;
-}
-.intro .list .tit{
-  font-size: 30px;
-  line-height: 1.4;
-  margin-bottom: 10px;
-}
-.intro .list .lead{
+.new-content ul {
+  display: block;
   margin-bottom: 20px;
 }
-.intro .list .price {
-   margin-bottom: 15px;
+.new-content li {
+  width: 100%;
 }
-.intro .list .price span {
-   font-size: 23px;
-}
-.intro .button {
-    margin-bottom: 60px;
-}
-.intro .kv {
-   margin-top: 40px;
+.new-content li:last-child {
+  width: 100%;
+  margin-top: 20px;
 }
     
 .bg-inner{
@@ -2038,18 +2029,23 @@ video {
     
 
 .campaign {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+  margin-top: -14%;
 }
 .campaign .tit {
-  font-size: 28px;
+  font-size: 24px;
   margin: 40px auto 20px;
 }
 .campaign .txt {
   margin: 0 auto 20px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .campaign .point {
-  font-size: 16px;
+  font-size: 14px;
+}
+.campaign .mini {
+    font-size: 12px;
+    line-height: 1.6;
 }
 
 .racing {
@@ -2091,8 +2087,11 @@ video {
 }
 
 .sec03 {
-  margin: 40px auto 60px;
-  padding: 0;
+  padding: 80px 0 60px;
+  margin-top: -12%;
+}
+.sec03 .logo img {
+  max-width: 100px;
 }
 .sec03 .txt01{
   font-size: 28px;
@@ -2238,6 +2237,7 @@ video {
   }
   .sns{
     padding-top: 40px;
+    padding-bottom: 50px;
   }
   .sns.wrap{
     width: 86%;
@@ -2251,6 +2251,9 @@ video {
    }
   .sns .tit05 .btn a{
       padding: 14px 30px;
+   }
+  .sns .tit05 .image{
+      max-width: 220px;
    }
   .sns .image{
       margin-top: 30px;
@@ -2305,7 +2308,9 @@ video {
   }
     
 .sec04 {
-  margin-bottom: 50px;
+  margin-bottom: 0;
+  margin-top: -14%;
+  padding-bottom: 50px;
 }
 .sec04 .image{
   margin-bottom: 40px;
@@ -2315,7 +2320,7 @@ video {
   margin-bottom: 10px;
 }
 .sec04 .txt{
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 40px;
 }
 .sec04 .logo{
@@ -2342,12 +2347,15 @@ video {
     width: 100%;
 }
 .sec04 .list02 .txt01 {
-  font-size: 25px;
-  margin-bottom: 30px;
+  font-size: 22px;
+  margin-bottom: 20px;
   line-height: 1.4;
 }
+.sec04 .list02 li .eco-mark {
+  max-width: 140px;
+}
 .sec04 .list02 .txt01 img {
-  width: 70%;
+  width: 60%;
 }
 .sec04 .lead {
   font-size: 14px;
@@ -2373,8 +2381,7 @@ video {
   }
 
   .stores {
-    padding: 40px 0;
-    margin-bottom: 40px;
+    padding: 0 0 40px;
   }
   .store-list{
     margin-bottom: 20px;
