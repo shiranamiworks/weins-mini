@@ -376,7 +376,7 @@ End-responsible-contents  only-pc
 }
 .sec01 .text02{
   clear: both;
-  font-size: 20px;
+  font-size: 24px;
   margin-top: 30px;
   line-height: 1.6;
   border: 1px solid;
@@ -456,10 +456,77 @@ End-responsible-contents  only-pc
   margin: 0 auto;
   padding: 3.5%;
 }
+.sec02 .art .images{
+  position: relative;
+}
 .sec02 .art.art01{
   display: flex;
   flex-wrap: wrap;
 }
+.sec02 .art.art01 ul{
+  margin-bottom: 50px;
+}
+
+.pull {
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.pull dt {
+  position: relative;
+  width: 86%;
+  max-width: 400px;
+  border: 1px solid #005493;
+  padding: 16px;
+  margin-left: 5%;
+}
+.pull dt .txt {
+  text-align: left;
+  font-size: 30px;
+  color: #005493;
+}
+.pull dt .buttons {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+.pull dt .buttons a {
+  display: block;
+  width: 36px;
+  height: 26px;
+  box-sizing: border-box;
+  text-align: center;
+  display: none;
+  cursor: pointer;
+}
+.pull dt .buttons span {
+  display: block;
+  width: 36px;
+  height: 26px;
+  box-sizing: border-box;
+  text-align: center;
+  display: none;
+  cursor: pointer;
+}
+.pull dt .buttons a.on,
+.pull dt .buttons span.on {
+  display: block;
+}
+.pull dt .buttons a.close:after,
+.pull dt .buttons span.close:after {
+  border-top: 0;
+}
+.pull dd {
+  margin: 50px auto 30px;
+  box-sizing: border-box;
+  display: none;
+}
+.pull dd.on {
+  display: block;
+}
+
 .sec02 .art.art03{
   display: flex;
   flex-wrap: wrap;
@@ -534,6 +601,28 @@ End-responsible-contents  only-pc
    right: 0;
    font-size: 12px;
 }
+.sec02 .art .caption03{
+   position: absolute;
+   bottom: -15px;
+   right: 0;
+   font-size: 12px;
+}
+
+.sec02 .art.art05 .image{
+  margin-bottom: 50px;
+}
+
+.sec02 .art .double li{
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+  margin-top: 30px;
+  float: none;
+}
+.sec02 .art .double li:last-child{
+  margin-right: auto;
+}
+
 
 .slider img {
   width: 100%;
@@ -602,16 +691,15 @@ End-responsible-contents  only-pc
 }
 .sec04 li{
     display: inline-block;
-    width: 42%;
-    font-size: 15px;
+    width: 62%;
+    font-size: 20px;
     text-align: left;
     line-height: 1.4;
     margin-right: 2%;
     vertical-align: bottom;
 }
-.sec04 li:first-child{
-    width: 13%;
-    margin-right: 1%;
+.sec04 li span{
+    font-size: 14px;
 }
 .sec04 li:last-child{
     width: 35%;
@@ -721,6 +809,13 @@ End-responsible-contents  only-pc
   .sec04{
       margin-bottom: 30px;
   }
+  
+  .sec02 .art .caption02 {
+    bottom: -25px;
+}
+  .sec02 .art .caption03 {
+    bottom: -15px;
+}
 
 }
 
@@ -767,6 +862,11 @@ End-responsible-contents  only-pc
   font-size: 16px;
   margin: 20px auto;
 }
+
+.pull dt {
+  margin: auto;
+}
+    
 .sec02.bg.mb60 {
   margin-bottom: 60px;
 }
@@ -852,6 +952,16 @@ End-responsible-contents  only-pc
 .sec02 .art.art03{
    padding-top: 14%;
 }
+    
+.pull dt .txt {
+  font-size: 23px;
+}
+.pull dt .buttons a{
+  width: 30px;
+}
+.pull dt .buttons span {
+  width: 30px;
+}
 
 .sec03 {
   background: url(../images/top/sec03-bg-sp.jpg);
@@ -875,14 +985,13 @@ End-responsible-contents  only-pc
     display: block;
     width: 100%;
     text-align: center;
-    font-size: 14px;
     line-height: 1.4;
     margin-right: 0;
     margin-bottom: 5%;
     vertical-align: middle;
 }
 .sec04 li:first-child{
-    width: 40%;
+    width: 100%;
     margin: 0 auto 5%;
 }
 .sec04 li:last-child{
