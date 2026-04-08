@@ -410,7 +410,7 @@ video {
   width: 0;
   margin: auto;
   height: 12px;
-  background-color: #26D6C3;
+  background-color: #ED510D;
   z-index: 2;
   opacity: 0;
 }
@@ -425,6 +425,23 @@ video {
 }
 .main-visual img {
   width: 100%;
+}
+
+@media screen and (max-width:768px) {
+  .main-visual .line01{
+    bottom: 15%;
+}
+.main-visual .line02{
+    bottom: 15%;
+    height: 77%
+}
+.main-visual .line03{
+    bottom: 15%;
+}
+.main-visual .line05{
+   top:  8%;
+}
+    
 }
 
 .intro{
@@ -451,7 +468,7 @@ video {
 .intro .txt{
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .intro .box{
   font-size: 16px;
@@ -508,11 +525,11 @@ video {
   margin: 0 auto;
 }
 .paul .left_side .mini-box .color{
-  font-size: 12px;
+  font-size: 14px;
   margin: 16px auto 26px;
 }
 .paul .left_side .mini-box .button a{
-  padding: 12px 0;
+  padding: 13px 0 10px;
   margin-bottom: 30px;
 }
 .paul .left_side .in-box .img06{
@@ -520,15 +537,15 @@ video {
   margin: auto;
 }
 .paul .left_side .in-box .info{
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.4;
   margin: 30px auto 10px;
 }
 .paul .left_side .in-box .price{
-  font-size: 11px;
+  font-size: 12px;
 }
 .paul .left_side .in-box .price span{
-  font-size: 20px;
+  font-size: 24px;
 }
 .paul .left_side .scroll-box {
   text-align: center;
@@ -554,6 +571,7 @@ video {
 
 .family{
   text-align: center;
+  margin-bottom: 100px;
 }
 .family .img00{
   margin-bottom: 100px;
@@ -596,10 +614,12 @@ video {
 .family .txt03{
   font-size: 14px;
   margin-bottom: 20px;
+  line-height: 1.6;
 }
 .family .img01{
   max-width: 400px;
   margin: auto;
+  width: 90%;
 }
 .family .caps{
   max-width: 800px;
@@ -747,7 +767,6 @@ video {
 
 .sec03 {
   padding: 0 0 80px;
-  border-bottom: 1px solid;
 }
 .sec03 .logo{
   max-width: 130px;
@@ -819,10 +838,10 @@ video {
 }
 .sec03 a .arrow{
   position: absolute;
-  top: 85%;
-  right: 7%;
+  top: 90%;
+  right: 0;
   border: 1px solid #000;
-  padding: 16px 9px;
+  padding: 13px 6px;
   border-radius: 50px;
   transition: .3s;
 }
@@ -1171,10 +1190,14 @@ video {
   padding-bottom: 0;
   font-size: 14px;
 }
+.pageTabs li:first-child{
+  width: 100%;
+}
 .pageTabs li:nth-child(2n) {
   float: right;
   clear: none;
   margin-right: 0;
+  padding-top: 10px;
 }
 .pageTabs li:not(:nth-child(-n+2)) {
   padding-top: 10px;
@@ -1608,62 +1631,26 @@ video {
 /*    width: 94%;*/
     margin: auto;
 }
-    
-.intro{
-  text-align: center;
+
+.intro {
+  margin-bottom: 0px;
 }
-.intro .fair .text{
-  width: 50%;
+.intro .big-tit {
+  font-size: 36px;
 }
-.intro .fair .list{
-  display: block;
-  margin: 40px auto 0;
-}
-.intro .fair .list li{
-  width: 100%;
-  margin: auto;
-}
-.intro .fair .list li:first-child{
-  width: 94%;
-  margin: 0 auto 20px;
-}
-.intro .fair .tit{
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-.intro .fair .big-tit{
-  font-size: 44px;
-  margin-bottom: 10px;
-}
-.intro .fair .day{
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-.intro .fair .lead{
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-.intro .fair .lead span{
+.intro .day {
   font-size: 22px;
 }
-.intro .fair .fair01{
-  max-width: 200px;
-  margin-bottom: 20px;
+.intro .txt{
+  font-size: 15px;
 }
-.intro .fair .sliders{
-  display: block;
+.intro .box{
+  font-size: 13px;
+  padding: 10px 8px;
 }
-.intro .fair .slide01{
-  width: 100%;
-  margin-bottom: 20px;
-}
-.intro .fair .slide02{
-  width: 100%;
-}
-
+    
 .sec03 {
-  margin: 40px auto 60px;
+  margin: 40px auto 20px;
   padding: 0 0 40px;
 }
 .sec03 .txt01{
@@ -1672,7 +1659,7 @@ video {
 .sec03 .txt span {
   display: block;
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 15px;
   padding: 10px 0 5px;
 }
 .sec03 .list{
@@ -1695,15 +1682,14 @@ video {
   margin: 0 10px;
 }
 .sec03 .logo {
-  margin: 0 0 20px;
+  margin: 0 auto 20px;
+  width: 100px;
 }
 .sec03 .txt{
-  font-size: 30px;
-  text-align: left;
+  font-size: 26px;
 }
 .sec03 .mini{
   margin-bottom: 45px;
-  text-align: left;
 }
 .sec03 .num{
   bottom: -32px;
@@ -1718,30 +1704,58 @@ video {
 }
 .paul .left_side {
   width: 100vw;
-  height: 0;
-  display: block;
-  align-items: center;
-  position: relative;
-  top: 0;
 }
 .paul .right_side {
-  width: 94vw;
-  margin: 140% auto 0;
+  display: none;
 }
-.paul .right_side .scroll-box {
+.paul .left_side .scroll-box {
+  width: 90%;
+  margin: 30px auto 0;
+  height: auto;
+  overflow: visible;
+}
+.paul .left_side .mini-box{
   width: 100%;
-  margin: 200px auto 0;
 }
-.paul .right_side .txt {
-  font-size: 29px;
+.paul .left_side .in-box {
+    width: 100%;
+    margin-top: 40px;
+  }
+.paul .left_side .tit {
+  font-size: 32px;
 }
-.paul .right_side .mini {
-    margin: 0 auto 40px;
+.paul .left_side .txt {
+  font-size: 16px;
+}
+.paul .left_side .lead {
+  font-size: 15px;
+}
+
+.family {
+  margin-bottom: 50px;
+}
+.family .img00 {
+  margin-bottom: 30px;
+}
+.family .tit {
+  font-size: 28px;
+}
+.family .txt {
+  font-size: 15px;
+}
+.family .txt01 {
+  font-size: 15px;
+}
+.family .txt02 {
+  font-size: 30px;
+}
+.family .caps {
+  font-size: 12px;
 }
     
 .button a {
   font-size: 20px;
-  padding: 20px 0;
+  padding: 20px 0 17px;
 }
 
 .title {
@@ -1850,7 +1864,7 @@ video {
   margin-bottom: 10px;
 }
 .sec04 .txt{
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 40px;
 }
 .sec04 .logo{
@@ -1878,7 +1892,7 @@ video {
 }
 .sec04 .list02 .txt01 {
   font-size: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   line-height: 1.4;
 }
 .sec04 .list02 .txt01 img {
@@ -1886,7 +1900,7 @@ video {
 }
 .sec04 .lead {
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 .button.black a{
