@@ -602,6 +602,8 @@ video {
   left: 0;
   z-index: 2;
   color: #fff;
+  width: 38%;
+  margin: auto;
 }
 .family .txt01{
   font-size: 16px;
@@ -616,11 +618,13 @@ video {
   margin-bottom: 20px;
   line-height: 1.6;
 }
+/*
 .family .img01{
   max-width: 400px;
   margin: auto;
   width: 90%;
 }
+*/
 .family .caps{
   max-width: 800px;
   text-align: left;
@@ -1751,6 +1755,9 @@ video {
 }
 .family .caps {
   font-size: 12px;
+}
+.family .texts{
+  width: 80%;
 }
     
 .button a {
