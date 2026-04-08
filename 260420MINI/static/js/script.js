@@ -27,7 +27,7 @@ $('.main-visual .line03')
         
 $('.main-visual .line04')
     .animate({'opacity':'1'}, 600)
-    .animate({'width':'62%'}, 700);
+    .animate({'width':'54%'}, 700);
         
 $('.main-visual .line05')
     .animate({'opacity':'1'}, 600)

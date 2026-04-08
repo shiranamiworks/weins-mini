@@ -43,7 +43,7 @@ article, aside, dialog, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 sup {
-  font-size: 12px;
+  font-size: 50%;
   vertical-align: super;
 }
 div {
@@ -346,7 +346,7 @@ video {
   width: 94%;
   margin: auto;
   height: 12px;
-  background-color: #26D6C3;
+  background-color: #ED510D;
   z-index: 2;
   animation: line01 .6s;
 }
@@ -367,7 +367,7 @@ video {
   width: 12px;
   margin: auto;
   height: 74%;
-  background-color: #26D6C3;
+  background-color: #ED510D;
   z-index: 2;
   animation: line02 .6s;
 }
@@ -388,7 +388,7 @@ video {
   width: 12px;
   margin: auto;
   height: 0;
-  background-color: #26D6C3;
+  background-color: #ED510D;
   z-index: 2;
   opacity: 0;
 }
@@ -399,7 +399,7 @@ video {
   width: 0;
   margin: auto;
   height: 12px;
-  background-color: #26D6C3;
+  background-color: #ED510D;
   z-index: 2;
   opacity: 0;
 }
@@ -418,7 +418,7 @@ video {
   position: absolute;
   left: 5%;
   top: 5%;
-  width: 30%;
+  width: 38%;
   margin: auto;
   z-index: 2;
   opacity: 0;
@@ -430,240 +430,113 @@ video {
 .intro{
 /*  position: relative;*/
   text-align: center;
+  background: #ED510D;
+  padding: 40px 0;
+  margin-bottom: 80px;
+  color: #fff;
 }
-.intro .fair .list{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2%;
-}
-.intro .fair .list li{
-  width: 50%;
-  text-align: left;
-}
-.intro .fair .list li:first-child{
-  width: 42%;
-  margin: auto;
-}
-.intro .fair .tit{
+.intro .tit{
   font-size: 20px;
-  margin: 40px auto 10px;
-}
-.intro .fair .big-tit{
-  font-size: 44px;
   margin-bottom: 10px;
 }
-.intro .fair .day{
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-.intro .fair .lead{
-  font-size: 13px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-.intro .fair .lead span{
-  font-size: 24px;
-}
-.intro .fair .fair01{
-  max-width: 200px;
-  margin-bottom: 20px;
-}
-.intro .fair .sliders{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-}
-.intro .fair .slide01{
-  width: 65%;
-}
-.intro .fair .slide02{
-  width: 35%;
-}
-.intro .fair .bg{
-  position: relative;
-}
-.intro .fair .bg-image{
-  animation: wide linear both;
-  animation-timeline: view();
-  animation-range: entry 25% cover 50%;
-  margin: auto;
-  position: relative;
-  overflow: hidden;
-}
-.intro .fair .text{
-  width: 34%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-@keyframes wide {
-  0% {
-    transform:scale(.4);
-  }
-  50% {
-    transform:scale(.4);
-  }
-  100% {
-    transform:scale(1);
-  }
-}
-
-/*
-.debut{
-  margin-top: 3%;
-}
-*/
-.debut .list01{
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid;
-}
-.debut .list01 li{
-  width: 30%;
-  padding: 40px 0;
-  border-right: 1px solid;
-}
-.debut .list01 li:last-child{
-  width: 68%;
-  border-right: none;
-  padding-left: 2%;
-  box-sizing: border-box;
-}
-.debut .list01 .txt{
-  font-size: 44px;
-  line-height: 1.2;
-}
-.debut .list01 .txt span{
-  font-size: 36px;
-}
-.debut .list01 .txt .mini{
-  font-size: 15px;
-}
-.debut .list02{
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid;
-  align-items: flex-start;
-}
-.debut .list02 .texts{
-  width: 90%;
-  margin: auto;
-}
-.debut .list02 li{
-  width: 30%;
-  padding: 40px 0;
-/*  border-right: 1px solid;*/
-}
-.debut .list02 li:last-child{
-  width: 70%;
-  border-right: none;
-  padding: 0;
-}
-.debut .sliders{
-  display: flex;
-}
-.debut .slide01{
-  width: 63%;
-}
-.debut .slide02{
-  width: 23%;
-}
-.debut .list02 .txt01{
-  font-size: 32px;
-  line-height: 1.2;
-  margin-bottom: 10px;
-}
-.debut .list02 .lead{
-  font-size: 13px;
-  line-height: 1.8;
-  margin-bottom: 60px;
-}
-.debut .list02 .txt02{
-  font-size: 18px;
-  line-height: 1.2;
-  margin-bottom: 10px;
+.intro .big-tit{
+  font-size: 64px;
   font-weight: bold;
-}
-.debut .list02 .mini{
-  font-size: 12px;
-  line-height: 1.8;
-}
-.debut .list03{
-  display: flex;
-  justify-content: center;
-  border-bottom: 1px solid;
-  align-items: center;
-  padding: 80px 0;
-}
-.debut .list03 li{
-  width: 28%;
-}
-.debut .list03 li:last-child{
-  width: 48%;
-  margin-left: 4%;
-}
-.debut .list03 .txt03{
-  font-size: 44px;
-  line-height: 1.2;
   margin-bottom: 10px;
 }
-.debut .list03 .price{
-  font-size: 44px;
-  line-height: 1.2;
+.intro .day{
+  font-size: 24px;
+  margin-bottom: 10px;
 }
-.debut .list03 .price span{
-  font-size: 13px;
+.intro .txt{
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.intro .box{
+  font-size: 16px;
+  line-height: 1.8;
+  border: 1px solid;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
-.family{
-  padding-bottom: 64%;
+.paul{
+  padding-bottom: 62%;
 }
-.family .all_box {
+.paul .all_box {
   display: flex;
   justify-content: left;
   position: relative;
 }
-.family .right_side {
+.paul .left_side {
   width: 50vw;
 }
-.family .right_side .tit {
-  max-width: 417px;
-  width: 94%;
-  margin: 0 auto 120px;
-}
-.family .right_side .txt {
-  font-size: 36px;
-  line-height: 1.5;
-  margin: 0 auto 20px;
-}
-.family .right_side .lead {
-  font-size: 16px;
+.paul .left_side .tit {
+  font-size: 52px;
   line-height: 1.4;
+  margin: 0 auto 10px;
+}
+.paul .left_side .txt {
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.paul .left_side .in-box {
+  width: 76%;
+  margin: 80px auto 0;
+}
+.paul .left_side .name {
+  font-size: 32px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted;
+}
+.paul .left_side .lead {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
   margin: 0 auto 20px;
 }
-.family .right_side .mini {
-  font-size: 14px;
-  line-height: 1.6;
-  margin: 0 auto 60px;
+.paul .left_side .mini-box {
+  width: 50%;
+  margin: 0 auto;
 }
-.family .right_side .caps {
+.paul .left_side .mini-box .color{
   font-size: 12px;
-  line-height: 1.5;
-  margin: 40px auto;
+  margin: 16px auto 26px;
 }
-.family .right_side .img02 {
-  margin-bottom: 40px;
+.paul .left_side .mini-box .button a{
+  padding: 12px 0;
+  margin-bottom: 30px;
 }
-.family .right_side .scroll-box {
-  text-align: left;
-  width: 68%;
-  margin: 200px auto 0;
+.paul .left_side .in-box .img06{
+  width: 90%;
+  margin: auto;
 }
-.family .left_side {
+.paul .left_side .in-box .info{
+  font-size: 11px;
+  line-height: 1.4;
+  margin: 30px auto 10px;
+}
+.paul .left_side .in-box .price{
+  font-size: 11px;
+}
+.paul .left_side .in-box .price span{
+  font-size: 20px;
+}
+.paul .left_side .scroll-box {
+  text-align: center;
+  width: 82%;
+  margin: 100px auto 0;
+  color: #748893;
+}
+.paul .right_side {
   width: 50vw;
   height: 0;
   display: flex;
@@ -672,12 +545,70 @@ video {
   position: -webkit-sticky;
   top: 0;
 }
-.family .left_side p:first-child,
-.family .left_side p.active {
+.paul .right_side p:first-child,
+.paul .right_side p.active {
   visibility: visible;
   opacity: 1;
   position: relative;
 }
+
+.family{
+  text-align: center;
+}
+.family .img00{
+  margin-bottom: 100px;
+}
+.family .tit{
+  font-size: 36px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+.family .txt{
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.family .mini{
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.family .back{
+  position: relative;
+}
+.family .texts{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  left: 0;
+  z-index: 2;
+  color: #fff;
+}
+.family .txt01{
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.family .txt02{
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.family .txt03{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.family .img01{
+  max-width: 400px;
+  margin: auto;
+}
+.family .caps{
+  max-width: 800px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 20px auto 40px;
+}
+
 
 .button{
   max-width: 480px;
@@ -686,7 +617,7 @@ video {
 .button a{
   text-align: center;
   display: block;
-  background: #26D6C3;
+  background: #ED510D;
   color: #fff;
   font-size: 16px;
   line-height: 1.2;
@@ -695,7 +626,7 @@ video {
 }
 .button a:hover{
   display: block;
-  background: #23BEAD;
+  background: #F0733D;
   color: #fff;
   opacity: 1;
 }
@@ -779,7 +710,6 @@ video {
   overflow: hidden;
   width: 100%;
   vertical-align: middle;
-  margin-bottom: 20px;
 }
 .outer.on .inner {
   transform: translateX(0);
@@ -801,7 +731,7 @@ video {
   right: 0;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: #fff;
   transition: width .65s .3s;
 }
 .sections .line{
@@ -816,7 +746,7 @@ video {
 }
 
 .sec03 {
-  padding: 120px 0 80px;
+  padding: 0 0 80px;
   border-bottom: 1px solid;
 }
 .sec03 .logo{
@@ -1731,75 +1661,6 @@ video {
 .intro .fair .slide02{
   width: 100%;
 }
-    
-.debut .list01 {
-  display: block;
-}
-.debut .list01 .txt {
-  font-size: 36px;
-}
-.debut .list01 .txt span {
-  font-size: 26px;
-}
-.debut .list01 li:last-child {
-  width: 94%;
-  padding: 0;
-  margin: 30px auto;
-}
-.debut .list01 .txt .mini {
-  font-size: 13px;
-}
-.debut .list02 {
-  display: flex;
-  flex-direction: column;
-}
-.debut .list02 li {
-  width: 100%;
-  padding: 40px 0;
-  order: 2;
-}
-.debut .list02 li:last-child {
-  width: 100%;
-  order: 1;
-}
-.debut .sliders{
-  display: block;
-}
-.debut .slide01{
-  width: 100%;
-}
-.debut .slide02{
-  width: 50%;
-  margin-top: -30px;
-  float: right;
-}
-.debut .list02 .txt01 {
-  font-size: 27px;
-}
-.debut .list02 .lead {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-.debut .list03 {
-  display: block;
-  clear: both;
-  padding: 40px 0;
-}
-.debut .list03 li {
-  width: 90%;
-  margin: auto;
-}
-.debut .list03 .txt03 {
-  font-size: 32px;
-}
-.debut .list03 li:last-child {
-  width: 90%;
-  margin-left: auto;
-}
-.debut .list03 .price {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
 
 .sec03 {
   margin: 40px auto 60px;
@@ -1849,13 +1710,13 @@ video {
   left: 128px;
 }
     
-.family {
+.paul {
   padding-bottom: 40px;
 }
-.family .all_box {
+.paul .all_box {
   display: block;
 }
-.family .left_side {
+.paul .left_side {
   width: 100vw;
   height: 0;
   display: block;
@@ -1863,18 +1724,18 @@ video {
   position: relative;
   top: 0;
 }
-.family .right_side {
+.paul .right_side {
   width: 94vw;
   margin: 140% auto 0;
 }
-.family .right_side .scroll-box {
+.paul .right_side .scroll-box {
   width: 100%;
   margin: 200px auto 0;
 }
-.family .right_side .txt {
+.paul .right_side .txt {
   font-size: 29px;
 }
-.family .right_side .mini {
+.paul .right_side .mini {
     margin: 0 auto 40px;
 }
     
