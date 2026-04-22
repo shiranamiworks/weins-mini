@@ -236,7 +236,7 @@ End-responsible-contents  only-pc
   bottom: 190px;
   right: 0%;
   transform: translateY(-50%);
-  z-index: 10000;
+  z-index: 30;
 }
 .fixed-banner.bnr02{
   bottom: 90px;
@@ -507,6 +507,10 @@ video {
   box-sizing: border-box;
   display: inline-block;
 }
+.paul .txt01 {
+  font-size: 14px;
+  padding-top: 20px;
+}
 
 .paul .outer {
   display: block;
@@ -584,7 +588,7 @@ video {
 }
 .paul .info{
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.6;
   margin: 30px auto 10px;
 }
 .paul .price{
@@ -1520,7 +1524,7 @@ video {
     z-index: 20;
     position: relative;
     width: 94%;
-    max-width: 800px;
+    max-width: 600px;
     padding: 0;
     border-radius: 2px;
     vertical-align: middle;
@@ -1549,7 +1553,7 @@ video {
   top: 0;
   right: 0;
   width: 36px;
-  color: #243051 !important;
+  color: #fff !important;
   font-size: 36px;
   font-weight: 700;
   line-height: 36px;
@@ -1559,13 +1563,13 @@ video {
   padding: 0;
 }
 .modal-wrapper .modal-close:hover {
-  color: #2b2e38 !important;
+  color: #fff !important;
 }
 @media screen and (max-width: 768px) {
 .modal-wrapper .modal-close {
   top: 0px;
   color: #fff !important;
-  background: #000;
+/*  background: #000;*/
   padding-top: 5px;
   font-size: 30px;
 }
