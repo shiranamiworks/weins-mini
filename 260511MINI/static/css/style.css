@@ -896,6 +896,9 @@ video {
 .sec03 .image{
   position: relative;
 }
+.sec03 .image.none{
+  pointer-events: none;
+}
 .sec03 a .arrow{
   position: absolute;
   top: 88%;
