@@ -510,7 +510,7 @@ video {
 }
 .bg-fix .area .img01{
   max-width: 400px;
-  margin: 0 auto 30px;
+  margin: 0 auto 50px;
 }
 .bg-fix .area .sub-tit{
   font-size: 16px;
@@ -529,7 +529,7 @@ video {
   margin: 35% auto 30px;
 }
 .bg-fix .area .mini{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
   font-size: 14px;
   line-height: 1.7;
@@ -556,7 +556,7 @@ video {
 }
 .bg-fix .sec04 .tit {
   position: absolute;
-  bottom: 40px;
+  bottom: 14px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1755,7 +1755,7 @@ video {
 .bg-fix .area .txt{
   font-size: 14px;
   line-height: 1.8;
-  margin: 35% auto 30px;
+  margin: 35% auto 20px;
 }
 .bg-fix .area .mini{
   margin-bottom: 30px;
