@@ -497,16 +497,19 @@ video {
 .bg-fix .present {
   position: absolute;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 2;
 }
 
 .bg-fix .area {
+  position: relative;
   max-width: 500px;
   margin: auto;
   padding: 50px;
   background-color: #fff;
   text-align: center;
-  position: relative;
+  z-index: 5;
 }
 .bg-fix .area .img01{
   max-width: 400px;
@@ -518,15 +521,18 @@ video {
   margin-bottom: 20px;
 }
 .bg-fix .area .tit{
-  position: absolute;
-  top: 90px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+
+  margin-bottom: 30px;
 }
 .bg-fix .area .txt{
   font-size: 14px;
   line-height: 1.8;
-  margin: 35% auto 30px;
+  margin-bottom: 30px;
+
 }
 .bg-fix .area .mini{
   margin-bottom: 30px;
