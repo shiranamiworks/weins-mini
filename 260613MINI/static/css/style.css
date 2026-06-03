@@ -481,6 +481,91 @@ video {
   margin-bottom: 10px;
 }
 
+
+.countryman{
+  padding-bottom: 56%;
+  background-color: #FFE419;
+}
+.countryman .all_box {
+  display: flex;
+  justify-content: left;
+  position: relative;
+}
+.countryman .right_side {
+  width: 50vw;
+  background-color: #FFE419;
+}
+.countryman .right_side .tit {
+  font-size: 44px;
+  line-height: 1.4;
+  margin: 0 auto 20px;
+  text-align: left;
+}
+.countryman .right_side .txt {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 80px;
+}
+.countryman .right_side .in-box {
+  width: 76%;
+  margin: 80px auto 0;
+}
+.countryman .right_side ul {
+  margin-bottom: 30px;
+}
+.countryman .right_side li {
+  display: inline-block;
+  width: 32%;
+  margin-right: 2%;
+  vertical-align: text-top;
+  text-align: left;
+}
+.countryman .right_side li:last-child {
+  width: 64%;
+  margin-right: auto;
+}
+.countryman .right_side li .text{
+  font-size: 24px;
+  padding-bottom: 20px;
+  line-height: 1.6;
+}
+.countryman .right_side li .lead{
+  font-size: 15px;
+  line-height: 1.6;
+}
+.countryman .right_side .price-list {
+  width: 100%;
+  margin: 80px auto 100px;
+}
+.countryman .right_side .price-list .caption{
+  font-size: 11px;
+  text-align: left;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+.countryman .right_side .scroll-box {
+  text-align: center;
+  width: 82%;
+  margin: 100px auto 0;
+  color: #000;
+}
+.countryman .left_side {
+  width: 50vw;
+  height: 0;
+  display: flex;
+  align-items: flex-start;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.countryman .left_side p:first-child,
+.countryman .left_side p.active {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+}
+
 .bg-fix{
   position: relative;
 }
@@ -494,6 +579,7 @@ video {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-top: 4px solid #fff;
 }
 .bg-fix .present {
   position: absolute;
@@ -1754,6 +1840,55 @@ video {
 .intro .box{
   font-size: 13px;
   padding: 10px 8px;
+}
+    
+.countryman {
+  padding-bottom: 40px;
+}
+.countryman .all_box {
+  display: block;
+}
+.countryman .right_side {
+  width: 100vw;
+}
+.countryman .left_side {
+  display: none;
+}
+.countryman .right_side .scroll-box {
+  width: 90%;
+  margin: 30px auto 0;
+  height: auto;
+  overflow: visible;
+}
+.countryman .right_side .mini-box{
+  width: 100%;
+}
+.countryman .right_side .in-box {
+    width: 100%;
+    margin-top: 40px;
+  }
+.countryman .right_side .tit {
+  font-size: 28px;
+}
+.countryman .right_side .txt {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.countryman .right_side li {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.countryman .right_side li:last-child {
+  width: 100%;
+}
+.countryman .right_side li .text {
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.countryman .right_side .lead {
+  font-size: 15px;
 }
     
 .bg-fix .parallax {
