@@ -428,18 +428,28 @@ video {
 }
 
 @media screen and (max-width:768px) {
+  .main-visual .mv01 {
+    width: 82%;
+  }
   .main-visual .line01{
-    bottom: 15%;
+    bottom: 13%;
+    height: 10px;
 }
 .main-visual .line02{
-    bottom: 15%;
-    height: 77%
+    bottom: 13%;
+    height: 77%;
+    width: 10px;
 }
 .main-visual .line03{
-    bottom: 15%;
+    bottom: 13%;
+    width: 10px;
 }
 .main-visual .line05{
-   top:  8%;
+   top:  10%;
+   height: 10px;
+}
+.main-visual .mv01{
+  top: 8%;
 }
     
 }
@@ -486,13 +496,25 @@ video {
   padding-bottom: 56%;
   background-color: #FFE419;
 }
+.countryman .img00 {
+  position: relative;
+}
+.countryman .img00 .tit {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.countryman .img00 .tit img{
+  max-width: 1000px;
+}
 .countryman .all_box {
   display: flex;
   justify-content: left;
   position: relative;
 }
 .countryman .right_side {
-  width: 50vw;
+  width: 50%;
   background-color: #FFE419;
 }
 .countryman .right_side .tit {
@@ -551,7 +573,7 @@ video {
   color: #000;
 }
 .countryman .left_side {
-  width: 50vw;
+  width: 50%;
   height: 0;
   display: flex;
   align-items: flex-start;
@@ -641,7 +663,7 @@ video {
 
 .bg-fix .sec04{
   position: relative;
-  margin-top: 40vh;
+  margin-top: 600px;
   background: #fff;
   z-index: 5;
 }
@@ -1800,10 +1822,6 @@ video {
 .all-wrap {
   overflow: hidden;
 }
-    
-.main-visual .mv01 {
-  width: 80%;
-}
 
 .content-wrap {
     width: 94%;
@@ -1845,11 +1863,14 @@ video {
 .countryman {
   padding-bottom: 40px;
 }
+.countryman .img00 .tit img{
+  max-width: 300px;
+}
 .countryman .all_box {
   display: block;
 }
 .countryman .right_side {
-  width: 100vw;
+  width: 100%;
 }
 .countryman .left_side {
   display: none;
@@ -1860,13 +1881,7 @@ video {
   height: auto;
   overflow: visible;
 }
-.countryman .right_side .mini-box{
-  width: 100%;
-}
-.countryman .right_side .in-box {
-    width: 100%;
-    margin-top: 40px;
-  }
+
 .countryman .right_side .tit {
   font-size: 28px;
 }
@@ -1890,7 +1905,13 @@ video {
 .countryman .right_side .lead {
   font-size: 15px;
 }
+.countryman .right_side .price-list {
+  margin: 40px auto ;
+}
     
+.bg-fix {
+  background-color: #FFE419;
+}
 .bg-fix .parallax {
   background: none;
   position: relative;
