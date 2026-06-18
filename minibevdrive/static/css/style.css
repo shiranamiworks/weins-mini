@@ -641,7 +641,8 @@ margin-bottom: 30px;
   line-height: 1.8;
 }
 .sec01 .links{
-  margin: 20px 0;
+  margin: 20px auto;
+  text-align: center;
 }
 .sec01 .links .link-btn{
   display: inline-block;
@@ -651,7 +652,7 @@ margin-bottom: 30px;
   display: block;
   text-align: center;
   background: #000;
-  padding: 40px 0;
+  padding: 20px 0;
   color: #fff;
   border-radius: 80px;
   transition: .3s;
@@ -900,7 +901,7 @@ margin-bottom: 30px;
   background: #fff;
   border-radius: 24px;
   padding: 60px 10px;
-  margin: 10px auto;
+  margin: 10px auto 100px;
 }
 .sec02 .tit{
   font-size: 30px;
@@ -962,7 +963,7 @@ margin-bottom: 30px;
 }
 
 .sec06 {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 .sec06 .list{
   display: flex;
@@ -1014,6 +1015,12 @@ margin-bottom: 30px;
 }
 .sec06 .list04 .button-box .button01 a:hover{
   background: #AD0000;
+}
+.sec06 .list05 .button-box .button01 a{
+  background: #94a04c;
+}
+.sec06 .list05 .button-box .button01 a:hover{
+  background: #828952;
 }
 
 .all{
@@ -1428,10 +1435,10 @@ margin-bottom: 30px;
 .map {
   position: relative;
   width: 100%;
-  padding-top: 72%; /* = height ÷ width × 100 */
+  padding-top: 64%; /* = height ÷ width × 100 */
 }
 .map.map01{
-  padding-top: 72%;
+  padding-top: 64%;
 }
 .map iframe {
   position: absolute;
@@ -1623,7 +1630,7 @@ margin-bottom: 30px;
     padding: 10px 0;
   }
   .sec01 .links .link-btn {
-    width: 49%;
+    width: 100%;
   }
   .sec01 .links .link-btn a .txt02{
   font-size: 12px;
