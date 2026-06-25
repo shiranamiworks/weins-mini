@@ -552,7 +552,7 @@ End-responsible-contents  only-pc
 .main-visual {
   position: relative;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 .main-visual img {
   width: 100%;
@@ -924,7 +924,7 @@ margin-bottom: 30px;
 .sec02 .tit{
   font-size: 30px;
   font-weight: bold;
-  color: #981414;
+/*  color: #981414;*/
   margin-bottom: 20px;
 }
 .sec02 .lead{
@@ -1970,6 +1970,10 @@ margin-bottom: 30px;
     width: 94%;
     margin: auto;
   }
+    
+  .main-visual {
+    margin-bottom: 20px;
+}
 
   .sections .wrap{
 /*    width: 94%;*/
