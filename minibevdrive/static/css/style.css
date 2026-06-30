@@ -13,17 +13,25 @@
 @font-face {
   font-family: "MINI Serif-Bold";
   font-weight: 700;
-  src: url("../font/font/MINI Serif-Bold.woff") format("woff");
+  src: url("../font/MINI Serif-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "MINI Serif-Italic";
   src: url("../font/MINI Serif-Italic.woff") format("woff");
 }
 @font-face {
-  font-family: "MotoyaAporoStd-W3";
+  font-family: "MotoyaAporo";
+  font-style: normal;
+  font-weight: 300;
   src: url("../font/MotoyaAporoStd-W3.woff") format("woff");
 }
 
+@font-face {
+  font-family: "MotoyaAporo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/MotoyaAporoStd-W4.otf") format("opentype");
+}
 /*----------------------------
   reset
 ----------------------------*/
@@ -88,8 +96,8 @@ input,
 textarea,
 select,
 button {
-  font-family: MINI Serif-Regular, MotoyaAporoStd-W3, Helvetica, Arial, 'Noto Sans JP', Meiryo;
-  scroll-behavior: smooth;
+  font-family: MINI Serif-Regular, MotoyaAporo, Helvetica, Arial, 'Noto Sans JP', Meiryo;
+  font-weight: 300;
 }
 body {
   min-width: 320px;
@@ -101,8 +109,8 @@ body {
   color: #262626;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-size: 100%;
-  font-family: MINI Serif-Regular, MotoyaAporoStd-W3, Helvetica, Arial, 'Noto Sans JP', Meiryo;
+  font-family: MINI Serif-Regular, MotoyaAporo, Helvetica, Arial, 'Noto Sans JP', Meiryo;
+  font-weight: 400;
 }
 
 *,
@@ -645,9 +653,13 @@ margin-bottom: 30px;
   margin: auto;
 }
 .sec01 li .txt{
-  font-size: 42px;
+  font-size: 38px;
   line-height: 1.4;
   margin-bottom: 20px;
+  font-weight: 400;
+}
+.sec01 li .txt .bold{
+  font-weight: 700;
 }
 .sec01 li .txt01{
   font-size: 30px;
@@ -923,9 +935,12 @@ margin-bottom: 30px;
 }
 .sec02 .tit{
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 400;
 /*  color: #981414;*/
   margin-bottom: 20px;
+}
+.sec02 .tit .bold{
+  font-weight: bold;
 }
 .sec02 .lead{
   font-size: 14px;
@@ -999,11 +1014,14 @@ margin-bottom: 30px;
   border-radius: 24px;
 }
 .sec06 .list li:last-child .texts{
-  width: 90%;
+  width: 84%;
   margin: auto;
 }
+.sec06 .list li:last-child .tit{
+  margin: 0 auto 30px;
+}
 .sec06 .list li:last-child .txt{
-  font-size: 28px;
+  font-size: 24px;
   margin: 30px 0 10px;
 }
 .sec06 .button-box{
@@ -1340,6 +1358,10 @@ margin-bottom: 30px;
   font-size: 36px;
   margin-bottom: 10px;
   text-align: center;
+  font-weight: 400;
+}
+.stores h2 .bold{
+  font-weight: bold;
 }
 .stores .text-img{
   vertical-align: text-top;
@@ -1671,7 +1693,7 @@ margin-bottom: 30px;
     line-height: 1.6;
   }
   .sec01 li .txt {
-    font-size: 32px;
+    font-size: 28px;
   }
   .sec01 li .txt01 {
     font-size: 24px;
@@ -1870,7 +1892,8 @@ margin-bottom: 30px;
   padding: 20px 0;
 }
 .sec06 .list li:last-child .txt {
-  font-size: 20px;
+  font-size: 18px;
+  margin-top: 20px;
 }
 .sec06 .button-box {
   display: block;
@@ -2028,6 +2051,10 @@ margin-bottom: 30px;
   .stock li:nth-child(2n){
     margin: auto;
   }
+    
+  .sec02 .bg {
+    margin: 10px auto 50px;
+  }
   .sec02 .new-stock{
     font-size: 24px;
 }
@@ -2120,6 +2147,12 @@ margin-bottom: 30px;
     
   .sec06 .list li:last-child {
     border-radius: 16px;
+  }
+  .sec06 .list li:last-child .texts{
+    width: 90%;
+  }
+  .sec06 .list li:last-child .tit {
+    margin: 0 auto 20px;
   }
     
   .instagram{

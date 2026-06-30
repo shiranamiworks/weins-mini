@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="650" height="310" viewBox="0 0 650 310">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="650" height="297" viewBox="0 0 650 297">
   <defs>
     <clipPath id="clip-path">
-      <rect id="長方形_225" data-name="長方形 225" width="650" height="310"/>
+      <rect id="長方形_225" data-name="長方形 225" width="650" height="297"/>
     </clipPath>
   </defs>
   <g id="sec06-txt02" clip-path="url(#clip-path)">
     <g id="sec06-txt02-2" data-name="sec06-txt02" transform="translate(3 -21.967)">
-      <g id="情報-2" transform="translate(0 -3921)">
+      <g id="情報-2" transform="translate(0 -3933)">
         <g id="text" transform="translate(0 3912.184)">
           <g id="price" transform="translate(-149 -1948.2)">
             <path id="パス_66" data-name="パス 66" d="M1.712-12.464V1.072H3.12v-6.48H12.9V-.592c0,.624-.272.9-.9.9H9.936V.976h2.816C13.84.976,14.3.512,14.3-.56v-11.9Zm1.408.64H7.232v5.776H3.12Zm5.5,0H12.9v5.776H8.624Z" transform="translate(450.118 2282)" fill="#111"/>
