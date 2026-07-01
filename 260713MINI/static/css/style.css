@@ -227,23 +227,40 @@ End-responsible-contents  only-pc
   width: 94%;
   margin: auto;
 }
-
+#fixed{
+  position: fixed;
+  bottom: 260px;
+  right: -225px;
+  z-index: 10000;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+#fixed:hover {
+  right: 0;
+  transition: 0.5s ease;
+}
+#fixed02{
+  position: fixed;
+  bottom: 100px;
+  right: -225px;
+  z-index: 10000;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+#fixed02:hover {
+  right: 0;
+  transition: 0.5s ease;
+}
 .fixed-banner {
  display: none;
-  position: fixed;
-  width: 290px;
+  width: 264px;
   height: auto;
-  bottom: 190px;
-  right: 0%;
-  transform: translateY(-50%);
-  z-index: 30;
-}
-.fixed-banner.bnr02{
-  bottom: 90px;
-  right: 0%;
 }
 .fixed-banner a{
   display: block;
+}
+.fixed-banner a:hover{
+  opacity: 1;
 }
 .fixed-banner img {
   display: block;
@@ -253,6 +270,7 @@ End-responsible-contents  only-pc
 }
 .fixed-banner .close {
   display: block;
+    display: none !important;
   cursor: pointer;
   position: absolute;
   top: 14px;
@@ -346,7 +364,7 @@ video {
   width: 94%;
   margin: auto;
   height: 12px;
-  background-color: #b5191a;
+  background-color: #94A04C;
   z-index: 2;
   animation: line01 .6s;
 }
@@ -367,7 +385,7 @@ video {
   width: 12px;
   margin: auto;
   height: 74%;
-  background-color: #b5191a;
+  background-color: #94A04C;
   z-index: 2;
   animation: line02 .6s;
 }
@@ -388,7 +406,7 @@ video {
   width: 12px;
   margin: auto;
   height: 0;
-  background-color: #b5191a;
+  background-color: #94A04C;
   z-index: 2;
   opacity: 0;
 }
@@ -399,7 +417,7 @@ video {
   width: 0;
   margin: auto;
   height: 12px;
-  background-color: #b5191a;
+  background-color: #94A04C;
   z-index: 2;
   opacity: 0;
 }
@@ -410,7 +428,7 @@ video {
   width: 0;
   margin: auto;
   height: 12px;
-  background-color: #b5191a;
+  background-color: #94A04C;
   z-index: 2;
   opacity: 0;
 }
@@ -418,7 +436,7 @@ video {
   position: absolute;
   left: 5%;
   top: 5%;
-  width: 54%;
+  width: 38%;
   margin: auto;
   z-index: 2;
   opacity: 0;
@@ -446,7 +464,7 @@ video {
 
 .intro{
   text-align: center;
-  background: #b5191a;
+  background: #94A04C;
   padding: 60px 0;
   color: #fff;
 }
@@ -837,22 +855,99 @@ video {
   margin: auto;
 }
 .inner01:after {
-  background: #b5191a;
+  background: #94A04C;
 }
 .inner02:after {
   background: transparent;
 }
 
+.sec02{
+  text-align: center;
+  background: #F4EFE9;
+  padding-bottom: 80px;
+}
+.sec02 .logo{
+  margin-top: 80px;
+}
+.sec02 .txt{
+  font-size: 20px;
+  margin: 15px auto 30px;
+}
+.sec02 .lead{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+.sec02 .smith{
+  max-width: 768px;
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.sec02 .model .tit01{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.sec02 .model .tit02{
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.sec02 .model .list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.sec02 .model .list li{
+  width: 46%;
+}
+.sec02 .model .list li:last-child{
+  text-align: left;
+  width: 48%;
+}
+.sec02 .name{
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+.sec02 .info{
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.sec02 .type{
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.sec02 .price{
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+.sec02 .price span{
+  font-size: 24px;
+}
+.sec02 .price.last{
+  margin-bottom: 0;
+}
+.sec02 .model .list03{
+  margin-bottom: 60px;
+}
+.sec02 .model .list04{
+  margin-bottom: 80px;
+}
+
+
 .sec03 {
   padding: 40px 0 100px;
   background-color: #FAFAFA;
+  text-align: center;
 }
 .sec03 .logo{
   max-width: 130px;
   margin: 0 auto 30px;
 }
 .sec03 .txt{
-  text-align: center;
   font-size: 30px;
   line-height: 1.3;
 }
@@ -860,14 +955,17 @@ video {
   font-size: 18px;
 }
 .sec03 .mini{
-  text-align: center;
   font-size: 12px;
   line-height: 1.4;
+  margin-bottom: 60px;
 }
-.sec03 .txt01{
-  font-size: 30px;
-  margin-bottom: 20px;
-  text-align: left;
+.sec03 .car-type{
+  font-size: 12px;
+  border: 1px solid;
+  display: inline-block;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
 .sec03 .wrap{
   max-width: 1200px;
@@ -879,16 +977,10 @@ video {
 }
 .sec03 .list{
   position: relative;
-  margin: 40px 0 100px;
+  margin: 10px 0 100px;
 }
 .sec03 .list a:hover{
   opacity: inherit;
-}
-.sec03 .list.list02{
-  margin: 100px 0;
-}
-.sec03 .list.list03{
-  margin: 100px 0;
 }
 .sec03 .num{
   position: absolute;

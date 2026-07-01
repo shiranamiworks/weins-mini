@@ -23,11 +23,11 @@ $(function(){
 $(function(){
 $('.main-visual .line03')
     .animate({'opacity':'1'}, 600)
-    .animate({'height':'57%'}, 700);
+    .animate({'height':'52%'}, 700);
         
 $('.main-visual .line04')
     .animate({'opacity':'1'}, 600)
-    .animate({'width':'38%'}, 700);
+    .animate({'width':'54%'}, 700);
         
 $('.main-visual .line05')
     .animate({'opacity':'1'}, 600)
