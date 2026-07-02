@@ -279,6 +279,13 @@ End-responsible-contents  only-pc
 }
 
 @media (max-width: 768px) {
+  #fixed{
+    bottom: 0;
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+/*
   .fixed-banner {
     max-width: inherit;
     width: 50%;
@@ -289,6 +296,7 @@ End-responsible-contents  only-pc
     transform: translateY(0);
     z-index: 30;
   }
+*/
   .fixed-banner.bnr02{
     top: auto;
     bottom: 0;
@@ -1910,6 +1918,50 @@ video {
 }
 .bg-fix .sec04 .list01 li:last-child {
   width: 100%;
+}
+
+.sec02 {
+  padding-bottom: 20px;
+}
+.sec02 .logo{
+  margin-top: 30px;
+}
+.sec02 .lead {
+  font-size:15px;
+  margin-bottom: 30px;
+}
+.sec02 .info {
+  font-size: 14px;
+}
+.sec02 .type {
+    font-size: 14px;
+}
+.sec02 .model .list{
+  display: block;
+  margin-bottom: 40px;
+}
+.sec02 .model .list li{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.sec02 .model .list li:last-child{
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.sec02 .name {
+    font-size:28px;
+    margin-bottom: 16px;
+}
+.button.mini {
+  max-width: 300px;
+  margin: 20px auto 0;
+}
+.modal-txt {
+  margin-bottom: 50px;
+}
+.sec02 .model .tit02 {
+  margin-bottom: 30px;
 }
     
 .sec03 {
