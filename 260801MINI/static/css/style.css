@@ -506,6 +506,58 @@ video {
   margin-bottom: 10px;
 }
 
+
+.pull-tab{
+  background: #F4EFE9;
+  padding: 80px 0 120px;
+}
+.pull{
+  max-width: 1040px;
+  margin: auto;
+}
+.pull dt .pull-button {
+  position: relative;
+}
+.pull dt .pull-button a {
+  display: block;
+  display: none;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+}
+.pull dt .pull-button a:hover {
+  opacity: 1;
+}
+.pull dt .pull-button span {
+  display: block;
+  display: none;
+  cursor: pointer;
+}
+.pull dt .pull-button a.on,
+.pull dt .pull-button span.on {
+  display: block;
+}
+.pull dd {
+  display: none;
+  padding-top: 10px;
+  text-align: center;
+  position: relative;
+}
+.pull dd .inners {
+  width: 100%;
+  background: #fff;
+  margin: auto;
+  padding: 40px 0;
+}
+.pull dd .lead {
+  text-align: left;
+  max-width: 686px;
+  width: 90%;
+  margin: auto;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
 .bg-fix{
   position: relative;
 }

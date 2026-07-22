@@ -215,3 +215,24 @@ $(function() {
 });
 
 
+$(function () {
+  if ($("#top").length) {
+    $(window).on("load", function () {});
+$("dt .pull-button a, dt .pull-button span").on("click", function (event) {
+  event.preventDefault();
+
+  const $pull = $(this).parents(".pull");
+  const isOpen = $(this).hasClass("answer");
+
+  $pull.find("dd").stop(true, true).slideToggle(300);
+
+  $pull.find("dt .pull-button a, dt .pull-button span").removeClass("on");
+
+  if (isOpen) {
+    $pull.find("dt .pull-button span.close").addClass("on");
+  } else {
+    $pull.find("dt .pull-button a.answer").addClass("on");
+  }
+});
+  }
+});
