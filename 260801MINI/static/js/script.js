@@ -23,7 +23,7 @@ $(function(){
 $(function(){
 $('.main-visual .line03')
     .animate({'opacity':'1'}, 600)
-    .animate({'height':'60%'}, 700);
+    .animate({'height':'55%'}, 700);
         
 $('.main-visual .line04')
     .animate({'opacity':'1'}, 600)
@@ -31,7 +31,7 @@ $('.main-visual .line04')
         
 $('.main-visual .line05')
     .animate({'opacity':'1'}, 600)
-    .animate({'width':'10%'}, 700);
+    .animate({'width':'18%'}, 700);
         
 $('.main-visual .mv01')
     .animate({'opacity':'1'}, 800)

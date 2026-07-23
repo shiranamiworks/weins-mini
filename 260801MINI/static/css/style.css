@@ -392,7 +392,7 @@ video {
   bottom: 18%;
   width: 12px;
   margin: auto;
-  height: 74%;
+  height: 73%;
   background-color: #ee510e;
   z-index: 2;
   animation: line02 .6s;
@@ -421,7 +421,7 @@ video {
 .main-visual .line04{
   position: absolute;
   right: 3%;
-  top: 7%;
+  top: 9%;
   width: 0;
   margin: auto;
   height: 12px;
@@ -443,8 +443,8 @@ video {
 .main-visual .mv01{
   position: absolute;
   left: 5%;
-  top: 5%;
-  width: 60%;
+  top: 7%;
+  width: 58%;
   margin: auto;
   z-index: 2;
   opacity: 0;
@@ -454,18 +454,25 @@ video {
 }
 
 @media screen and (max-width:768px) {
+  .main-visual .mv01 {
+    width: 70%;
+    top: 4%;
+  }
   .main-visual .line01{
-    bottom: 15%;
+    bottom: 14%;
+    height: 8px;
 }
 .main-visual .line02{
-    bottom: 15%;
-    height: 77%
+    bottom: 14%;
+    width: 8px;
 }
 .main-visual .line03{
-    bottom: 15%;
+    bottom: 14%;
+    width: 8px;
 }
 .main-visual .line05{
-   top:  8%;
+   top:  12%;
+   height: 8px;
 }
     
 }
@@ -478,7 +485,7 @@ video {
 }
 .intro .tit{
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .intro .big-tit{
   font-size: 40px;
@@ -1357,7 +1364,7 @@ video {
 .annotation{
   font-size: 12px;
   line-height: 1.5;
-  margin-top: 50px;
+/*  margin-top: 50px;*/
   border-bottom: 1px solid #d1d1d1;
   border-top: 1px solid #d1d1d1;
   padding: 30px 0;
@@ -1856,10 +1863,6 @@ video {
 .all-wrap {
   overflow: hidden;
 }
-    
-.main-visual .mv01 {
-  width: 80%;
-}
 
 .content-wrap {
     width: 94%;
@@ -1877,6 +1880,9 @@ video {
 .intro {
   margin-bottom: 0px;
   padding: 40px 0;
+}
+.intro .inner01{
+  max-width: 300px;
 }
 .intro .tit {
   font-size: 18px;
@@ -1897,7 +1903,60 @@ video {
   font-size: 13px;
   padding: 10px 8px;
 }
-    
+
+.drive {
+  padding: 40px 0;
+}
+.drive .tit {
+  font-size: 23px;
+  line-height: 1.6;
+}
+.drive ul {
+  display: block;
+  margin-bottom: 20px;
+}
+.drive li {
+  width: 100%;
+}
+.pull-tab {
+    padding: 30px 0 0;
+}
+.electric {
+  padding: 40px 0 0;
+}
+.electric .tit {
+  font-size: 27px;
+}
+.electric .lead {
+  font-size: 15px;
+  text-align: left;
+}
+.electric ul {
+  display: block;
+  margin: 40px auto;
+}
+.electric ul.images {
+    margin: 20px auto;
+}
+.electric li {
+  width: 90%;
+  margin:  0 auto 2%;
+}
+.electric .name {
+    font-size: 26px;
+}
+.electric .spec {
+  margin-top: 10px;
+}
+.electric .price .box {
+  font-size: 14px;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.electric ul.texts {
+    margin: 0 auto 40px;
+}
+
 .bg-fix .parallax {
   background: none;
   position: relative;
@@ -2184,8 +2243,8 @@ video {
   }
 
   .stores {
-    padding: 0 0 40px;
-    margin-bottom: 40px;
+    padding: 0;
+/*    margin-bottom: 40px;*/
   }
   .store-list{
     margin-bottom: 20px;
