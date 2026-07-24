@@ -1787,6 +1787,9 @@ video {
   margin: auto;
   text-align: center;
 }
+.stores .list02 .eco-mark{
+  max-width: 160px;
+}
 .stores .list02 li:last-child {
     width: 100%;
 }
@@ -1796,7 +1799,7 @@ video {
   line-height: 1.4;
 }
 .stores .list02 .txt01 img {
-  width: 70%;
+  width: 30%;
 }
 .stores .lead {
   font-size: 14px;
@@ -2228,7 +2231,9 @@ video {
   font-size: 15px;
   text-align: center;
 }
-    
+  .stores .list02 .txt01 {
+    font-size: 20px;
+  }
   .eco-mark{
     width: 160px;
     margin: auto;
@@ -2237,6 +2242,9 @@ video {
     font-size: 14px;
     text-align: center;
   }
+  .stores .list02 .txt01 img {
+        width: 50%;
+    }
     
   .holiday {
     font-size: 13px;
