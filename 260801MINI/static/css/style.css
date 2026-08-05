@@ -479,7 +479,7 @@ video {
 
 .intro{
   text-align: center;
-  background: #ee510e;
+  background: #2d46e0;
   padding: 60px 0;
   color: #fff;
 }
@@ -929,7 +929,7 @@ video {
   margin: auto;
 }
 .inner01:after {
-  background: #ee510e;
+  background: #2d46e0;
 }
 .inner02:after {
   background: transparent;
