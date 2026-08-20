@@ -477,8 +477,8 @@ video {
   color: #fff;
 }
 .intro .tit{
-  font-size: 20px;
-  margin-bottom: 40px;
+  width: 80%;
+  margin: 0 auto 40px;
 }
 .intro .txt{
   font-size: 18px;
@@ -565,10 +565,14 @@ video {
   text-align: center;
   z-index: 5;
 }
+.bg-fix .area .image.txt img{
+    width: 80%;
+    margin: auto;
+}
 .bg-fix .area .tit{
   font-size: 36px;
   line-height: 1.4;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .bg-fix .area .txt{
   font-size: 16px;
@@ -1422,7 +1426,7 @@ video {
 .stores{
 /*    border-bottom: 1px solid #d1d1d1;*/
     padding: 40px 0;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 .stores .list02{
   max-width: 860px;
@@ -2087,6 +2091,10 @@ video {
 .family .texts{
   width: 80%;
 }
+
+.sec06{
+  margin-top: 0;
+}
     
 .button a {
   font-size: 16px;
@@ -2211,8 +2219,8 @@ video {
   }
 
   .stores {
-    padding: 0 0 40px;
-    margin-bottom: 40px;
+    padding: 0;
+    margin-bottom: 0px;
   }
   .store-list{
     margin-bottom: 20px;
