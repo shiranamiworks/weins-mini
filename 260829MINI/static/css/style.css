@@ -503,15 +503,14 @@ video {
   max-width: 320px;
   margin: auto;
 }
-.intro .list .btn00 a{
+.intro .list .btn00 a span{
   background: #fff;
   border-radius: 20px;
   display: block;
   padding: 16px 0 14px;
-}
-.intro .list .btn00 a span{
   font-size: 14px;
   color: #000;
+  transition: .3s;
 }
 .intro .list .btn00 a:hover{
   opacity: 1;
