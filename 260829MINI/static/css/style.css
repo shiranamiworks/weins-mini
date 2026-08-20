@@ -230,7 +230,7 @@ End-responsible-contents  only-pc
 #fixed{
   position: fixed;
   bottom: 260px;
-  right: -224px;
+  right: -255px;
   z-index: 10000;
   opacity: 1;
   transition: 0.5s ease;
@@ -253,7 +253,7 @@ End-responsible-contents  only-pc
 }
 .fixed-banner {
  display: none;
-  width: 270px;
+  width: 300px;
   height: auto;
 }
 .fixed-banner a{
@@ -472,7 +472,7 @@ video {
 
 .intro{
   text-align: center;
-  background: #016A3F;
+  background: #2d46e0;
   padding: 60px 0;
   color: #fff;
 }
@@ -489,6 +489,9 @@ video {
   max-width: 397px;
   margin: 0 auto 40px;
 }
+.intro .roop-img .image{
+  margin-left: 20px;
+}
 .intro .list{
   margin: 80px auto 40px;
   display: flex;
@@ -497,7 +500,10 @@ video {
   width: 33.333%;
 }
 .intro .list .info{
-  margin: 40px auto;
+  margin: 40px auto 0;
+}
+.intro .list .price{
+  margin: 20px auto 40px;
 }
 .intro .list .btn00{
   max-width: 320px;
@@ -505,9 +511,9 @@ video {
 }
 .intro .list .btn00 a span{
   background: #fff;
-  border-radius: 20px;
+  border-radius: 30px;
   display: block;
-  padding: 16px 0 14px;
+  padding: 20px 0 18px;
   font-size: 14px;
   color: #000;
   transition: .3s;
@@ -550,7 +556,7 @@ video {
 
 .bg-fix .area {
   position: relative;
-  max-width: 360px;
+  max-width: 450px;
   margin: auto;
   padding: 70px 30px;
   box-sizing: border-box;
@@ -986,7 +992,7 @@ video {
 }
 .sec03 .txt{
   font-size: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .sec03 .mini{
   font-size: 12px;
@@ -997,7 +1003,7 @@ video {
   background: #F4EFE9;
 }
 .sec03 .slick-dots .slick-active button{
-  background: #016A3F;
+  background: #2d46e0;
 }
 .sec03 .car-type{
   font-size: 12px;
@@ -1096,6 +1102,26 @@ video {
 .sec03 a:hover .arrow-right {
   color: #fff;
   background: currentColor;
+}
+
+.sec03 .btn00 {
+  max-width: 420px;
+  margin: auto;
+}
+.sec03 .btn00 a span{
+  background: #000;
+  border-radius: 30px;
+  display: block;
+  padding: 20px 0 18px;
+  font-size: 14px;
+  color: #fff;
+  transition: .3s;
+}
+.sec03 .btn00 a:hover{
+  opacity: 1;
+}
+.sec03 .btn00 a span:hover{
+  padding-left: 8px;
 }
 
 
@@ -1842,30 +1868,36 @@ video {
     margin: auto;
 }
 
-.intro {
-  margin-bottom: 0px;
-  padding: 40px 0;
+.intro{
+  padding: 30px 0;
 }
-.intro .tit {
-  font-size: 18px;
-}
-.intro .big-tit {
-  font-size: 28px;
-}
-.intro .big-tit span{
-  font-size: 36px;
-}
-.intro .day {
-  font-size: 22px;
+.intro .tit{
+  font-size: 20px;
+  margin-bottom: 40px;
 }
 .intro .txt{
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 40px;
 }
-.intro .box{
-  font-size: 13px;
-  padding: 10px 8px;
+.intro .fukidashi{
+  max-width: 397px;
+  margin: 0 auto 40px;
 }
-    
+.intro-txt{
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}  
+.intro .list{
+  margin: 0px auto 40px;
+  display: block;
+}
+.intro .list li{
+  width: 100%;
+  margin-bottom: 40px;
+}
+ 
 .bg-fix .parallax {
   background: none;
   position: relative;
@@ -1873,7 +1905,22 @@ video {
   height: auto;
 }
 .bg-fix .area {
-  padding: 30px 20px 50px;
+  padding: 20px 20px 60px;
+/*
+  background-color: #2d46e0;
+  color: #fff;
+  border-radius: 0;
+  margin-bottom: 60px;
+*/
+}
+.bg-fix .area .txt{
+  margin-bottom: 20px;
+}
+.bg-fix .area .info {
+  margin-bottom: 20px;
+}
+.bg-fix .area .mini {
+  margin-top: 0;
 }
 .bg-fix .area .img01{
   max-width: 400px;
@@ -1885,21 +1932,8 @@ video {
   margin-bottom: 20px;
 }
 .bg-fix .area .tit{
-  position: absolute;
-  top: 62px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.bg-fix .area .txt{
-  font-size: 14px;
-  line-height: 1.8;
-  margin: 35% auto 20px;
-}
-.bg-fix .area .mini{
-  margin-bottom: 30px;
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 34px;
+  margin-bottom: 20px;
 }
 .bg-fix .present {
   position: relative;
@@ -1986,14 +2020,14 @@ video {
 .sec03 {
   padding: 40px 0 60px;
 }
-.sec03 .txt01{
-  font-size: 28px;
+.sec03 .tit {
+  font-size: 40px;
 }
-.sec03 .txt span {
-  display: block;
-  line-height: 1.6;
-  font-size: 15px;
-  padding: 10px 0 5px;
+.sec03 .txt{
+  font-size: 16px;
+}
+.sec03 .mini{
+  margin-bottom: 40px;
 }
 .sec03 .list{
   margin-top: 30px;
@@ -2017,12 +2051,6 @@ video {
 .sec03 .logo {
   margin: 0 auto 20px;
   width: 100px;
-}
-.sec03 .txt{
-  font-size: 26px;
-}
-.sec03 .mini{
-  margin-bottom: 45px;
 }
 .sec03 .num{
   bottom: -32px;
