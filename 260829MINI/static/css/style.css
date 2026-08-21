@@ -501,13 +501,16 @@ video {
 }
 .intro .list .info{
   margin: 40px auto 0;
+  padding: 0 10px;
 }
 .intro .list .price{
   margin: 20px auto 40px;
+  padding: 0 10px;
 }
 .intro .list .btn00{
   max-width: 320px;
   margin: auto;
+  padding: 0 10px;
 }
 .intro .list .btn00 a span{
   background: #fff;
