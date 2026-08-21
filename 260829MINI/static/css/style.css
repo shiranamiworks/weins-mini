@@ -1774,7 +1774,7 @@ video {
 }
 .stores .list02 li {
   display: block;
-  width: 100%;
+/*  width: 100%;*/
   margin: auto;
   text-align: center;
 }
@@ -1787,7 +1787,7 @@ video {
   line-height: 1.4;
 }
 .stores .list02 .txt01 img {
-  width: 70%;
+  width: 34%;
 }
 .stores .lead {
   font-size: 14px;
