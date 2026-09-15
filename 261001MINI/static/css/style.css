@@ -472,7 +472,7 @@ video {
 
 .intro{
   text-align: center;
-  background: #2d46e0;
+  background: #94a04c;
   padding: 60px 0;
   color: #fff;
 }
@@ -485,34 +485,49 @@ video {
   line-height: 1.6;
   margin-bottom: 100px;
 }
-.intro .fukidashi{
-  max-width: 397px;
-  margin: 0 auto 40px;
+
+.intro .campaign{
+  margin: 0 auto;
 }
-.intro .roop-img .image{
-  margin-left: 20px;
+
+
+
+.paul{
+  background-image: url("../images/top/paul-bg.jpg");
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 80px 0 12%;
 }
-.intro .list{
-  margin: 80px auto 40px;
+.paul .lineup{
   display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 50% auto 0;
+  padding: 0 20px;
 }
-.intro .list li{
-  width: 33.333%;
+.paul .lineup li{
+  width: 23%;
 }
-.intro .list .info{
+.paul .image {
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+.paul .lineup .info{
   margin: 40px auto 0;
   padding: 0 10px;
 }
-.intro .list .price{
+.paul .lineup .price{
   margin: 20px auto 40px;
   padding: 0 10px;
 }
-.intro .list .btn00{
+.paul .lineup .btn00{
   max-width: 320px;
   margin: auto;
   padding: 0 10px;
 }
-.intro .list .btn00 a span{
+.paul .lineup .btn00 a span{
   background: #fff;
   border-radius: 30px;
   display: block;
@@ -521,10 +536,10 @@ video {
   color: #000;
   transition: .3s;
 }
-.intro .list .btn00 a:hover{
+.paul .lineup .btn00 a:hover{
   opacity: 1;
 }
-.intro .list .btn00 a span:hover{
+.paul .lineup .btn00 a span:hover{
   padding-left: 8px;
 }
 .intro .caps{
@@ -535,136 +550,53 @@ video {
   padding-top: 40px;
 }
 
-.bg-fix{
+.sec04{
   position: relative;
-}
-.bg-fix .parallax {
-  background: url(../images/top/bg.jpg) top;
-  width: 100%;
-  height: 100vh;
-  position: sticky;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.bg-fix .present {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2;
-}
-
-.bg-fix .area {
-  position: relative;
-  max-width: 450px;
-  margin: auto;
-  padding: 70px 30px;
-  box-sizing: border-box;
-  border-radius: 8px;
-  background-color: #fff;
-  text-align: center;
-  z-index: 5;
-}
-.bg-fix .area .image.txt img{
-    width: 80%;
-    margin: auto;
-}
-.bg-fix .area .tit{
-  font-size: 36px;
-  line-height: 1.4;
-  margin-bottom: 30px;
-}
-.bg-fix .area .txt{
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 40px;
-}
-.bg-fix .area .info{
-  text-align: left;
-  font-size: 13px;
-  line-height: 1.6;
-  margin-bottom: 40px;
-
-}
-.bg-fix .area .mini{
-  text-align: left;
-  font-size: 11px;
-  line-height: 1.6;
-  margin-top: 40px;
-}
-
-.bg-fix .sec04{
-  position: relative;
-  margin-top: 40vh;
   background: #fff;
   z-index: 5;
 }
-.bg-fix .sec04 .wrap{
+.sec04 .wrap{
   max-width: 900px;
   width: 94%;
   margin: auto;
 }
-.bg-fix .sec04 .image{
+.sec04 .image{
   margin-bottom: 50px;
   position: relative;
 }
-.bg-fix .sec04 .tit {
+.sec04 .tit {
   position: absolute;
   bottom: 14px;
   left: 50%;
   transform: translateX(-50%);
 }
-.bg-fix .outer {
-  display: block;
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-.bg-fix .inner {
-  display: block;
-  width: 100%;
-  transform: translateX(-100%);
-  transition: 0.7s ease-out;
-  position: relative;
-  z-index: 1;
-}
-.bg-fix .outer.on .inner {
-  transform: translateX(0);
-}
-.bg-fix .outer.on::after {
-  transform: translateX(100%);
-}
-
-.bg-fix .sec04 .txt{
+.sec04 .txt{
   font-size: 20px;
   margin-bottom: 80px;
   line-height: 1.5;
   text-align: center;
 }
-.bg-fix .sec04 .lead{
+.sec04 .lead{
   font-size: 16px;
   line-height: 1.8;
 }
-.bg-fix .sec04 .lead .mini{
+.sec04 .lead .mini{
   font-size: 13px;
 }
-.bg-fix .sec04 .logo{
+.sec04 .logo{
   max-width: 300px;
   margin: 0;
 }
-.bg-fix .sec04 .list01{
+.sec04 .list01{
   margin-bottom: 30px;
 }
-.bg-fix .sec04 .list01 li{
+ .sec04 .list01 li{
   text-align: left;
   display: inline-block;
   vertical-align: top;
   width: 38%;
 }
-.bg-fix .sec04 .list01 li:last-child{
+.sec04 .list01 li:last-child{
   width: 60%;
 }
 
@@ -1905,78 +1837,37 @@ video {
   margin-bottom: 40px;
 }
  
-.bg-fix .parallax {
-  background: none;
-  position: relative;
-  top: auto;
-  height: auto;
-}
-.bg-fix .area {
-  padding: 20px 20px 60px;
-/*
-  background-color: #2d46e0;
-  color: #fff;
-  border-radius: 0;
-  margin-bottom: 60px;
-*/
-}
-.bg-fix .area .txt{
-  margin-bottom: 20px;
-}
-.bg-fix .area .info {
-  margin-bottom: 20px;
-}
-.bg-fix .area .mini {
+.sec04 {
   margin-top: 0;
 }
-.bg-fix .area .img01{
-  max-width: 400px;
-  margin: 0 auto 30px;
-}
-.bg-fix .area .sub-tit{
-  font-size: 14px;
-  line-height: 1.4;
-  margin-bottom: 20px;
-}
-.bg-fix .area .tit{
-  font-size: 34px;
-  margin-bottom: 20px;
-}
-.bg-fix .present {
-  position: relative;
-  top: auto;
-}
-.bg-fix .sec04 {
-  margin-top: 0;
-}
-.bg-fix .sec04 .image{
+.sec04 .image{
   margin-bottom: 40px;
 }
-.bg-fix .sec04 .tit img{
+.sec04 .tit img{
   max-width: 280px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-.bg-fix .sec04 .tit {
+.sec04 .tit {
   bottom: 20px;
 }
-.bg-fix .sec04 .image{
+.sec04 .image{
   margin-bottom: 40px;
 }
-.bg-fix .sec04 .txt{
+.sec04 .txt{
   font-size: 15px;
   margin-bottom: 40px;
 }
-.bg-fix .sec04 .logo{
+.sec04 .logo{
   max-width: 270px;
   margin: 0 auto 20px;
 }
-.bg-fix .sec04 .list01 li {
+.sec04 .list01 li {
   display: block;
   width: 100%;
 }
-.bg-fix .sec04 .list01 li:last-child {
+.sec04 .list01 li:last-child {
   width: 100%;
 }
 

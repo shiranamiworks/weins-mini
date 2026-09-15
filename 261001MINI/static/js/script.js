@@ -187,6 +187,26 @@ $('.slider02').slick({
   });
 });
 
+$(function() {
+$('.intro .slider').slick({
+    autoplay: true,
+    autoplaySpeed: 5000,
+    dots: true,
+    arrows: false,
+    slidesToShow: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          centerMode: true,
+          centerPadding: "10%",
+        }
+      },
+    ]
+  });
+});
+
 $(function () {
   const showPoint = 100;
   let isClosed = false;
