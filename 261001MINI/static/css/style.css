@@ -477,7 +477,7 @@ video {
   color: #fff;
 }
 .intro .tit{
-  width: 80%;
+  width: 100%;
   margin: 0 auto 40px;
 }
 .intro .txt{
@@ -487,12 +487,14 @@ video {
 }
 
 .paul{
+  background-color: #000;
+}
+.paul .bg{
   background-image: url("../images/top/paul-bg.jpg");
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
   padding: 80px 0 100px;
-  background-color: #000;
 }
 .paul .lineup{
   display: flex;
@@ -1714,7 +1716,7 @@ video {
 }
 
 .intro{
-  padding: 30px 0;
+  padding: 30px 0 60px;
 }
 .intro .tit{
   font-size: 20px;
@@ -1729,7 +1731,27 @@ video {
   font-size: 22px;
   line-height: 1.6;
   margin-bottom: 40px;
-}  
+}
+    
+.paul .bg{
+  background-image: url("../images/top/paul-bg-sp.jpg");
+  padding: 80px 0 40px;
+}
+.paul .lineup {
+  display: block;
+  margin: 60% auto 0;
+  padding: 0 0 20px;
+}
+.paul .lineup li{
+  width: 80%;
+  margin: 0 auto 40px;
+}
+.paul .lineup .info {
+    margin: 20px auto 0;
+}
+.paul .image{
+  height: auto;
+}
  
 .sec04 {
   margin-top: 0;
@@ -1852,7 +1874,10 @@ video {
 .sec06{
   margin-top: 0;
 }
-    
+
+.button {
+  margin: 0px auto 0;
+}
 .button a {
   font-size: 16px;
   padding: 20px 0 17px;
@@ -2019,6 +2044,12 @@ video {
   .store-list .link a{
     font-size: 18px;
   }
+  .stores .list02 .txt01 img {
+    width: 64%;
+  }
+  .stores .list02 li {
+    width: 30%;
+}
   .page-top {
     bottom: 12%;
 }
