@@ -229,7 +229,7 @@ End-responsible-contents  only-pc
 }
 #fixed{
   position: fixed;
-  bottom: 260px;
+  bottom: 520px;
   right: -255px;
   z-index: 10000;
   opacity: 1;
