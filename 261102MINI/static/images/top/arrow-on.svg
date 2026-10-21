@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="矢印_マウスオン時" transform="translate(-495.058 -1911.058)">
+    <path id="パス_652" data-name="パス 652" d="M20,0A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(495.058 1911.058)" fill="#262626"/>
+    <g id="矢印" transform="translate(505.029 1921.029)">
+      <g id="waku" transform="translate(0 0)">
+        <path id="パス_651" data-name="パス 651" d="M0,0H20V20H0Z" transform="translate(0.029 0.029)" fill="none"/>
+      </g>
+      <g id="編集モード" transform="translate(3.058 2.75)">
+        <path id="パス_38" data-name="パス 38" d="M14.542,8.44l5.643,5.754H8.5v1.259H20.186l-5.653,5.764.873.89,7.144-7.284L15.415,7.55Z" transform="translate(-8.5 -7.55)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
