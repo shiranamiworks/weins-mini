@@ -20,24 +20,24 @@ $(function(){
   }
 });
 
-//$(function(){
-//$('.main-visual .line03')
-//    .animate({'opacity':'1'}, 600)
-//    .animate({'height':'52%'}, 700);
-//        
-//$('.main-visual .line04')
-//    .animate({'opacity':'1'}, 600)
-//    .animate({'width':'54%'}, 700);
-//        
-//$('.main-visual .line05')
-//    .animate({'opacity':'1'}, 600)
-//    .animate({'width':'10%'}, 700);
-//        
-//$('.main-visual .mv01')
-//    .animate({'opacity':'1'}, 800)
-//    .animate({'left':'3%'}, 600)
-//    
-//});
+$(function(){
+$('.main-visual .line03')
+    .animate({'opacity':'1'}, 600)
+    .animate({'height':'60%'}, 700);
+        
+$('.main-visual .line04')
+    .animate({'opacity':'1'}, 600)
+    .animate({'width':'54%'}, 700);
+        
+$('.main-visual .line05')
+    .animate({'opacity':'1'}, 600)
+    .animate({'width':'10%'}, 700);
+        
+$('.main-visual .mv01')
+    .animate({'opacity':'1'}, 800)
+    .animate({'left':'3%'}, 600)
+    
+});
 
 $(function(){
   $('.roop-img').slick({
@@ -214,6 +214,12 @@ $(function() {
     slidesToScroll: 1,
     arrows: false,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 770,
+        settings: "unslick"
+      }
+    ]
   });
 });
 
