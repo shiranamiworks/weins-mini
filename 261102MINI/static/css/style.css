@@ -1291,12 +1291,10 @@ video {
 .stores .list02 .txt01 img{
   width: 55%;
 }
-/*
 .stores .list02 .lead{
-  text-align: center;
-  font-size: 16px;
+  font-size: 15px;
+  line-height: 1.4;
 }
-*/
 .stores .list02 .mini{
   font-size: 13px;
   image-orientation: 1.8;
