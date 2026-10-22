@@ -494,6 +494,13 @@ video {
 .intro .slick-dots .slick-active button{
   background: #fff;
 }
+.intro .slick-dots {
+  display: flex !important;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 0;
+  list-style: none;
+}
 
 .button{
   max-width: 480px;
