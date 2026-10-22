@@ -214,6 +214,7 @@ $(function() {
     slidesToScroll: 1,
     arrows: false,
     dots: true,
+    rtl: true,
     responsive: [
       {
         breakpoint: 770,
