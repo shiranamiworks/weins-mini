@@ -1014,7 +1014,7 @@ video {
     line-height: 1.6;
     text-align: left;
     font-size: 14px;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 .sns .tit05 .btn a{
   color: #fff;
@@ -1756,7 +1756,7 @@ video {
 }
     
 .sec03 {
-  padding: 40px 0 60px;
+  padding: 0px 0 60px;
 }
 .sec03 .tit {
   font-size: 40px;
@@ -1809,11 +1809,13 @@ video {
 
 .used-cars .tit{
   text-align: left;
-  margin: 40px auto 20px;
+  margin: 30px auto 20px;
+  font-size: 28px;
 }
 .used-cars .txt{
   text-align: left;
   margin: 0 auto 20px;
+  font-size: 15px;
 }
 .used-cars .texts{
   display: block;
@@ -1823,7 +1825,7 @@ video {
   margin-top: 20px;
 }
 .used-cars .w-logo{
-  max-width: 330px;
+  max-width: 300px;
   width: 100%;
   
 }
@@ -2051,6 +2053,12 @@ video {
   }
   .store-list .link a{
     font-size: 18px;
+  }
+  .stores .list02 li {
+    width: 30%;
+  }
+  .stores .list02 .txt01 img {
+    width: 64%;
   }
   .page-top {
     bottom: 12%;
